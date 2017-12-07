@@ -18,6 +18,8 @@ Waterfall Development Model
 
 - Considered the traditional software development method, the waterfall method is a rigid linear model that consists of sequential phases (Requirements, Design, Implementation, Verification, Maintenance) in which distinct goals are accomplished. Each phase must be 100% complete before moving onto the next phase, and traditionally there is no process for going back to modify the project or direction.
 
+|Image0|
+
 
 Spiral Development Model
 
@@ -37,3 +39,5 @@ Agile Development Model
 Test Driven Development Model
 
 - Model based on development around test acceptance.
+
+
