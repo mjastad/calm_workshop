@@ -1,6 +1,10 @@
-Introduction – Intermediate Blueprint (LAMP)
+************************************************
+**Introduction – Intermediate Blueprint (LAMP)**
+************************************************
 
-Connectivity Instructions
+
+**Connectivity Instructions**
+*****************************
 
 +------------+----+
 | IP         |    |
@@ -10,7 +14,8 @@ Connectivity Instructions
 | Password   |    |
 +------------+----+
 
-Lab Overview
+**Lab Overview**
+================
 
 Welcome to the Calm Hands-On-Lab - Intermediate Blueprint What we’re
 going to do here is extend a basic blueprint:  
@@ -22,7 +27,7 @@ this lab we’ll build on the previous 1x simple service MySQL
 blueprint and evolve this into the multi-stack application you see
 above.
 
-Calm Glossary
+**Calm Glossary**
 
 **Service**: One tier of a multiple tier application. This can be made
 up of 1 more VMs (or existing machines) that all have the same config
@@ -38,7 +43,8 @@ what they’re supposed to).
 ran on the target machine. Macros and Variables are denoted in the
 @@{[name]}@@ format in the scripts.
 
-Part 1: Accessing and Navigating Calm
+**Part 1: Accessing and Navigating Calm**
+*****************************************
 
 Getting Familiar with the Tools
 
@@ -59,8 +65,8 @@ For now, let’s step through each tab:
 
 |image1|
 
-Part 2: Creating a Web Server 
-
+**Part 2: Creating a Web Server**
+*********************************
 In this step we’ll add a second tier and connect it back into the DB
 Service created from Lab #1 Simple Blueprint service(MySQL).
 
@@ -226,6 +232,7 @@ is up. **Save** the blueprint, then click on the **Create** action from
 the **Overview** pane to see this.
 
 **Part 3: Scale­out PHP and Load Balancer ** 
+********************************************
 
 In this part we’re going to finally finish the provisioning blueprint.  
 
@@ -390,14 +397,15 @@ Your blueprint should now look like this:
 
 |image8|
 
-Part 4: Next steps
+**Part 4: Next steps**
+**********************
 
 In this lab we just configured the provisioning steps. Calm also does
 hybrid cloud management and lifecycle management. We also didn’t publish
 this blueprint to the marketplace. Explore these on your own, using the
 following as a guide as the ideas are the same throughout.
 
-**Custom Actions **
+**Custom Actions**
 
 Click the + sign next to **Actions** in the **Overview** pane to create
 your own action.
