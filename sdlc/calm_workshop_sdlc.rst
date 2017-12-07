@@ -43,7 +43,7 @@ Test Driven Development Model
 - Model based on development around test acceptance.
 
 
-.. |image0| image:: ./media/image1.png
+.. |image0| image:: ./media/image2.png
    :width: 4.73125in
    :height: 3.03056in
 
