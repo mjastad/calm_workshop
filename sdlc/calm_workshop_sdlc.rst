@@ -9,8 +9,8 @@ In this workshop you will cover...
 
 
 
-**SDLC Introduction**
-=====================
+SDLC Introduction
+=================
 
 - Understanding the fundamentals.
 
