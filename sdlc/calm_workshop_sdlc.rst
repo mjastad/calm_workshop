@@ -11,7 +11,7 @@ Successful projects are managed well. In order to manage a project efficiently, 
 
 **SDLC Introduction**
 
-- Understanding the fundamentals of SDLC.  A **software development life cycle** is composed of a number of clearly defined and distinct work phases which are used by systems engineers and systems developers to plan for, design, build, test, and deliver information systems.
+Understanding the fundamentals of SDLC.  A **software development life cycle** is composed of a number of clearly defined and distinct work phases which are used by systems engineers and systems developers to plan for, design, build, test, and deliver information systems.
 
 
 **Waterfall Development Model**
