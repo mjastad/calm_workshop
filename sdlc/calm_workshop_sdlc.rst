@@ -21,20 +21,24 @@ That plan starts by evaluating existing systems for deficiencies.
 - By anticipating costly mistakes like failing to ask the end user for suggestions, SLDC can eliminate redundant rework and after-the-fact fixes.
 
 **Stages and Best Practices of SDLC**
+-------------------------------------
 
 By Following the best practices and/or stages of SDLC ensures the process works in a smooth, efficient, and productive way.
 
 |image1|
 
-Identify the current problems. “What don’t we want?” 
+Identify the current problems. “What don’t we want?”
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This stage of SDLC means getting input from all stakeholders, including customers, salespeople, industry experts, and programmers. Learn the strengths and weaknesses of the current system with improvement as the goal.
 
 Plan. “What do we want?”
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this stage of SDLC, the team defines the requirements of the new software and determines the cost and resources required. It also details the risks involved and provides sub-plans for softening those risks. In this stage, a Software Requirement Specification document is created.
 
 Design. “How will we get what we want?”
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is the most creative and challenging phase of SDLC.
 
@@ -45,7 +49,8 @@ Occurs in two phases:
 
 This phase of SDLC starts by turning the software specifications into a design plan called the Design Specification. All stakeholders then review this plan and offer feedback and suggestions. It’s crucial to have a plan for collecting and incorporating stakeholder input into this document. Failure at this stage will almost certainly result in cost overruns at best and total collapse of the project at worst. 
 
-Build. “Let’s create what we want.” 
+Build. “Let’s create what we want.”
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This SDLC stage develops the software by generating all the actual code. If the previous steps have been followed with attention to detail, this is actually the least complicated step.
 
