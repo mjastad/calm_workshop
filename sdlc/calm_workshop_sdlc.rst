@@ -5,9 +5,10 @@
 **SDLC Objectives**
 ###################
 In this workshop you will cover...
+**********************************
 
 **SDLC Introduction**
-*********************
+=====================
 Understanding the fundamentals.
 
 **Waterfall Development Model**
