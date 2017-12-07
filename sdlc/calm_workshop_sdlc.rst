@@ -4,8 +4,7 @@
 
 **SDLC Objectives**
 
-
-- In this workshop you will cover...
+In this workshop you will cover...
 
 ______________________
 
