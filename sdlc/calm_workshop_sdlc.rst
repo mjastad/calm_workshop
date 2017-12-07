@@ -65,6 +65,7 @@ It is of 3 types:
 Parallel Runs: In this new system runs with old system which provides assurance, and even helps user staff gain experience. 
 
 Test. “Did we get what we want?”
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this stage, we test for defects and deficiencies. We fix those issues until the product meets the original specifications.
 
@@ -72,11 +73,13 @@ The objective is to determine if the system does what it is designed to do
 Does it support the user as required in an effective and efficient manner 
 The review should assess how successful the system is in terms of functionality, performance, and cost versus benefits. 
 
-Deploy. “Let’s start using what we got.” 
+Deploy. “Let’s start using what we got.”
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Often, this part of the SDLC process happens in a limited way at first. Depending on feedback from end users, more adjustments can be made.
 
 Maintain. “Let’s get this closer to what we want.”
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The plan almost never turns out perfect when it meets reality. Further, as conditions in the real world change, we need to update and advance the software to match.  The emphasis during this phase is to ensure that needs continue to be met and that the system continues to perform according to specification
 
