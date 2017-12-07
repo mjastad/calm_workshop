@@ -1,8 +1,6 @@
 Introduction – Simple Blueprint (MySQL)
 
-Connectivity Instructions
-.. tabularcolumns:: |l|c|p{5cm}|
-
+Connectivity Instructions:
 +------------+--------------------------------------------------------+
 | IP         |                                           Cluster IP   |
 +------------+--------------------------------------------------------+
