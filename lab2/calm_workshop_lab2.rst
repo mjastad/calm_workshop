@@ -425,36 +425,36 @@ application.
 **NOTE:** In this lab, the only active project is **Default** and all
 users are a member of it.
 
-.. |image0| image:: ./media.bak/media/image1.png
+.. |image0| image:: ./media/media/image1.png
    :width: 4.73125in
    :height: 3.03056in
-.. |image1| image:: ./media.bak/media/image2.png
+.. |image1| image:: ./media/media/image2.png
    :width: 3.84792in
    :height: 4.45278in
-.. |image2| image:: ./media.bak/media/image3.png
+.. |image2| image:: ./media/media/image3.png
    :width: 3.02778in
    :height: 3.61034in
-.. |image3| image:: ./media.bak/media/image4.png
+.. |image3| image:: ./media/media/image4.png
    :width: 4.98125in
    :height: 0.46933in
-.. |image4| image:: ./media.bak/media/image5.png
+.. |image4| image:: ./media/media/image5.png
    :width: 2.93056in
    :height: 3.05375in
-.. |image5| image:: ./media.bak/media/image6.png
+.. |image5| image:: ./media/media/image6.png
    :width: 2.92083in
    :height: 3.07181in
-.. |image6| image:: ./media.bak/media/image7.png
+.. |image6| image:: ./media/media/image7.png
    :width: 3.84792in
    :height: 5.08403in
-.. |image7| image:: ./media.bak/media/image4.png
+.. |image7| image:: ./media/media/image4.png
    :width: 4.98125in
    :height: 0.46933in
-.. |image8| image:: ./media.bak/media/image8.png
+.. |image8| image:: ./media/media/image8.png
    :width: 6.50000in
    :height: 4.26389in
-.. |image9| image:: ./media.bak/media/image9.png
+.. |image9| image:: ./media/media/image9.png
    :width: 6.50000in
    :height: 3.90685in
-.. |image10| image:: ./media.bak/media/image10.png
+.. |image10| image:: ./media/media/image10.png
    :width: 6.50000in
    :height: 4.45506in
