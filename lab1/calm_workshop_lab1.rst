@@ -1,6 +1,9 @@
-Introduction – Simple Blueprint (MySQL)
+*******************************************
+**Introduction – Simple Blueprint (MySQL)**
+*******************************************
 
 Connectivity Instructions:
+==========================
 
 +------------+--------------------------------------------------------+
 | IP         |                                           Cluster IP   |
