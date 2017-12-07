@@ -24,6 +24,24 @@ Considered the traditional software development method, the waterfall method is 
 
 The linear nature of this method makes it easy to understand and manage. Projects with clear objectives and stable requirements can best use the waterfall method. Less experienced project managers, project teams, and teams whose composition changes frequently may benefit the most from using the waterfall development methodology. However, it is often slow and costly due to the rigid structure and tight controls. These drawbacks led waterfall method users to the explore other development methodologies.
 
+Strengths:
+
+- Easy to understand and use.
+- Provides structure to inexperienced staff.
+- Milestones are well understood.
+- Sets requirements stability.
+- Good for manageemnt control (plan, staff, track).
+- Worsk well when quality is more important than cost or schedule.
+
+Weaknesses:
+
+- Idealized, doesn't match reality.
+- Doesn't reflect itertative nature of exploratory development.
+- Unrealistic to expect accurate requirements so early in a project.
+- Software is delivered late in project.  Delays bug discovery.
+- Difficult to integrate Risk Management.
+- Difficult and expensive to make changes to documents - upstream.
+- Significant administrative overhead,costly for small teams and projects.
 
 Spiral Development Model
 
