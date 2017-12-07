@@ -14,6 +14,7 @@ Connectivity Instructions:
 +------------+--------------------------------------------------------+
 
 Lab Overview
+************
 
 Welcome to the Calm Hands-On-Lab - Simple Blueprint. What we’re going to
 do here is make a basic blueprint:
@@ -24,6 +25,7 @@ This is a basic MySQL Deployment. In this lab we’ll start with a very
 basic, single service.
 
 Calm Glossary
+=============
 
 **Service**: One tier of a multiple tier application. This can be made
 up of 1 more VMs (or existing machines) that all have the same config
@@ -39,7 +41,8 @@ what they’re supposed to).
 ran on the target machine. Macros and Variables are denoted in the
 @@{[name]}@@ format in the scripts.
 
-Part 1: Accessing and Navigating Calm
+**Part 1: Accessing and Navigating Calm**
+*****************************************
 
 Getting Familiar with the Tools
 
@@ -60,7 +63,8 @@ For now, let’s step through each tab:
 
 |image1|
 
-Part 2: Your Entry Level Blueprint
+**Part 2: Your Entry Level Blueprint**
+**************************************
 
 1. Navigate to the Blueprint ( |image2|) tab
 
