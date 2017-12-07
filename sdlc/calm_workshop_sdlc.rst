@@ -20,9 +20,11 @@ That plan starts by evaluating existing systems for deficiencies.
 - It then creates the software through the stages of design, development, testing, and deployment. 
 - By anticipating costly mistakes like failing to ask the end user for suggestions, SLDC can eliminate redundant rework and after-the-fact fixes.
 
-Stages and Best Practices of SDLC
+**Stages and Best Practices of SDLC**
 
 By Following the best practices and/or stages of SDLC ensures the process works in a smooth, efficient, and productive way.
+
+|image1|
 
 Identify the current problems. **“What don’t we want?”** This stage of SDLC means getting input from all stakeholders, including customers, salespeople, industry experts, and programmers. Learn the strengths and weaknesses of the current system with improvement as the goal.
 
@@ -82,7 +84,7 @@ User training continues during this phase, as needed, to acquaint new users to t
 
 Considered the traditional software development method, the waterfall method is a rigid linear model that consists of sequential phases (Requirements, Design, Implementation, Verification, Maintenance) in which distinct goals are accomplished. Each phase must be 100% complete before moving onto the next phase, and traditionally there is no process for going back to modify the project or direction.
 
-|image1|
+|image2|
 
 The linear nature of this method makes it easy to understand and manage. Projects with clear objectives and stable requirements can best use the waterfall method. Less experienced project managers, project teams, and teams whose composition changes frequently may benefit the most from using the waterfall development methodology. However, it is often slow and costly due to the rigid structure and tight controls. These drawbacks led waterfall method users to the explore other development methodologies.
 
@@ -139,6 +141,10 @@ Test Driven Development Model
    :height: 2in
    
 .. |image1| image:: ./media/image2.png
+   :width: 4.73125in
+   :height: 3.03056in
+
+.. |image2| image:: ./media/image2.png
    :width: 4.73125in
    :height: 3.03056in
 
