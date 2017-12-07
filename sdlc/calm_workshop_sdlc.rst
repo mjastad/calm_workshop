@@ -3,20 +3,26 @@
 *********************************************************
 
 **SDLC Objectives**
+*******************
 
 In this workshop you will cover...
 
-______________________
+
 
 **SDLC Introduction**
+=====================
 
 - Understanding the fundamentals.
 
+
 **Waterfall Development Model**
+===============================
 
 - Traditional model used
 
+
 **Spiral Development Model**
+============================
 
 - Repetition model with incremental improvements.
 
