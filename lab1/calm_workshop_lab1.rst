@@ -2,20 +2,20 @@ Introduction – Simple Blueprint (MySQL)
 
 Connectivity Instructions
 
-+------------+----+
-| IP         |    |
-+------------+----+
-| Username   |    |
-+------------+----+
-| Password   |    |
-+------------+----+
++------------+-------------------------------------------------------+
+| IP         |                                                       |
++------------+-------------------------------------------------------+
+| Username   |                                                       |
++------------+-------------------------------------------------------+
+| Password   |                                                       |
++------------+-------------------------------------------------------+
 
 Lab Overview
 
 Welcome to the Calm Hands-On-Lab - Simple Blueprint. What we’re going to
 do here is make a basic blueprint:
 
-|image0|
+|media/image1.png|
 
 This is a basic MySQL Deployment. In this lab we’ll start with a very
 basic, single service.
