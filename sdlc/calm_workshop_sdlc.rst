@@ -9,6 +9,7 @@ I've been doing some research to understand why different methodologies exist, a
 
 
 **SDLC Introduction**
+=====================
 
 Understanding the fundamentals of SDLC.  A **software development life cycle** is composed of a number of clearly defined and distinct work phases which are used by systems engineers and systems developers to plan for, design, build, test, and deliver information systems.
 
@@ -82,6 +83,7 @@ User training continues during this phase, as needed, to acquaint new users to t
 
 
 **Waterfall Development Model**
+===============================
 
 Considered the traditional software development method, the waterfall method is a rigid linear model that consists of sequential phases (Requirements, Design, Implementation, Verification, Maintenance) in which distinct goals are accomplished. Each phase must be 100% complete before moving onto the next phase, and traditionally there is no process for going back to modify the project or direction.
 
@@ -118,6 +120,7 @@ When used:
 - Large projects.
 
 **Spiral Development Model**
+============================
 
 - Repetition model with incremental improvements.
 
