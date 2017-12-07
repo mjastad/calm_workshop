@@ -7,15 +7,15 @@
 In this workshop you will cover...
 
 **SDLC Introduction**
-*********************
+=====================
 Understanding the fundamentals.
 
 **Waterfall Development Model**
-*******************************
+===============================
 Traditional model used
 
 **Spiral Development Model**
-****************************
+============================
 Repetition model with incremental improvements.
 
 **Iterative Development Model**
