@@ -15,7 +15,7 @@ Lab Overview
 Welcome to the Calm Hands-On-Lab - Simple Blueprint. What we’re going to
 do here is make a basic blueprint:
 
-|media/image1.png|
+|image0|
 
 This is a basic MySQL Deployment. In this lab we’ll start with a very
 basic, single service.
@@ -293,28 +293,28 @@ sub­action) and get the logs from that event.
 **NOTE:** In this lab, the only active project is **Default** and all
 users are a member of it.
 
-.. |image0| image:: ./media/media/image1.png
+.. |image0| image:: ./media/image1.png
    :width: 4.73125in
    :height: 3.03056in
-.. |image1| image:: ./media/media/image2.png
+.. |image1| image:: ./media/image2.png
    :width: 3.84792in
    :height: 4.45278in
-.. |image2| image:: ./media/media/image3.png
+.. |image2| image:: ./media/image3.png
    :width: 0.23611in
    :height: 0.23611in
-.. |image3| image:: ./media/media/image4.png
+.. |image3| image:: ./media/image4.png
    :width: 5.79314in
    :height: 3.93637in
-.. |image4| image:: ./media/media/image5.png
+.. |image4| image:: ./media/image5.png
    :width: 3.03690in
    :height: 3.84580in
-.. |image5| image:: ./media/media/image6.png
+.. |image5| image:: ./media/image6.png
    :width: 0.88889in
    :height: 0.22222in
-.. |image6| image:: ./media/media/image7.png
+.. |image6| image:: ./media/image7.png
    :width: 2.90364in
    :height: 3.25278in
-.. |image7| image:: ./media/media/image8.png
+.. |image7| image:: ./media/image8.png
    :width: 3.19237in
    :height: 3.35452in
 .. |/Users/nathancox/Desktop/Screen Shot 2017-11-29 at 11.54.22 AM.png| image:: ./media/media/image9.png
