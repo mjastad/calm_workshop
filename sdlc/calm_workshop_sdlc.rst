@@ -2,11 +2,6 @@
 **Calm Workshop – Software Development Lifecycle (SDLC)**
 *********************************************************
 
-**SDLC Objectives**
-*******************
-
-I've been doing some research to understand why different methodologies exist, and which ones are the most commonly used software development methodologies.
-
 
 **SDLC Introduction**
 =====================
