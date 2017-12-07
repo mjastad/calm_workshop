@@ -323,21 +323,21 @@ users are a member of it.
 .. |/Users/nathancox/Desktop/Screen Shot 2017-11-29 at 12.03.25 PM.png| image:: ./media/media/image10.png
    :width: 3.01458in
    :height: 5.12232in
-.. |image10| image:: ./media/media/image11.png
+.. |image10| image:: ./media/image11.png
    :width: 4.98125in
    :height: 0.46933in
-.. |image11| image:: ./media/media/image12.png
+.. |image11| image:: ./media/image12.png
    :width: 5.76458in
    :height: 1.57328in
-.. |image12| image:: ./media/media/image13.png
+.. |image12| image:: ./media/image13.png
    :width: 6.50000in
    :height: 1.52603in
-.. |image13| image:: ./media/media/image14.png
+.. |image13| image:: ./media/image14.png
    :width: 6.50000in
    :height: 3.04638in
-.. |image14| image:: ./media/media/image15.png
+.. |image14| image:: ./media/image15.png
    :width: 3.93125in
    :height: 3.18666in
-.. |image15| image:: ./media/media/image16.png
+.. |image15| image:: ./media/image16.png
    :width: 4.34792in
    :height: 3.60663in
