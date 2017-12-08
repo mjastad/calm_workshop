@@ -242,9 +242,8 @@ After doing all the configuration click the **Save** button. If any
 errors come up, go back and review the configuration to ensure that all
 fields have been filled.
 
-Part 3: Launching the Blueprint
-
- 
+**Part 3: Launching the Blueprint**
+***********************************
 
 Now that the blueprint has been created and saved, you can launch it!
 
