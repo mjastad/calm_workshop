@@ -1,3 +1,5 @@
+.. codeblock:: bash
+
 #!/bin/bash
 
 set -ex
