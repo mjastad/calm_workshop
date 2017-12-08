@@ -126,77 +126,57 @@ Application:
 - Porting an existing product to a new platform.
 - Large projects.
 
-**Spiral Development Model**
-============================
 
-The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
+**Iterative Development Model**
+===============================
 
-The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
+Iterative process starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented. At each iteration, design modifications are made and new functional capabilities are added. The basic idea behind this method is to develop a system through repeated cycles (iterative) and in smaller portions at a time (incremental).
 
-Identification
-^^^^^^^^^^^^^^
+The following illustration is a representation of the Iterative and Incremental model
 
-This phase starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of system requirements, subsystem requirements and unit requirements are all done in this phase.
+|image4|
 
-This phase also includes understanding the system requirements by continuous communication between the customer and the system analyst. At the end of the spiral, the product is deployed in the identified market.
+Iterative and Incremental development is a combination of both iterative design or iterative method and incremental build model for development. "During software development, more than one iteration of the software development cycle may be in progress at the same time." This process may be described as an "evolutionary acquisition" or "incremental build" approach."
 
-Design
-^^^^^^
+In this incremental model, the whole requirement is divided into various builds. During each iteration, the development module goes through the requirements, design, implementation and testing phases. Each subsequent release of the module adds function to the previous release. The process continues till the complete system is ready as per the requirement.
 
-The Design phase starts with the conceptual design in the baseline spiral and involves architectural design, logical design of modules, physical product design and the final design in the subsequent spirals.
+The key to a successful adoption of an iterative software development lifecycle is rigorous validation of requirements, and verification & testing of each version of the software against those requirements within each cycle of the model. As the software evolves through successive cycles, tests must be repeated and extended to verify each version of the software.
 
-Construct or Build
-^^^^^^^^^^^^^^^^^^
+- Starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented.
+- During each iteration, design modifications are made and new functional capabilities are added.
+- Objective is to develop a system through repeated cycles (iterative) and in smaller portions at a time (incremental)
 
-The Construct phase refers to production of the actual software product at every spiral. In the baseline spiral, when the product is just thought of and the design is being developed a POC (Proof of Concept) is developed in this phase to get customer feedback.
-
-Then in the subsequent spirals with higher clarity on requirements and design details a working model of the software called build is produced with a version number. These builds are sent to the customer for feedback.
-
-Evaluation and Risk Analysis
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Risk Analysis includes identifying, estimating and monitoring the technical feasibility and management risks, such as schedule slippage and cost overrun. After testing the build, at the end of first iteration, the customer evaluates the software and provides feedback.
-
-The following illustration is a representation of the Spiral Model, listing the activities in each phase.
-
-|image3|
-
-Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
 
 Strengths:
 
-- Provide early indication of risk without much cost.
-- Users see the system early because of rapid prototype tools.
-- Critical high-risk functions are developed first.
-- Design doesn’t have to be perfect.
-- Users can be tied to all lifecycle steps.
+- Some working functionality can be developed quickly early in the lifecycle.
+- Parallel development can be planned.
+- Results are obtained early and periodically.  Progress can be incrementally measured.
+- Less costly when changing scope of requirements.
+- Easier to manage risk – High risk items done first.
 - Early and frequent feedback from users.
-- Cumulative costs assessed frequently.
+- Issues, challenges and risks identified from each increment can be utilized/applied to the next increment.
 
 Weaknesses:
 
-- Time spent evaluating risks too large for small or low-risk projects
-- Time spent planning, resetting objectives, performing risk analysis and prototyping may be excessive.
-- Model is complex.
-- Spiral may continue indefinitely.
+- May require more resources.
+- Management intensive. Management complexity increased.
+- End of project may not be known.
+- Highly skilled resources are required for risk analysis.
 - Risk assessment expertise is required.
-- Developers must be reassigned during non-development phase activities.
-- Might be difficult to define objective, verifiable milestones indicating readiness to advance to next iteration.
+- Not suitable for smaller projects.
+- Defining increments may require defining complete system.
 
 Application:
 
-The Spiral Model is widely used in the software industry as it is in sync with the natural development process of any product, i.e. learning with maturity which involves minimum risk for the customer as well as the development firms.
+Like other SDLC models, Iterative and incremental development has some specific applications in the software industry. This model is most often used in the following scenarios.
 
-The following pointers explain the typical uses of a Spiral Model"
-
-- When creation of prototype is appropriate.
-- When costs and risk evaluation is important.
-- For medium to high-risk projects.
-- Long-term project commitment unwise because of potential changes to economic priorities.
-- Users are unsure of their needs.
-- Requirements are complex.
-- New product line.
-- Significant changes are expected.
+- System requirements are clearly defined and understood.
+- Some functionality or requested enhancements evolve over time.
+- Time to market constraint.
+- New technologies being used by the development team.
+- Resources with needed skill sets are not available and are planned to be used on contract.
+- Some high-risk features and goals may change.
 
 
 **Agile Development Model**
