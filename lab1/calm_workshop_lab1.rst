@@ -193,16 +193,12 @@ the following script into the **install** window:
 #!/bin/bash
 
 set -ex
-
 yum install –y
 http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 
 yum update -y
-
 yum install -y mysql-community-server.x86\_64
-
 /bin/systemctl start mysqld
-
 #Mysql secure installation
 
 mysql -u @@{DBService.Mysql\_user}@@ <<EOF
