@@ -136,8 +136,6 @@ The spiral model has four phases. A software project repeatedly passes through t
 Identification
 ^^^^^^^^^^^^^^
 
-This
-
 
 **Iterative Development Model**
 ===============================
