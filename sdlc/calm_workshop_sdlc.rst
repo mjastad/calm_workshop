@@ -517,7 +517,7 @@ Test-driven development (TDD) is a development technique where you must first wr
    :width: 4.73125in
    :height: 3.03056in
    
-.. |image5| image:: ./media/image5.png
+.. |image5| image:: ./media/image9.png
    :width: 4.73125in
    :height: 3.03056in
    
