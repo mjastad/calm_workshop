@@ -183,7 +183,6 @@ script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
 .. code:: bash
-   :linenos:
 
    #!/bin/bash
 
@@ -236,7 +235,6 @@ Set the uninstall script to **shell** and select the credential you used
 earlier. Fill the uninstall script window with a simple:
 
 .. code:: bash
-   :linenos:
    
    #!/bin/bash
    echo "Goodbye!"
