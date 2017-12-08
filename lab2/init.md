@@ -1,1 +1,1 @@
-Calm Lab #2
+# Calm Lab #2 - Intermediate Blueprint (LAMP)
