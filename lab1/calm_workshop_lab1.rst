@@ -237,7 +237,6 @@ earlier. Fill the uninstall script window with a simple:
 ::
 
    #!/bin/bash
-
    echo "Goodbye!"
 
 After doing all the configuration click the **Save** button. If any
