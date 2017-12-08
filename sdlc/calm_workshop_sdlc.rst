@@ -264,10 +264,6 @@ Like other SDLC models, Iterative and incremental development has some specific 
    :width: 4.73125in
    :height: 3.03056in
    
-.. |image3| image:: ./media/image3.png
-   :width: 4.73125in
-   :height: 3.03056in
-
 .. |image4| image:: ./media/image4.png
    :width: 4.73125in
    :height: 3.03056in
