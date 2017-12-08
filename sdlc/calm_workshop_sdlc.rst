@@ -131,6 +131,17 @@ Application:
 
 The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
 
+The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
+
+Identification
+^^^^^^^^^^^^^^
+
+This phase starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of system requirements, subsystem requirements and unit requirements are all done in this phase.
+
+This phase also includes understanding the system requirements by continuous communication between the customer and the system analyst. At the end of the spiral, the product is deployed in the identified market.
+
+
+
 **Iterative Development Model**
 ===============================
 
