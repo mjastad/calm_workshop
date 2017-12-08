@@ -241,14 +241,41 @@ Like other SDLC models, Iterative and incremental development has some specific 
 **Agile Development Model**
 ===========================
 
-- Model based on division of work.
+|iamge5|
+
+|image6|
 
 
 **Test Driven Development Model**
 =================================
 
-- Model based on development around test acceptance.
+Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
 
+The following sequence of steps is generally followed:
+
+- Add a test
+- Run all tests and see if the new one fails
+- Write some code
+- Run tests
+- Refactor code
+- Repeat
+
+|image7|
+
+The first step is to quickly add a test, basically just enough code to fail.  Next you run your tests, often the complete test suite although for sake of speed you may decide to run only a subset, to ensure that the new test does in fact fail. You then update your functional code to make it pass the new tests. The fourth step is to run your tests again. If they fail you need to update your functional code and retest. Once the tests pass the next step is to start over (you may first need to refactor any duplication out of your design as needed, turning TFD into TDD).
+
+TDD completely turns traditional development around. When you first go to implement a new feature, the first question that you ask is whether the existing design is the best design possible that enables you to implement that functionality. If so, you proceed via a TFD approach.  If not, you refactor it locally to change the portion of the design affected by the new feature, enabling you to add that feature as easy as possible. As a result you will always be improving the quality of your design, thereby making it easier to work with in the future.
+
+Instead of writing functional code first and then your testing code as an afterthought, if you write it at all, you instead write your test code before your functional code.  Furthermore, you do so in very small steps – one test and a small bit of corresponding functional code at a time.  A programmer taking a TDD approach refuses to write a new function until there is first a test that fails because that function isn’t present. In fact, they refuse to add even a single line of code until a test exists for it.  Once the test is in place they then do the work required to ensure that the test suite now passes (your new code may break several existing tests as well as the new one).  This sounds simple in principle, but when you are first learning to take a TDD approach it proves require great discipline because it is easy to “slip” and write functional code without first writing a new test.  One of the advantages of pair programming is that your pair helps you to stay on track.
+
+**There are two levels of TDD:**
+
+- Acceptance TDD (ATDD).  With ATDD you write a single acceptance test, or behavioral specification depending on your preferred terminology, and then just enough production functionality/code to fulfill that test. The goal of ATDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. ATDD is also called Behavior Driven Development (BDD).
+
+- Developer TDD. With developer TDD you write a single developer test, sometimes inaccurately referred to as a unit test, and then just enough production code to fulfill that test. The goal of developer TDD is to specify a detailed, executable design for your solution on a JIT basis. Developer TDD is often simply called TDD.
+
+Test-driven development (TDD) is a development technique where you must first write a test that fails before you write new functional code.  TDD is being quickly adopted by agile software developers for development of application source code and is even being adopted by Agile DBAs for database development.  TDD should be seen as complementary to Agile Model Driven Development (AMDD)approaches and the two can and should be used together. TDD does not replace traditional testing, instead it defines a proven way to ensure effective unit testing. A side effect of TDD is that the resulting tests are working examples for invoking the code, thereby providing a working specification for the code. My experience is that TDD works incredibly well in practice and it is something that all software developers should consider adopting.
+ 
 
 
 .. |image0| image:: ./media/image1.png
@@ -270,4 +297,19 @@ Like other SDLC models, Iterative and incremental development has some specific 
 .. |image4| image:: ./media/image4.png
    :width: 4.73125in
    :height: 3.03056in
+   
+.. |image5| image:: ./media/image5.png
+   :width: 4.73125in
+   :height: 3.03056in
+   
+.. |image6| image:: ./media/image6.png
+   :width: 4.73125in
+   :height: 3.03056in
+   
+.. |image7| image:: ./media/image7.png
+   :width: 4.73125in
+   :height: 3.03056in
+
+
+
 
