@@ -1,6 +1,6 @@
 # Calm Workshop
 
-[Software Development Lifecycle (SDLC)](./sdlc/calm_workshop_sdlc.rst)
+- [Software Development Lifecycle (SDLC)](./sdlc/calm_workshop_sdlc.rst)
 
 
 # Labs:
