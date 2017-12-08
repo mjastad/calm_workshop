@@ -2,14 +2,18 @@
 **Introduction – Mission (Cyber Monday)**
 *****************************************
 
-**Connectivity Instructions**
 
-IP  
- 
-Username  
- 
-Password  
- 
+Connectivity Instructions:
+==========================
+
++------------+--------------------------------------------------------+
+| IP         |                                           Cluster IP   |
++------------+--------------------------------------------------------+
+| Username   |                                           Cluster User |
++------------+--------------------------------------------------------+
+| Password   |                                           Cluster Pass | 
++------------+--------------------------------------------------------+
+
  
 **Container Deployment & Management using Calm and K8S.**  
  
