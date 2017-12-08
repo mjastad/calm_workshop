@@ -27,18 +27,18 @@ By Following the best practices and/or stages of SDLC ensures the process works 
 
 |image1|
 
-Identify the current problems. “What don’t we want?”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Identify the current problems. “What don’t we want?”**
+
 
 This stage of SDLC means getting input from all stakeholders, including customers, salespeople, industry experts, and programmers. Learn the strengths and weaknesses of the current system with improvement as the goal.
 
-Plan. “What do we want?”
-^^^^^^^^^^^^^^^^^^^^^^^^
+**Plan. “What do we want?”**
+
 
 In this stage of SDLC, the team defines the requirements of the new software and determines the cost and resources required. It also details the risks involved and provides sub-plans for softening those risks. In this stage, a Software Requirement Specification document is created.
 
-Design. “How will we get what we want?”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Design. “How will we get what we want?”**
+
 
 It is the most creative and challenging phase of SDLC.
 
@@ -49,8 +49,7 @@ Occurs in two phases:
 
 This phase of SDLC starts by turning the software specifications into a design plan called the Design Specification. All stakeholders then review this plan and offer feedback and suggestions. It’s crucial to have a plan for collecting and incorporating stakeholder input into this document. Failure at this stage will almost certainly result in cost overruns at best and total collapse of the project at worst. 
 
-Build. “Let’s create what we want.”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Build. “Let’s create what we want.”**
 
 This SDLC stage develops the software by generating all the actual code. If the previous steps have been followed with attention to detail, this is actually the least complicated step.
 
@@ -64,8 +63,7 @@ It is of 3 types:
 
 Parallel Runs: In this new system runs with old system which provides assurance, and even helps user staff gain experience. 
 
-Test. “Did we get what we want?”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Test. “Did we get what we want?”**
 
 In this stage, we test for defects and deficiencies. We fix those issues until the product meets the original specifications.
 
@@ -73,13 +71,12 @@ The objective is to determine if the system does what it is designed to do
 Does it support the user as required in an effective and efficient manner 
 The review should assess how successful the system is in terms of functionality, performance, and cost versus benefits. 
 
-Deploy. “Let’s start using what we got.”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Deploy. “Let’s start using what we got.”**
 
 Often, this part of the SDLC process happens in a limited way at first. Depending on feedback from end users, more adjustments can be made.
 
-Maintain. “Let’s get this closer to what we want.”
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Maintain. “Let’s get this closer to what we want.”**
+
 
 The plan almost never turns out perfect when it meets reality. Further, as conditions in the real world change, we need to update and advance the software to match.  The emphasis during this phase is to ensure that needs continue to be met and that the system continues to perform according to specification
 
