@@ -1,4 +1,4 @@
-.. codeblock:: bash
+.. code-block:: bash
 
 #!/bin/bash
 
