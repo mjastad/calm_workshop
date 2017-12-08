@@ -202,9 +202,10 @@ it here.
 Set the uninstall script to **shell** and select the credential you used
 earlier. Fill the uninstall script window with a simple:
 
-#!/bin/bash
+::
+   #!/bin/bash
 
-echo "Goodbye!"
+   echo "Goodbye!"
 
 After doing all the configuration click the **Save** button. If any
 errors come up, go back and review the configuration to ensure that all
