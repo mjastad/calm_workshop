@@ -129,6 +129,7 @@ Application:
 **Spiral Development Model**
 ============================
 
+The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
 
 **Iterative Development Model**
 ===============================
