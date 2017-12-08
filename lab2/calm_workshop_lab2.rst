@@ -17,7 +17,7 @@
 +------------+----+
 
 **Lab Overview**
-================
+****************
 
 Welcome to the Calm Hands-On-Lab - Intermediate Blueprint What we’re
 going to do here is extend a basic blueprint:  
