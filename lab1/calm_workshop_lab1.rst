@@ -189,7 +189,7 @@ the following script into the **install** window:
    
    yum install -y "http://repo.mysql.com/mysql-community-release-el7.rpm"
    yum update -y
-   yum install -y mysql-community­server.x86_64
+   yum install -y mysql-community-server.x86_64
    
    /bin/systemctl start mysqld
    
