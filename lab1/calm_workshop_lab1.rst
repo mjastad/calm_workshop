@@ -182,7 +182,7 @@ set the install
 script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
-::
+.. code:: bash
 
    #!/bin/bash
 
