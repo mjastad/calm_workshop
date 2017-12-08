@@ -2,6 +2,9 @@
 **Introduction – Simple Blueprint (MySQL)**
 *******************************************
 
+.. contents::
+
+
 Connectivity Instructions:
 ==========================
 
