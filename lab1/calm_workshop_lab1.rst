@@ -161,11 +161,7 @@ With these basics setup, let’s create our first service.
 5. Make sure that the Cloud is set to **Nutanix** and the OS set to
    **Linux** Configure the VM as shown below:
 
-   |/Users/nathancox/Desktop/Screen Shot 2017-11-29 at 11.54.22 AM.png|
-
 Now update the VM Configuration section to match the following:
-
-|/Users/nathancox/Desktop/Screen Shot 2017-11-29 at 12.03.25 PM.png|
 
 |image10|
 
@@ -177,7 +173,7 @@ Now update the VM Configuration section to match the following:
 
 3. Scroll back up to the top and click **Package**
 
-**Package Configuration **
+**Package Configuration**
 
 Here is where we specify the installation and uninstall scripts for this
 service. Give the install package a name (MySQL\_Package for example),
