@@ -150,23 +150,50 @@ This is a basic test to make sure that Ansible has a connection to all of its ho
 The -m ping portion of the command is an instruction to Ansible to use the "ping" module. These are basically commands that you can run on your remote hosts. The ping module operates in many ways like the normal ping utility in Linux, but instead it checks for Ansible connectivity.
 
 The all portion means "all hosts." You could just as easily specify a group:
+
 .. code-block:: bash
 
   $ ansible -m ping servers
   
 You can also specify an individual host:
+
 .. code-block:: bash
 
   $ ansible -m ping host1
 
 You can specify multiple hosts by separating them with colons:
+
 .. code-block:: bash
 
   $ ansible -m ping host1:host2
   
 The shell module lets us send a terminal command to the remote host and retrieve the results. For instance, to find out the memory usage on our host1 machine, we could use:
 
+.. code-block:: bash
 
+  $ ansible -m shell -a 'free -m' host1
+
+As you can see, you pass arguments into a script by using the -a switch. Here's what the output might look like:
+
+.. code-block:: bash
+
+  Output
+  host1 | SUCCESS | rc=0 >>
+                total       used       free     shared      buffers     cached
+  Mem:           3954        227       3726          0           14         93
+  -/+ buffers/cache:         119       3834
+  swap:             0          0          0
+
+
+By now, you should have your Ansible server configured to communicate with the servers that you would like to control. You can verify that Ansible can communicate with each host you know how to use the ansible command to execute simple tasks remotely.
+
+Although this is useful, we have not covered the most powerful feature of Ansible in this lab: **Playbooks.** You have configured a great foundation for working with your servers through Ansible, so your next step is to learn how to use Playbooks to do the heavy lifting for you. 
+
+
+
+
+
+  
 
 
 
