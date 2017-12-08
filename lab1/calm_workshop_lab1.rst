@@ -184,7 +184,6 @@ the following script into the **install** window:
 
 .. include:: ../scripts
 
-::
 
    #!/bin/bash
 
