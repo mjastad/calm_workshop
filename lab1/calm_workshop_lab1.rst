@@ -27,8 +27,8 @@ do here is make a basic blueprint:
 This is a basic MySQL Deployment. In this lab we’ll start with a very
 basic, single service.
 
-Calm Glossary
-=============
+**Calm Glossary**
+*****************
 
 **Service**: One tier of a multiple tier application. This can be made
 up of 1 more VMs (or existing machines) that all have the same config
