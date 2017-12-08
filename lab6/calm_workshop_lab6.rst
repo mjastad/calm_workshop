@@ -127,5 +127,51 @@ Ping all of the servers you configured by typing:
 
 Ansible will return output like this:
 
+.. code-block:: bash
+
+  Output
+  host1 | SUCCESS => {
+      "changed": false,
+      "ping": "pong"
+  }
+  
+  host2 | SUCCESS => {
+      "changed": false,
+      "ping": "pong"
+  }
+  
+  host3 | SUCCESS => {
+      "changed": false,
+      "ping": "pong"
+  }
+
+This is a basic test to make sure that Ansible has a connection to all of its hosts.
+
+The -m ping portion of the command is an instruction to Ansible to use the "ping" module. These are basically commands that you can run on your remote hosts. The ping module operates in many ways like the normal ping utility in Linux, but instead it checks for Ansible connectivity.
+
+The all portion means "all hosts." You could just as easily specify a group:
+.. code-block:: bash
+
+  $ ansible -m ping servers
+  
+You can also specify an individual host:
+.. code-block:: bash
+
+  $ ansible -m ping host1
+
+You can specify multiple hosts by separating them with colons:
+.. code-block:: bash
+
+  $ ansible -m ping host1:host2
+  
+The shell module lets us send a terminal command to the remote host and retrieve the results. For instance, to find out the memory usage on our host1 machine, we could use:
+
+
+
+
+
+
+
+
 
 
