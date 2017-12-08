@@ -145,8 +145,8 @@ Design
 
 The Design phase starts with the conceptual design in the baseline spiral and involves architectural design, logical design of modules, physical product design and the final design in the subsequent spirals.
 
-Construct/Build
-^^^^^^^^^^^^^^^
+Construct or Build
+^^^^^^^^^^^^^^^^^^
 
 The Construct phase refers to production of the actual software product at every spiral. In the baseline spiral, when the product is just thought of and the design is being developed a POC (Proof of Concept) is developed in this phase to get customer feedback.
 
@@ -199,8 +199,6 @@ The following pointers explain the typical uses of a Spiral Model"
 - Significant changes are expected.
 
 
-
-
 **Iterative Development Model**
 ===============================
 
@@ -251,7 +249,6 @@ Like other SDLC models, Iterative and incremental development has some specific 
 - New technologies being used by the development team.
 - Resources with needed skill sets are not available and are planned to be used on contract.
 - Some high-risk features and goals may change.
-
 
 
 **Agile Development Model**
