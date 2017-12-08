@@ -293,7 +293,7 @@ users are a member of it.
 .. |image15| image:: ./media/image16.png
    :width: 4.34792in
    :height: 3.60663in
-.. literalinclude:: filename
+.. literalinclude:: package.sh
     :linenos:
     :language: bash
     :start-after: 184
