@@ -2,6 +2,8 @@
 **Introduction – Intermediate Blueprint (LAMP)**
 ************************************************
 
+.. contents::
+
 
 **Connectivity Instructions**
 *****************************
