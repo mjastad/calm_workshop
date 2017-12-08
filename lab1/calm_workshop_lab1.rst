@@ -182,7 +182,7 @@ set the install
 script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
-.. include:: package.tst
+.. include:: ./package.tst
 
 Looking at this script, we see that we’re using the variables we set
 before and doing basic mySQL configuration. This can be customized for
