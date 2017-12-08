@@ -129,7 +129,76 @@ Application:
 **Spiral Development Model**
 ============================
 
-- Repetition model with incremental improvements.
+The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
+
+The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
+
+Identification
+^^^^^^^^^^^^^^
+
+This phase starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of system requirements, subsystem requirements and unit requirements are all done in this phase.
+
+This phase also includes understanding the system requirements by continuous communication between the customer and the system analyst. At the end of the spiral, the product is deployed in the identified market.
+
+Design
+^^^^^^
+
+The Design phase starts with the conceptual design in the baseline spiral and involves architectural design, logical design of modules, physical product design and the final design in the subsequent spirals.
+
+Construct/Build
+^^^^^^^^^^^^^^^
+
+The Construct phase refers to production of the actual software product at every spiral. In the baseline spiral, when the product is just thought of and the design is being developed a POC (Proof of Concept) is developed in this phase to get customer feedback.
+
+Then in the subsequent spirals with higher clarity on requirements and design details a working model of the software called build is produced with a version number. These builds are sent to the customer for feedback.
+
+Evaluation and Risk Analysis
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Risk Analysis includes identifying, estimating and monitoring the technical feasibility and management risks, such as schedule slippage and cost overrun. After testing the build, at the end of first iteration, the customer evaluates the software and provides feedback.
+
+The following illustration is a representation of the Spiral Model, listing the activities in each phase.
+
+|image3|
+
+Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
+
+Strengths:
+
+- Provide early indication of risk without much cost.
+- Users see the system early because of rapid prototype tools.
+- Critical high-risk functions are developed first.
+- Design doesn’t have to be perfect.
+- Users can be tied to all lifecycle steps.
+- Early and frequent feedback from users.
+- Cumulative costs assessed frequently.
+
+Weaknesses:
+
+- Time spent evaluating risks too large for small or low-risk projects
+- Time spent planning, resetting objectives, performing risk analysis and prototyping may be excessive.
+- Model is complex.
+- Spiral may continue indefinitely.
+- Risk assessment expertise is required.
+- Developers must be reassigned during non-development phase activities.
+- Might be difficult to define objective, verifiable milestones indicating readiness to advance to next iteration.
+
+Application:
+
+The Spiral Model is widely used in the software industry as it is in sync with the natural development process of any product, i.e. learning with maturity which involves minimum risk for the customer as well as the development firms.
+
+The following pointers explain the typical uses of a Spiral Model"
+
+- When creation of prototype is appropriate.
+- When costs and risk evaluation is important.
+- For medium to high-risk projects.
+- Long-term project commitment unwise because of potential changes to economic priorities.
+- Users are unsure of their needs.
+- Requirements are complex.
+- New product line.
+- Significant changes are expected.
+
+
 
 
 **Iterative Development Model**
@@ -205,6 +274,10 @@ Like other SDLC models, Iterative and incremental development has some specific 
    :height: 3.03056in
 
 .. |image2| image:: ./media/image2.png
+   :width: 4.73125in
+   :height: 3.03056in
+   
+.. |image3| image:: ./media/image3.png
    :width: 4.73125in
    :height: 3.03056in
 
