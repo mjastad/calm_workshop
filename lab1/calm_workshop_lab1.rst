@@ -182,7 +182,7 @@ set the install
 script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
-.. code:: bash
+.. code-block:: bash
 
    #!/bin/bash
 
@@ -234,7 +234,7 @@ it here.
 Set the uninstall script to **shell** and select the credential you used
 earlier. Fill the uninstall script window with a simple:
 
-.. code:: bash
+.. code-block:: bash
    
    #!/bin/bash
    echo "Goodbye!"
