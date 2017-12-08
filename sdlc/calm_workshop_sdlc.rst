@@ -199,58 +199,6 @@ The following pointers explain the typical uses of a Spiral Model"
 - Significant changes are expected.
 
 
-**Iterative Development Model**
-===============================
-
-Iterative process starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented. At each iteration, design modifications are made and new functional capabilities are added. The basic idea behind this method is to develop a system through repeated cycles (iterative) and in smaller portions at a time (incremental).
-
-The following illustration is a representation of the Iterative and Incremental model
-
-|image4|
-
-Iterative and Incremental development is a combination of both iterative design or iterative method and incremental build model for development. "During software development, more than one iteration of the software development cycle may be in progress at the same time." This process may be described as an "evolutionary acquisition" or "incremental build" approach."
-
-In this incremental model, the whole requirement is divided into various builds. During each iteration, the development module goes through the requirements, design, implementation and testing phases. Each subsequent release of the module adds function to the previous release. The process continues till the complete system is ready as per the requirement.
-
-The key to a successful adoption of an iterative software development lifecycle is rigorous validation of requirements, and verification & testing of each version of the software against those requirements within each cycle of the model. As the software evolves through successive cycles, tests must be repeated and extended to verify each version of the software.
-
-- Starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented.
-- During each iteration, design modifications are made and new functional capabilities are added.
-- Objective is to develop a system through repeated cycles (iterative) and in smaller portions at a time (incremental)
-
-
-Strengths:
-
-- Some working functionality can be developed quickly early in the lifecycle.
-- Parallel development can be planned.
-- Results are obtained early and periodically.  Progress can be incrementally measured.
-- Less costly when changing scope of requirements.
-- Easier to manage risk – High risk items done first.
-- Early and frequent feedback from users.
-- Issues, challenges and risks identified from each increment can be utilized/applied to the next increment.
-
-Weaknesses:
-
-- May require more resources.
-- Management intensive. Management complexity increased.
-- End of project may not be known.
-- Highly skilled resources are required for risk analysis.
-- Risk assessment expertise is required.
-- Not suitable for smaller projects.
-- Defining increments may require defining complete system.
-
-Application:
-
-Like other SDLC models, Iterative and incremental development has some specific applications in the software industry. This model is most often used in the following scenarios.
-
-- System requirements are clearly defined and understood.
-- Some functionality or requested enhancements evolve over time.
-- Time to market constraint.
-- New technologies being used by the development team.
-- Resources with needed skill sets are not available and are planned to be used on contract.
-- Some high-risk features and goals may change.
-
-
 **Agile Development Model**
 ===========================
 
