@@ -190,6 +190,10 @@ the following script into the **install** window:
    :lineno-start: 193
    :lineno-end: 229
 
+.. literalinclude: package.sh
+   :language: shell
+   :linenos:
+   
 #!/bin/bash
 
 set -ex
