@@ -134,7 +134,7 @@ The spiral model combines the idea of iterative development with the systematic,
 The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
 
 Identification
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 
 **Iterative Development Model**
