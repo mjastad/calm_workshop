@@ -182,7 +182,7 @@ set the install
 script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
-
+.. include:: package.tst
 
 Looking at this script, we see that we’re using the variables we set
 before and doing basic mySQL configuration. This can be customized for
@@ -293,8 +293,3 @@ users are a member of it.
 .. |image15| image:: ./media/image16.png
    :width: 4.34792in
    :height: 3.60663in
-.. literalinclude:: package.txt
-    :linenos:
-    :language: bash
-    :start-after: 184
-    :end-before: 186
