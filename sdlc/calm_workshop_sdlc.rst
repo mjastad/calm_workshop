@@ -133,8 +133,12 @@ The spiral model combines the idea of iterative development with the systematic,
 
 The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
 
-Identification
-^^^^^^^^^^^^^^^
+**Identification**
+
+This phase starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of system requirements, subsystem requirements and unit requirements are all done in this phase.
+
+This phase also includes understanding the system requirements by continuous communication between the customer and the system analyst. At the end of the spiral, the product is deployed in the identified market.
+
 
 
 **Iterative Development Model**
