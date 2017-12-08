@@ -15,4 +15,4 @@
 
 # Missions:
 
-- [Mission 1 - K8S, Docker (LAMP)](./lab1/calm_workshop_lab1.rst)
+- [Mission 1 - K8S, Docker (LAMP)](./mission/calm_workshop_mission1.rst)
