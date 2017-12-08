@@ -241,7 +241,7 @@ Like other SDLC models, Iterative and incremental development has some specific 
 **Agile Development Model**
 ===========================
 
-|iamge5|
+|image5|
 
 |image6|
 
