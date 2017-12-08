@@ -148,7 +148,7 @@ Risk Analysis includes identifying, estimating and monitoring the technical feas
 
 The following illustration is a representation of the Spiral Model, listing the activities in each phase.
 
-[image3]
+|image3|
 
 Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
 
