@@ -124,6 +124,8 @@ Application:
 
 The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
 
+|image3|
+
 The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
 
 **Identification:**
@@ -148,9 +150,40 @@ Risk Analysis includes identifying, estimating and monitoring the technical feas
 
 The following illustration is a representation of the Spiral Model, listing the activities in each phase.
 
-|image3|
-
 Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
+
+Strengths:
+
+- Provide early indication of risk without much cost.
+- Users see the system early because of rapid prototype tools.
+- Critical high-risk functions are developed first.
+- Design doesn’t have to be perfect.
+- Users can be tied to all lifecycle steps.
+- Early and frequent feedback from users.
+- Cumulative costs assessed frequently.
+
+
+Weaknesses:
+
+- Time spent evaluating risks too large for small or low-risk projects.
+- Time spent planning, resetting objectives, performing risk analysis and prototyping may be excessive.
+- Model is complex.
+- Spiral may continue indefinitely .
+- Risk assessment expertise is required.
+- Developers must be reassigned during non-development phase activities.
+- Might be difficult to define objective, verifiable milestones indicating readiness to advance to next iteration.
+
+
+Application:
+
+- When creation of prototype is appropriate.
+- When costs and risk evaluation is important.
+- For medium to high-risk projects.
+- Long-term project commitment unwise because of potential changes to economic priorities.
+- Users are unsure of their needs.
+- Requirements are complex.
+- New product line.
+- Significant changes are expected.
 
 
 **Iterative Development Model**
