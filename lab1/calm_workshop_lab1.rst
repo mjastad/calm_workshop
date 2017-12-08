@@ -183,7 +183,6 @@ script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
 .. code-block:: bash
-   :linenos:
 
    #!/bin/bash
 
