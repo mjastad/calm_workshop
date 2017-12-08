@@ -186,6 +186,7 @@ set the install
 script to **shell** and select the credential you created earlier. Copy
 the following script into the **install** window:
 
+'''
 #!/bin/bash
 
 set -ex
@@ -239,6 +240,7 @@ GRANT ALL PRIVILEGES ON @@{DBService.Database\_name}@@ \* TO
 FLUSH PRIVILEGES;
 
 EOF
+'''
 
 Looking at this script, we see that we’re using the variables we set
 before and doing basic mySQL configuration. This can be customized for
