@@ -262,6 +262,8 @@ Like other SDLC models, Iterative and incremental development has some specific 
 
 - Model based on development around test acceptance.
 
+
+
 .. |image0| image:: ./media/image1.png
    :width: 3in
    :height: 2in
