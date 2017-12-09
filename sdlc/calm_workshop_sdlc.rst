@@ -6,7 +6,7 @@
 
    
 **SDLC Introduction**
-=====================
+*********************
 
 Understanding the fundamentals of SDLC.  A **software development life cycle** is composed of a number of clearly defined and distinct work phases which are used by systems engineers and systems developers to plan for, design, build, test, and deliver information systems.
 
@@ -23,7 +23,7 @@ That plan starts by evaluating existing systems for deficiencies.
 - By anticipating costly mistakes like failing to ask the end user for suggestions, SLDC can eliminate redundant rework and after-the-fact fixes.
 
 **Stages and Best Practices of SDLC**
--------------------------------------
+*************************************
 
 By Following the best practices and/or stages of SDLC ensures the process works in a smooth, efficient, and productive way.
 
@@ -85,7 +85,7 @@ User training continues during this phase, as needed, to acquaint new users to t
 
 
 **Waterfall Development Model**
-===============================
+*******************************
 
 Considered the traditional software development method, the waterfall method is a rigid linear model that consists of sequential phases (Requirements, Design, Implementation, Verification, Maintenance) in which distinct goals are accomplished. Each phase must be 100% complete before moving onto the next phase, and traditionally there is no process for going back to modify the project or direction.
 
@@ -122,7 +122,7 @@ Application:
 - Large projects.
 
 **Spiral Development Model**
-============================
+****************************
 
 The spiral model combines the idea of iterative development with the systematic, controlled aspects of the waterfall model. This Spiral model is a combination of iterative development process model and sequential linear development model i.e. the waterfall model with a very high emphasis on risk analysis. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
 
@@ -189,7 +189,7 @@ Application:
 
 
 **Iterative Development Model**
-===============================
+*******************************
 
 Iterative process starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented. At each iteration, design modifications are made and new functional capabilities are added. The basic idea behind this method is to develop a system through repeated cycles (iterative) and in smaller portions at a time (incremental).
 
@@ -241,7 +241,7 @@ Like other SDLC models, Iterative and incremental development has some specific 
 
 
 **Agile Development Model**
-===========================
+***************************
 
 The Agile software development life cycle is based upon the iterative and incremental process models, and focuses upon adaptability to changing product requirements and enhancing customer satisfaction through rapid delivery of working product features and client participation. Agile methods primarily focus upon breaking up the entire product into smaller, easily developable, “shippable” product features developed through “incremental” cycles known as “sprints”.
 
@@ -311,7 +311,7 @@ The core of Extreme Programming (XP) is the interconnected set of software devel
 The Extreme Programming (XP) Practices have changed a bit since they were initially introduced.The original twelve practices are listed below. If you would like more information about how these practices were originally described, you can 
 
 - The Planning Game
-Small Releases
+- Small Releases
 - Metaphor
 - Simple Design
 - Testing
@@ -468,7 +468,7 @@ Application:
 
 
 **Test Driven Development Model**
-=================================
+*********************************
 
 Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes an (initially failing) automated test case that defines a desired improvement or new function, then produces the minimum amount of code to pass that test, and finally refactors the new code to acceptable standards.
 
