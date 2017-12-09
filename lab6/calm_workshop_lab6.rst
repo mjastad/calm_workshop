@@ -2,8 +2,10 @@
 **Install and Configure Ansible on CentOS 7**
 *********************************************
 
+.. contents::
+
 **Introduction**
-################
+****************
 
 Configuration management systems are designed to make controlling large numbers of servers easy for administrators and operations teams. They allow you to control many different systems in an automated way from one central location. While there are many popular configuration management systems available for Linux systems, such as Chef and Puppet, these are often more complex than many people want or need. Ansible is a great alternative to these options because it has a much smaller overhead to get started.
 
@@ -14,12 +16,14 @@ Ansible takes on a modular approach, making it easy to extend to use the functio
 In this lab, you'll install Ansible on a CentOS 7 server and learn some basics of how to use the software.
 
 **Prerequisites**
+*****************
 
 To follow this tutorial, you will need:
 
 - One CentOS 7 server. Follow the steps in Initial Server Setup with CentOS 7 to create a non-root user, and make sure you can connect to the server without a password.
 
-Step 1 — Installing Ansible
+**Step 1 — Installing Ansible**
+*******************************
 
 To begin exploring Ansible as a means of managing our various servers, we need to install the Ansible software on at least one machine.
 
@@ -36,7 +40,8 @@ Once the repository is installed, install Ansible with yum:
   $ sudo yum install ansible
   
 
-Step 2 — Configuring Ansible Hosts
+**Step 2 — Configuring Ansible Hosts**
+**************************************
 
 Ansible keeps track of all of the servers that it knows about through a "hosts" file. We need to set up this file first before we can begin to communicate with our other computers.
 
@@ -116,6 +121,7 @@ Save and close this file when you are finished. Now Ansible will always use the 
 If you want to specify configuration details for every server, regardless of group association, you can put those details in a file at /etc/ansible/group_vars/all. Individual hosts can be configured by creating files under a directory at /etc/ansible/host_vars.
 
 **Step 3 — Using Simple Ansible Commands**
+******************************************
 
 Now that we have our hosts set up and enough configuration details to allow us to successfully connect to our hosts, we can try out our very first command.
 
