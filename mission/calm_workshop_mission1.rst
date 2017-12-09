@@ -2,9 +2,11 @@
 **Introduction – Mission (Cyber Monday)**
 *****************************************
 
+.. contents:: 
 
-Connectivity Instructions:
-==========================
+
+**Connectivity Instructions:**
+******************************
 
 +------------+--------------------------------------------------------+
 | IP         |                                           Cluster IP   |
@@ -15,7 +17,8 @@ Connectivity Instructions:
 +------------+--------------------------------------------------------+
 
  
-**Container Deployment & Management using Calm and K8S.**  
+**Container Deployment & Management using Calm and K8S.**
+*********************************************************
  
 - Modernize by Containerizing LAMP (3-Tier Application) deployment (simplify using NGNX Container). 
 - Deploy K8S using blueprint. 
@@ -26,7 +29,8 @@ Connectivity Instructions:
 - Day 2 operations – Deploy Imported Blueprint to scale up/down container. 
 - Monitor. 
  
-**Standup a CI/CD Pipeline.**  
+**Standup a CI/CD Pipeline.**
+*****************************
 
 - Deploy Jenkins Container. 
 - Connect Jenkins to Git (challenging inside HPOC). 
