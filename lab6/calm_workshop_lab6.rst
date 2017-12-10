@@ -26,7 +26,7 @@ To follow this tutorial, you will need:
 **Step 1 — Installing Ansible**
 *******************************
 
-To begin exploring Ansible as a means of managing our various servers, we need to install the Ansible software on at least one machine.
+To begin exploring Ansible as a means of managing our various servers, we need to install the Ansible software on at least one machine.  In this lab we'll install ansible using *yum*, but to be fare the learner, the Ansible stack can also be installed using *git* or *pip*.
 
 To get Ansible for CentOS 7, first ensure that the CentOS 7 EPEL repository is installed:
 
