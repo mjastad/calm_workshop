@@ -44,7 +44,7 @@ Once the repository is installed, install Ansible with yum:
 **Step 2 — Configuring Ansible Hosts**
 **************************************
 
-Ansible keeps track of all of the servers that it knows about through a "hosts" file. We need to set up this file first before we can begin to communicate with our other computers.
+Ansible keeps track of all of the servers that it knows about through a *"hosts"* file. We need to set up this file first before we can begin to communicate with our other computers.
 
 Open the file with root privileges like this:
 
@@ -68,20 +68,20 @@ Imagine you have three servers you want to control with Ansible. Ansible communi
 
 .. code-block:: bash
 
-  $ ssh root@your_server_ip
+  $ ssh user@your_server_ip
 
-You should not be prompted for a password. While Ansible certainly has the ability to handle password-based SSH authentication, SSH keys help keep things simple.
+You should **NOT** be prompted for a password. While Ansible certainly has the ability to handle password-based SSH authentication, SSH keys help keep things simple (see _password-less configuration).
 
-We will assume that our servers' IP addresses are 192.0.2.1, 192.0.2.2, and 192.0.2.3. Let's set this up so that we can refer to these individually as host1, host2, and host3, or as a group as servers. To configure this, you would add this block to your hosts file:
+We will assume that our servers' IP addresses are based on the Host VM's participating in the MySQL Application deployed in lab1. Let's set this up so that we can refer to these individually as host1, host2, and host3, or as a group as servers. To configure this, you would add this block to your hosts file:
 
 */etc/ansible/hosts*
 
 .. code-block:: bash
 
   [servers]
-  host1 ansible_ssh_host=192.0.2.1
-  host2 ansible_ssh_host=192.0.2.2
-  host3 ansible_ssh_host=192.0.2.3
+  host1 ansible_ssh_host=IP ADDRESS [IP Address for MySQLMaster]
+  host2 ansible_ssh_host=IP ADDRESS [IP Address for MySQLSlave0]
+  host3 ansible_ssh_host=IP ADDRESS [AP Address for MySQLSlave1]
 
 Hosts can be in multiple groups and groups can configure parameters for all of their members. Let's try this out now.
 
