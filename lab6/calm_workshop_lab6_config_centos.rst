@@ -8,7 +8,7 @@
 
 When you first create a new server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subsequent actions.
 
-**Step 1 — Root Login**
+**Step 1: Root Login**
 ***********************
 
 To log into your server, you will need to know your server's public IP address and the password for the "root" user's account. If you have not already logged into your server, you may want to follow the first tutorial in this series, How to Connect to Your Droplet with SSH, which covers this process in detail.
@@ -27,7 +27,7 @@ The root user is the administrative user in a Linux environment that has very br
 
 The next step is to set up an alternative user account with a reduced scope of influence for day-to-day work. We'll teach you how to gain increased privileges during the times when you need them.
 
-**Step Two — Create a New User**
+**Step Two: Create a New User**
 ********************************
 
 Once you are logged in as root, we're prepared to add the new user account that we will use to log in from now on.
@@ -46,7 +46,7 @@ Next, assign a password to the new user (again, substitute "nucalm" with the use
 
 Enter a password, and repeat it again to verify it.
 
-**Step Three — Root Privileges**
+**Step Three: Root Privileges**
 ********************************
 
 Now, we have a new user account with regular account privileges. However, we may sometimes need to do administrative tasks. To avoid having to log out of our normal user and log back in as the root account, we can set up what is known as "super user" or root privileges for our normal account. This will allow our normal user to run commands with administrative privileges by putting the word sudo before each command.
@@ -59,7 +59,7 @@ As root, run this command to add your new user to the wheel group (substitute th
 
 Now your user can run commands with super user privileges! For more information about how this works, check out our sudoers tutorial.
 
-**Step Four — Add Public Key Authentication (Recommended)**
+**Step Four: Add Public Key Authentication (Recommended)**
 ***********************************************************
 
 The next step in securing your server is to set up public key authentication for your new user. Setting this up will increase the security of your server by requiring a private SSH key to log in.
@@ -84,24 +84,25 @@ Note: If you leave the passphrase blank, you will be able to use the private key
 
 This generates a private key, id_rsa, and a public key, id_rsa.pub, in the .ssh directory of the localuser's home directory. Remember that the private key should not be shared with anyone who should not have access to your servers!
 
-Copy the Public Key
+**Copy the Public Key**
 
 After generating an SSH key pair, you will want to copy your public key to your new server. We will cover two easy ways to do this.
 
-Note: The ssh-copy-id method will not work on DigitalOcean if an SSH key was selected during Droplet creation. This is because DigitalOcean disables password authentication if an SSH key is present, and the ssh-copy-id relies on password authentication to copy the key.
+**Note:** The ssh-copy-id method will not work on DigitalOcean if an SSH key was selected during Droplet creation. This is because DigitalOcean disables password authentication if an SSH key is present, and the ssh-copy-id relies on password authentication to copy the key.
 
 If you are using DigitalOcean and selected an SSH key during Droplet creation, use option 2 instead.
 
-Option 1: Use ssh-copy-id
+**Option 1: Use ssh-copy-id**
 
 If your local machine has the ssh-copy-id script installed, you can use it to install your public key to any user that you have login credentials for.
 
 Run the ssh-copy-id script by specifying the user and IP address of the server that you want to install the key on, like this:
 
 ssh-copy-id demo@SERVER_IP_ADDRESS
+
 After providing your password at the prompt, your public key will be added to the remote user's .ssh/authorized_keys file. The corresponding private key can now be used to log into the server.
 
-Option 2: Manually Install the Key
+**Option 2: Manually Install the Key**
 
 Assuming you generated an SSH key pair using the previous step, use the following command at the terminal of your local machine to print your public key (id_rsa.pub):
 
@@ -112,7 +113,8 @@ id_rsa.pub contents
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBGTO0tsVejssuaYR5R3Y/i73SppJAhme1dH7W2c47d4gOqB4izP0+fRLfvbz/tnXFz4iOP/H6eCV05hqUhF+KYRxt9Y8tVMrpDZR2l75o6+xSbUOMu6xN+uVF0T9XzKcxmzTmnV7Na5up3QM3DoSRYX/EP3utr2+zAqpJIfKPLdA74w7g56oYWI9blpnpzxkEd3edVJOivUkpZ4JoenWManvIaSdMTJXMy3MtlQhva+j9CgguyVbUkdzK9KKEuah+pFZvaugtebsU+bllPTB0nlXGIJk98Ie9ZtxuY3nCKneB+KjKiXrAvXUPCI9mWkYS/1rggpFmu3HbXBnWSUdf localuser@machine.local
 Select the public key, and copy it to your clipboard.
 
-Add Public Key to New Remote User
+**Add Public Key to New Remote User**
+
 To enable the use of SSH key to authenticate as the new remote user, you must add the public key to a special file in the user's home directory.
 
 On the server, as the root user, enter the following command to switch to the new user (substitute your own user name):
@@ -137,11 +139,14 @@ chmod 600 .ssh/authorized_keys
 Type this command once to return to the root user:
 
 exit
+
 Now you may SSH login as your new user, using the private key as authentication.
 
 To read more about how key authentication works, read this tutorial: How To Configure SSH Key-Based Authentication on a Linux Server.
 
-Step Five — Configure SSH Daemon
+**Step Five — Configure SSH Daemon**
+************************************
+
 Now that we have our new account, we can secure our server a little bit by modifying its SSH daemon configuration (the program that allows us to log in remotely) to disallow remote SSH access to the root account.
 
 Begin by opening the configuration file with your text editor as root:
@@ -153,6 +158,7 @@ To disable remote root logins, we need to find the line that looks like this:
 
 /etc/ssh/sshd_config (before)
 #PermitRootLogin yes
+
 Hint: To search for this line, type /PermitRoot then hit ENTER. This should bring the cursor to the "P" character on that line.
 
 Uncomment the line by deleting the "#" symbol (press Shift-x).
@@ -191,10 +197,5 @@ sudo command_to_run
 If all is well, you can exit your sessions by typing:
 
 exit
-Where To Go From Here?
+
 At this point, you have a solid foundation for your server. You can install any of the software you need on your server now.
-
-If you are not sure what you want to do with your server, check out the next tutorial in this series for Additional Recommended Steps for New CentOS 7 Servers. It covers things like enabling fail2ban to reduce the effectiveness of brute force attacks, basic firewall settings, NTP, and swap files. It also provides links to tutorials that show you how to set up common web applications.
-
-If you just want to explore, take a look at the rest of our community to find more tutorials. Some popular ideas are configuring a LAMP stack or a LEMP stack, which will
-allow you to host websites.
