@@ -69,7 +69,7 @@ Imagine you have three servers you want to control with Ansible. Ansible communi
 
   $ ssh root@your_server_ip
 
-You should not be prompted for a password. While Ansible certainly has the ability to handle password-based SSH authentication, SSH keys help keep things simple. You can follow the tutorial How To Use SSH Keys with DigitalOcean Droplets to set up SSH keys on each host if you haven't already.
+You should not be prompted for a password. While Ansible certainly has the ability to handle password-based SSH authentication, SSH keys help keep things simple.
 
 We will assume that our servers' IP addresses are 192.0.2.1, 192.0.2.2, and 192.0.2.3. Let's set this up so that we can refer to these individually as host1, host2, and host3, or as a group as servers. To configure this, you would add this block to your hosts file:
 
