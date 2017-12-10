@@ -43,18 +43,31 @@ The main function call to access a URL via this library is open_url. It can take
 The parameters in detail are:
 
 **url:** the actual URL, the communication endpoint of your REST API
+
 **data:** the payload for the URL request, for example a JSON structure
+
 **headers:** additional headers, often this includes the content-type of the data stream
+
 **method:** a URL call can be of various methods: GET, DELETE, PUT, etc.
+
 **use_proxy:** if a proxy is to be used or not
+
 **force:** force an update even if a 304 indicates that nothing has changed (I think…)
+
 **last_mod_time:** the time stamp to add to the header in case we get a 304
+
 **timeout:** set a timeout
+
 **validate_certs:** if certificates should be validated or not; important for test setups where you have self signed certificates
+
 **url_username:** the user name to authenticate
+
 **url_password:** the password for the above listed username
+
 **http_agent:** if you wnat to set the http agent
+
 **force_basic_auth:** for ce the usage of the basic authentication
+
 **follow_redirects:** determine how redirects are handled
 
 For example, to fire a simple GET to a given source like Google most parameters are not needed and it would look like:
