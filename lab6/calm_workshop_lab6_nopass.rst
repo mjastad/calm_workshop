@@ -12,8 +12,8 @@ Follow the steps to create the password less login. Here we have two machines wi
 1. We'll assume you've successfulyl deployed the MySQL Application and is currently running.
 2. You've successfully created a CentOS Server v7 VM  to host *Ansible*.
 
-**Create remote users**
-***********************
+**Step 1: Create remote users**
+*******************************
 
 Create/Add a new user *ansible*, on each of the VMs as part of the MySQL Application (i.e. *MySQLMaster, MySQLSlave*).
 
@@ -28,6 +28,45 @@ Create/Add a new user *ansible*, on each of the VMs as part of the MySQL Applica
   $
 
 
+**Step 2: Create SSH KEY**
+**************************
+
+- Login to CentOS Server v7 VM hosting *Ansible* as user: *nucalm*.
+- Create a pair of keys using the following command:
+
+.. code-block:: bash
+
+  $ ssh-keygen
+  Generating public/private rsa key pair.
+  Enter file in which to save the key (/home/nucalm/.ssh/id_rsa):      **Press Enter**
+  Created directory '/home/test/.ssh'.
+  Enter passphrase (empty for no passphrase):                          **Press Enter**
+  Enter same passphrase again:                                         **Press Enter**
+  Your identification has been saved in /home/test/.ssh/id_rsa.
+  Your public key has been saved in /home/test/.ssh/id_rsa.pub.
+  The key fingerprint is:
+  f0:00:a0:12:6f:27:1b:2e:38:a2:4b:37:d8:65:5c:36 test@CentOS.localdomain
+  The key's randomart image is:
+  +--[ RSA 2048]----+
+  |. ...            |
+  | +   .           |
+  |o = . oE         |
+  |oo =. o+.        |
+  |= o  +  S        |
+  |ooo o            |
+  |.o +             |
+  |... .            |
+  |.                |
+  +-----------------+
   
+  $
+ 
+ 
+ 
+ 
+ 
+ 
+
+
   
 
