@@ -1,5 +1,5 @@
 *********************************
-** Developing an Ansible module**
+**Developing an Ansible module**
 *********************************
 
 Ansible is a great tool to automate almost everything in an IT environment. One of the huge benefits of Ansible are the so called modules: they provide a way to address automation tasks in the native language of the problem. For example, given a user needs to be created: this is usually done by calling certain commandos on the shell. In that case the automation developer has to think about which command line tool needs to be used, which parameters and options need to be provided, and the result is most likely not idempotent. And its hard t run tests (“checks”) with such an approach.
