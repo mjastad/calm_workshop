@@ -68,3 +68,10 @@ Here’s what a simple playbook looks like:
 
 Should you want to write your own, Ansible modules can be written in any language that can return JSON (Ruby, Python, bash, etc). Inventory can also plug in to any datasource by writing a program that speaks to that datasource and returns JSON. There’s also various Python APIs for extending Ansible’s connection types (SSH is not the only transport possible), callbacks (how Ansible logs, etc), and even for adding new server side behaviors.
 
+**Ansible Production Modules**
+******************************
+
+Ansible-Modules_
+
+
+.. _Ansible-Modules: http://docs.ansible.com/ansible/latest/modules_by_category.html
