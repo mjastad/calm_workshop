@@ -84,7 +84,15 @@ Copy the new keys from the *Ansible* host to each host participating in the MySQ
 
   $ ssh-copy-id -i ~/.ssh/id_rsa.pub
   
-Test your password-less logins by *ssh* to each of the hosts participating in the MySQL Application.  You should **NOT** be prompted for a password... 
+Test your password-less logins using *ssh* to login to each of the hosts participating in the MySQL Application.  
+
+.. code-block:: bash
+
+  $ ssh ansible@[IP ADDRESS]
+  Last login: Sun Dec 10 09:24:56 2017 from 10.21.9.85
+  $ 
+
+**Note:** You should **NOT** be prompted for a password... 
 
 
   
