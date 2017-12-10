@@ -2,6 +2,7 @@
 **Developing an Ansible module**
 *********************************
 
+.. contents::
 
 **Introduction**
 ****************
