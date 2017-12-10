@@ -1,5 +1,5 @@
 *************************************
-**SSH Passwordless Login – CentOS 7**
+**SSH Password-less Login – CentOS 7**
 *************************************
 
 SSH is a client and server protocol, and it helps us to access the remote system over the network through the encrypted tunnel. Whenever the client access the server, the client downloads the secure key from the server and at the same time-server also downloads the key from a client. Those two keys make the encrypted tunnel between the server and client, so that data transfer very securely over the network.
