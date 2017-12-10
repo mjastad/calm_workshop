@@ -26,14 +26,14 @@ Unfortunately, currently the documentation on the Ansible url library is sparse 
 
 To access the Ansible urls library right in your modules, it needs to be imported in the same way as the basic library is imported in the module:
 
-.. code-block:: bash
+.. code-block:: python
 
   from ansible.module_utils.basic import *
   from ansible.module_utils.urls import *
 
 The main function call to access a URL via this library is open_url. It can take multiple parameters:
 
-.. code-block:: bash
+.. code-block:: python
 
   def open_url(url, data=None, headers=None, method=None, use_proxy=True,
         force=False, last_mod_time=None, timeout=10, validate_certs=True,
@@ -59,18 +59,18 @@ The parameters in detail are:
 
 For example, to fire a simple GET to a given source like Google most parameters are not needed and it would look like:
 
-.. code-block:: bash
+.. code-block:: python
 
   open_url('https://www.google.com',method="GET")
 
 A more sophisticated example is to push actual information to a REST API. For example, if you want to search for the domain example on a Satellite server you need to change the method to PUT, add a data structure to set the actual search string ({"search":"example"}) and add a corresponding content type as header information ({'Content-Type':'application/json'}). Also, a username and password must be provided. Given we access a test system here the certification validation needs to be turned off also. The resulting string looks like this:
 
-.. code-block:: bash
+.. code-block:: python
   open_url('https://satellite-server.example.com/api/v2/domains',method="PUT",url_username="admin",url_password="abcd",data=json.dumps({"search":"example"}),force_basic_auth=True,validate_certs=False,headers={'Content-Type':'application/json'})
 
 Beware that the data json structure needs to be processed by json.dumps. The result of the query can be formatted as json and further used as a json structure:
 
-.. code-block:: bash
+.. code-block:: python
   
   resp = open_url(...)
   resp_json = json.loads(resp.read())
@@ -79,7 +79,7 @@ Full example
 
 In the following example, we query a Satellite server to find a so called environment ID for two given parameters, an organization ID and an environment name. To create a REST call for this task in a module multiple, separate steps have to be done: first, create the actual URL endpoint. This usually consists of the server name as a variable and the API endpoint as the flexible part which is different in each REST call.
 
-.. code-block:: bash
+.. code-block:: python
 
   server_name = 'https://satellite.example.com'
   api_endpoint = '/katello/api/v2/environments/'
@@ -87,7 +87,7 @@ In the following example, we query a Satellite server to find a so called enviro
 
 Besides the actual URL, the payload must be pieced together and the headers need to be set according to the content type of the payload – here json:
 
-.. code-block:: bash
+.. code-block:: python
 
   headers = {'Content-Type':'application/json'}
   payload = {"organization_id":orga_id,"name":env_name}
@@ -96,7 +96,7 @@ Other content types depends on the REST API itself and on what the developer pre
 
 Next, we set the user and password and launch the call. The return data from the call are saved in a variable to analyze later on.
 
-.. code-block:: bash
+.. code-block:: python
 
   user = 'abc'
   pwd = 'def'
@@ -104,7 +104,7 @@ Next, we set the user and password and launch the call. The return data from the
 
 Last but not least we transform the return value into a json construct, and analyze it: if the return value does not contain any data – that means the value for the key total is zero – we want the module to exit with an error. Something went wrong, and the automation administrator needs to know that. The module calls the built-in error functionmodule.fail_json. But if the total is not zero, we get out the actual environment ID we were looking for with this REST call from the beginning – it is deeply hidden in the json structure, btw.
 
-.. code-block:: bash
+.. code-block:: python
 
   resp_json = json.loads(resp.read())
   if resp_json["total"] == 0:
