@@ -2,6 +2,9 @@
 **Developing an Ansible module**
 *********************************
 
+
+**Introduction**
+****************
 Ansible is a great tool to automate almost everything in an IT environment. One of the huge benefits of Ansible are the so called modules: they provide a way to address automation tasks in the native language of the problem. For example, given a user needs to be created: this is usually done by calling certain commandos on the shell. In that case the automation developer has to think about which command line tool needs to be used, which parameters and options need to be provided, and the result is most likely not idempotent. And its hard t run tests (“checks”) with such an approach.
 Enter Ansible user modules: with them the automation developer only has to provide the data needed for the actual problem like the user name, group name, etc. There is no need to remember the user management tool of the target platform or to look up parameters:
 
@@ -12,6 +15,7 @@ Enter Ansible user modules: with them the automation developer only has to provi
 Ansible comes along with hundreds of modules. But what is if your favorite task or tool is not supported by any module? You have to write your own Ansible module. If your tools support REST API, there are a few things to know which makes it much easier to get your module running fine with Ansible. These few things are outlined below.
 
 **REST APIs and Python libraries in Ansible modules**
+*****************************************************
 
 According to Wikipedia, REST is:
 
@@ -23,6 +27,7 @@ However, using an external library in an Ansible module would add an extra depen
 Unfortunately, currently the documentation on the Ansible url library is sparse at best. If you need information about it, look at other modules like the Github, Kubernetes or a10 modules. To cover that documentation gap I will try to cover the most important basics in the following lines – at least as far as I know.
 
 **Creating REST calls in an Ansible module**
+********************************************
 
 To access the Ansible urls library right in your modules, it needs to be imported in the same way as the basic library is imported in the module:
 
@@ -40,7 +45,7 @@ The main function call to access a URL via this library is open_url. It can take
         url_username=None, url_password=None, http_agent=None,
         force_basic_auth=False, follow_redirects='urllib2'):
 
-The parameters in detail are:
+**The parameters in detail are:**
 
 **url:** the actual URL, the communication endpoint of your REST API
 
@@ -124,6 +129,7 @@ Last but not least we transform the return value into a json construct, and anal
       module.fail_json(msg="Environment %s not found." % env_name)
   env_id = resp_json["results"][0]["id"]
 
-Summary
+**Summary**
+***********
 
 It is fairly easy to write Ansible modules to access REST APIs. The most important part to know is that an internal, Ansible provided library should be used, instead of the better known urllib or requests library. Also, the actual library documentation is still pretty limited, but that gap is partially filled by the above possible.
