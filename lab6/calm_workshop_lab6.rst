@@ -200,8 +200,8 @@ Although this is useful, we have not covered the most powerful feature of Ansibl
 
 
 .. _password-less: calm_workshop_lab6_nopass.rst
+.. _configure_centos_server_v7: calm_workshop_lab6_config_centos.rst
   
-
 
 
 
