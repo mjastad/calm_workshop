@@ -32,7 +32,7 @@ Create/Add a new user *ansible*, on each of the VMs as part of the MySQL Applica
 **************************
 
 - Login to CentOS Server v7 VM hosting *Ansible* as user: *nucalm*.
-- Create a pair of keys using the following command:
+- Create a pair of keys using the *ssh-keygen* command:
 
 .. code-block:: bash
 
@@ -62,10 +62,29 @@ Create/Add a new user *ansible*, on each of the VMs as part of the MySQL Applica
   $
  
  
+**Step 3: Migrate SSH KEY**
+*************************** 
+
+Once you have sucessfully created the keys, you will find two files inside you *.ssh* directory: *id_rsa* and *id_rsa.pub*. We are going to use *id_rsa.pub* as a base file.
+
+.. code-block:: bash
+
+  $ ll ~/.ssh/
+  total 8
+  -rw-------. 1 test test 1679 Dec 10 09:51 id_rsa
+  -rw-r--r--. 1 test test  405 Dec 10 09:51 id_rsa.pub
+
+Use the *ssh-copy-id* command with an input file of *id_rsa.pub*; it creates ~/.ssh/authorized_keys if not present, otherwise it would replace the key. 
+
+**Note:** The key contains the information about *nucalm* host and user name.
+
+Copy the new keys from the *Ansible* host to each host participating in the MySQL Application (i.e. *MySQLMaster, MySQLSlave*) using the *ansible user created earlier in Step 1.
+
+ .. code-block:: bash
+
+    $ ssh-copy-id -i ~/.ssh/id_rsa.pub 
  
- 
- 
- 
+Test your password-less logins by *ssh* to each of the hosts participating in the MySQL Application.  You should **NOT** be prompted for a password... 
 
 
   
