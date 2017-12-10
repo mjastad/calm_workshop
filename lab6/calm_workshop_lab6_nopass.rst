@@ -80,7 +80,7 @@ Use the *ssh-copy-id* command with an input file of *id_rsa.pub*; it creates ~/.
 
 Copy the new keys from the *Ansible* host to each host participating in the MySQL Application (i.e. *MySQLMaster, MySQLSlave*) using the *ansible user created earlier in Step 1.
 
- .. code-block:: bash
+.. code-block:: bash
 
   $ ssh-copy-id -i ~/.ssh/id_rsa.pub
   
