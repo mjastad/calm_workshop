@@ -30,7 +30,7 @@ If there’s another source of truth in your infrastructure, Ansible can also pl
 
 Here’s what a plain text inventory file looks like:
 
-..code-block:: yaml
+.. code-block:: yaml
 
   ---
   [webservers]
