@@ -20,7 +20,7 @@ In this lab, you'll install Ansible on a CentOS 7 server and learn some basics o
 
 To follow this tutorial, you will need:
 
-- One CentOS v7 server to host Ansible. Follow the steps in `configure centos server v7`__ to create a non-root user.
+- One CentOS v7 server to host Ansible. Follow the steps in configure-centos-server-v7_ to create a non-root user.
 - Make sure you can connect to the server using a password-less_ connection/session.
 
 **Step 1 — Installing Ansible**
@@ -198,7 +198,7 @@ Although this is useful, we have not covered the most powerful feature of Ansibl
 
 
 
-.. _`configure centos server v7`: calm_workshop_lab6_config_centos.rst
+.. _configure-centos-server-v7: calm_workshop_lab6_config_centos.rst
 .. _password-less: calm_workshop_lab6_nopass.rst
 
   
