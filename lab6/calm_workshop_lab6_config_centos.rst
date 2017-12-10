@@ -4,6 +4,7 @@
 
 
 **Introduction**
+****************
 
 When you first create a new server, there are a few configuration steps that you should take early on as part of the basic setup. This will increase the security and usability of your server and will give you a solid foundation for subsequent actions.
 
