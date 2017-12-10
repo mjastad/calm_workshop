@@ -186,10 +186,10 @@ As you can see, you pass arguments into a script by using the -a switch. Here's 
 
   Output
   host1 | SUCCESS | rc=0 >>
-                total       used       free     shared      buffers     cached
-  Mem:           3954        227       3726          0           14         93
-  -/+ buffers/cache:         119       3834
-  swap:             0          0          0
+              total        used        free      shared  buff/cache   available
+  Mem:         3765         295        1712          16        1757        3181
+  Swap:        1023           0        1023
+
 
 
 By now, you should have your Ansible server configured to communicate with the servers that you would like to control. You can verify that Ansible can communicate with each host you know how to use the ansible command to execute simple tasks remotely.
