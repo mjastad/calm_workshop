@@ -34,12 +34,12 @@ Here’s what a plain text inventory file looks like:
 
   ---
   [webservers]
-  www1.example.com
-  www2.example.com
+   www1.example.com
+   www2.example.com
 
   [dbservers]
-  db0.example.com
-  db1.example.com
+   db0.example.com
+   db1.example.com
 
 Once inventory hosts are listed, variables can be assigned to them in simple text files (in a subdirectory called ‘group_vars/’ or ‘host_vars/’ or directly in the inventory file.
 Or, as already mentioned, use a dynamic inventory to pull your inventory from data sources like EC2, Rackspace, or OpenStack.
