@@ -56,6 +56,31 @@ In organizations that manage IT operations using the IT Service Management parad
 
 Organizations that have adopted agile software development are seeing much higher quantities of releases[citation needed]. With the increasing popularity of agile development a new approach to software releases known as Continuous delivery is starting to influence how software transitions from development to a release. One goal of Continuous Delivery and DevOps is to release more reliable applications faster and more frequently. The movement of the application from a “build” through different environments to production as a “release” is part of the Continuous Delivery pipeline. Release managers are beginning to utilize tools such as application release automation and continuous integration tools to help advance the process of Continuous Delivery and incorporate a culture of DevOps by automating a task so that it can be done more quickly, reliably, and is repeatable. More software releases have led to increased reliance on release management and automation tools to execute these complex application release processes.
 
+**Software QA**
+***************
+
+QA tends to be focused on measuring and examining quality and improving the software through process improvements, thereby guiding the release to customers. Although testing activities usually do take place in this organization, the main focus of QA is on the processes and procedures of how software development activities take place.
+
+QA is more focused on managing the product life cycle and verifying that the software meets the defined quality standards or customer agreements. QA is less about breaking the software and finding problems than about verifying that it is possible to make the software work under a given set of conditions.
+
+**Software Test**
+*****************
+
+Testing, on the other hand, may keep an eye on the processes and often owns them, but is far more concerned with finding ways to break the software. Testers are to observe what the software does and to report on the level of quality as well as any serious issues they encounter.
+
+Testers must operate under the assumption that there are more bugs out there, and they have to find them. They operate in such a way that they expect to find problems, not just to verify that it is possible for everything to work fine. A good tester is one who is constantly thinking of things that have not been tried and is expected to exercise parts of the software that may be weak or that may not interact well. The whole point of this very critical look at software is to find bugs as fast as possible and get the right ones fixed. There will always be more bugs, but without knowing what they are, a conscious decision cannot be made regarding the software’s ability to meet the customer’s demands.
+
+Test organizations can become flooded with bad software and drown in bugs if they are not going about their side of the process correctly. This will happen when a test organization becomes too reactive, only catching bugs instead of proactively preventing them. Individual testers may be required, above all else, to find more bugs. However, this focus on increasing the number of bugs instead of increasing the quality of the software can lead to the demise of many organizations.
+
+A system that encourages subversion of the ultimate goal—making a software product that fulfills the customer’s needs—is not one to adopt. In a problematic system, testers are encouraged to find bugs after the bug has become part of the code base—when it is easy to quantify, and yet more expensive to correct than if it had been caught at an earlier stage. The problem with systems that reward individuals for meeting an intermediary goal is that people will achieve that goal instead of the ultimate goal.
+
+The ultimate goal of any software development effort is to ship a high-quality product within a certain period of time and within a certain budget. Tasking individuals to find vast numbers of bugs may appear to be making progress towards the goal of making high-quality software, but that is not necessarily true. It is actually encouraging people to find problems in the software at a very late stage and to concentrate on finding symptoms instead of finding the core source of many symptoms.
+
+Although many testers would never take advantage of a poorly constructed system, it still should not be set up in this way because it is not rewarding people for doing what management really wants. Failing to do that will eventually lead to an organization that has lost key members who saw past the reward system, leaving behind an organization that plays to management’s set of rewards.
+
+Test organizations that are not effectively communicating with the rest of the software team (development and project managers) will not be aware of proposed changes and will not be able to step in early in the process to prevent problems, which allows a torrential flood of bugs to come back to testers late in the cycle and can end up costing the company time and money. Testing needs to evaluate processes as well as break the software.
+
+
 **Application Performance Management**
 **************************************
 
