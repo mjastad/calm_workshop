@@ -1,7 +1,7 @@
 # Calm Workshop
 
 - [Presentation 1: Software Development Lifecycle (SDLC)](./sdlc/calm_workshop_sdlc.rst)
-- [Presnetation 2: Application Lifecycle Management (ALM) - Requires translation](./alm/calm_workshop_alm.rst)
+- [Presnetation 2: Application Lifecycle Management (ALM)](./alm/calm_workshop_alm.rst)
 - [Presentation 3: DevOps - Requires translation](./devops/calm_workshop_devops.rst)
 - [Presentation 4: Orchestration Engines - Requires translation](./orchestration/calm_workshop_orch.rst)
 - [Presentation 5: Calm Deepdive - Requires translation](./calm/calm_workshop_calm.rst)
