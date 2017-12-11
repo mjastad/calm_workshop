@@ -32,8 +32,10 @@ There are many ALM tools available for tracking application changes. These range
 
 Application portfolio management (APM) is a framework for managing enterprise IT software applications and software-based services. APM provides managers with an inventory of the company's software applications and metrics to illustrate the business benefits of each application.
 
+|image2|
 
 An APM system uses a scoring algorithm for generating reports about the value of each application and the health of the IT infrastructure as a whole. By gathering metrics like an application's age, how often it's used, the cost it takes to maintain it and its interrelationships with other applications, a manager can use more than just an educated guess to decide whether or not a particular application should be kept, updated, retired or replaced. 
+
 
 
 
@@ -42,6 +44,10 @@ An APM system uses a scoring algorithm for generating reports about the value of
    :height: 3.03056in
    
 .. |image1| image:: ./media/image3.png
+   :width: 4.73125in
+   :height: 3.03056in
+   
+.. |image2| image:: ./media/image2.png
    :width: 4.73125in
    :height: 3.03056in
 
