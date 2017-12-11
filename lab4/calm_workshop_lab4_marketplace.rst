@@ -1,5 +1,5 @@
 ********************************
-**NuCalm Blueprint MArketplace**
+**NuCalm Blueprint Marketplace**
 ********************************
 
 .. contents::
