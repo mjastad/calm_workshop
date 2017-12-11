@@ -57,14 +57,12 @@ In organizations that manage IT operations using the IT Service Management parad
 Organizations that have adopted agile software development are seeing much higher quantities of releases[citation needed]. With the increasing popularity of agile development a new approach to software releases known as Continuous delivery is starting to influence how software transitions from development to a release. One goal of Continuous Delivery and DevOps is to release more reliable applications faster and more frequently. The movement of the application from a “build” through different environments to production as a “release” is part of the Continuous Delivery pipeline. Release managers are beginning to utilize tools such as application release automation and continuous integration tools to help advance the process of Continuous Delivery and incorporate a culture of DevOps by automating a task so that it can be done more quickly, reliably, and is repeatable. More software releases have led to increased reliance on release management and automation tools to execute these complex application release processes.
 
 **Software QA**
-***************
 
 QA tends to be focused on measuring and examining quality and improving the software through process improvements, thereby guiding the release to customers. Although testing activities usually do take place in this organization, the main focus of QA is on the processes and procedures of how software development activities take place.
 
 QA is more focused on managing the product life cycle and verifying that the software meets the defined quality standards or customer agreements. QA is less about breaking the software and finding problems than about verifying that it is possible to make the software work under a given set of conditions.
 
 **Software Test**
-*****************
 
 Testing, on the other hand, may keep an eye on the processes and often owns them, but is far more concerned with finding ways to break the software. Testers are to observe what the software does and to report on the level of quality as well as any serious issues they encounter.
 
