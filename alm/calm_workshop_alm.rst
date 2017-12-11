@@ -47,6 +47,8 @@ There are many ALM tools available for tracking application changes. These range
 
 Release management is a relatively new but rapidly growing discipline within software engineering. As software systems, software development processes, and resources become more distributed, they invariably become more specialized and complex. Furthermore, software products (especially web applications) are typically in an ongoing cycle of development, testing, and release, often running on evolving platforms with growing complexity. Such systems require dedicated resources to oversee the integration and flow of development, testing, deployment, and support.
 
+|image8|
+
 In organizations that manage IT operations using the IT Service Management paradigm, specifically the ITIL framework, release management will be guided by ITIL concepts and principles. There are several formal ITIL Processes that are related to release management, primarily the Release and Deployment Management process, which "aims to plan, schedule and control the movement of releases to test and live environments.", and the Change Management process In ITIL organizations, releases tend to be less frequent than in an agile development environment. Release processes are managed by IT operations teams using IT Service Management ticketing systems, with less focus on automation of release processes.
 
 
@@ -59,7 +61,7 @@ Organizations that have adopted agile software development are seeing much highe
 
 Application Performance Mamnagement, is largely an industry or vendor created term for anything that has to do with managing or monitoring the performance of your code, application dependencies, transaction times, and overall user experience.
 
-|image7.png|
+|image7|
 
 Since Application Performance Management is sort of a ubiquitous term for anything and everything performance related, some vendors use the term to mean totally different things, and can span several different types of vendor solutions.
 
@@ -82,6 +84,10 @@ Since Application Performance Management is sort of a ubiquitous term for anythi
    :height: 3.03056in
    
 .. |image2| image:: ./media/image2.png
+   :width: 4.73125in
+   :height: 3.03056in
+   
+.. |image8| image:: ./media/image8.png
    :width: 4.73125in
    :height: 3.03056in
 
