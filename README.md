@@ -1,18 +1,18 @@
 # Calm Workshop
 
-- [Software Development Lifecycle (SDLC)](./sdlc/calm_workshop_sdlc.rst)
-- [Application Lifecycle Management (ALM) - Requires translation](./orchestration/calm_workshop_sdlc.rst)
-- [DevOps - Requires translation](./devops/calm_workshop_devops.rst)
-- [Orchestration Engines - Requires translation](./orchestration/calm_workshop_orch.rst)
-- [Calm Deepdive - Requires translation](./calm/calm_workshop_calm.rst)
-- [Docker - Requires translation](./docker/calm_workshop_docker.rst)
-- [Kubernetes - Requires translation](./docker/calm_workshop_docker.rst)
+- [Presentation: Software Development Lifecycle (SDLC)](./sdlc/calm_workshop_sdlc.rst)
+- [Presnetation: Application Lifecycle Management (ALM) - Requires translation](./orchestration/calm_workshop_sdlc.rst)
+- [Presentation: DevOps - Requires translation](./devops/calm_workshop_devops.rst)
+- [Presentation: Orchestration Engines - Requires translation](./orchestration/calm_workshop_orch.rst)
+- [Presentation: Calm Deepdive - Requires translation](./calm/calm_workshop_calm.rst)
+- [Presentation: Docker - Requires translation](./docker/calm_workshop_docker.rst)
+- [Presentation: Kubernetes - Requires translation](./docker/calm_workshop_docker.rst)
 
 
 # Labs:
 
 - [Calm Lab 1 - NuCalm: Simple Blueprint](./lab1/calm_workshop_lab1.rst)
-- [Calm Lab 2 - NuCalm: Intermediate Blueprint](./lab2/calm_workshop_lab2.rst)
+- [Calm Lab 2 - NuCalm: Intermediate Blueprint (LAMP)](./lab2/calm_workshop_lab2.rst)
 - [Calm Lab 3 - NuCalm: Blueprint Troubleshooting](./lab3/calm_workshop_lab3_troubleshooting.rst)
 - [Calm Lab 4 - NuCalm: Marketplace](./lab4/calm_workshop_lab4_marketplace.rst)
 - [Calm Lab 5 - NuCalm: REST + Macros](./lab5/calm_workshop_lab5_api.rst)
@@ -21,4 +21,4 @@
 
 # Missions:
 
-- [Mission 1 - K8S, Docker (LAMP)](./mission/calm_workshop_mission1.rst)
+- [Mission: K8S, Docker (LAMP)](./mission/calm_workshop_mission1.rst)
