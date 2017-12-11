@@ -21,8 +21,8 @@ This LAMP stack can be on a single node or multiple nodes. The inventory file
         [dbservers]
         ntnxdbhost
 
-Here the webserver would be configured on the local host and the dbserver on a
-server called "bensible". The stack can be deployed using the following
+Here the webserver would be configured on the ntnxweb host and the dbserver on a
+server called ntnxdbhost. The stack can be deployed using the following
 command:
 
         ansible-playbook -i hosts site.yml
