@@ -4,6 +4,23 @@
 
 .. contents::
 
+
+**Connectivity Instructions:**
+******************************
+
++------------+--------------------------------------------------------+
+| IP         |                                           Cluster IP   |
++------------+--------------------------------------------------------+
+| Username   |                                           Cluster User |
++------------+--------------------------------------------------------+
+| Password   |                                           Cluster Pass | 
++------------+--------------------------------------------------------+
+
+Lab Overview
+************
+
+In this lab participants will install, configure, and deploy the Ansible orchestration software stack on CentOS Server v7 VM.  Once Ansible is stable learners will develop and run a simple Ansible module to pull NuCalm Blueprints from an NTNC Prism Central REST endpoint.
+
 **Introduction**
 ****************
 
