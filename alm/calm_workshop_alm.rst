@@ -16,6 +16,14 @@ ALM is a very broad term that reflects a change in attitude towards software dev
 
 There are many ALM tools available for tracking application changes. These range from dedicated ALM products that monitor an application from inception to completion, automatically sorting files into logical buckets as changes are noted, to simple wikis that require team members to record changes manually.
 
+- Application Lifecycle Management (ALM) is a continuous process of managing the life of an application through governance, development and maintenance.
+
+- ALM is about managing the entire application lifecycle, from the initial application definition to application maintenance, retirement and everything in between.
+
+- ALM as a superset, one that should include one or more SDLCs.
+
+
+
 **Application Portfolio Management**
 
 Application portfolio management (APM) is a framework for managing enterprise IT software applications and software-based services. APM provides managers with an inventory of the company's software applications and metrics to illustrate the business benefits of each application.
