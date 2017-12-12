@@ -47,4 +47,4 @@ For now, let’s just go through each tab:
 
 
 
-.. |image0| images:: ./media/image1.png
+.. |image0| images:: media/image1.png
