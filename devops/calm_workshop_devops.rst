@@ -151,7 +151,7 @@ high velocity that is enabled by DevOps. AWS provides services that are designed
 use with the AWS cloud. These services help you use the DevOps practices described above.
 
 
-.. |image0| image:: ./media/image2.png
+.. |image0| image:: ./media/image3.png
 
 .. |image1| image:: ./media/image1.png
 
