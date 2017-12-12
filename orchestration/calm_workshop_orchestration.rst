@@ -21,6 +21,27 @@ of the three and is used by Capital One, Splunk, and NEC.
 Selecting the best cloud configuration management system is a daunting task, regardless of whether you run servers on a 
 single platform like Azure or across multiple vendors.
 
+**Difference between Orchestrate & Automate**
+*********************************************
+
+**Orchestration:**
+
+A very good, simple example of orchestration is requesting an IP. You may have inputs around a subnet, port group name, or server type along with credentials to gain access to the IPAM solution. The output is an IP that has been reserved in DNS and is ready to use in seconds. Within that process there have been various steps of logic taken in finding the subnets, verifying there is available capacity, reserving the IP, and sending the end-user that IP. There is also logic that if the flow fails for various reasons (e.g.,, out of capacity) the end-user will be notified with a useful error that can then be acted upon. On the decommission/removal task front, the aforementioned flow would have an orchestrated workflow to do the cleanup of the reserved resources; in this case, a DNS entry.
+
+**Automation:**
+
+HRaaS (Human Resources as a Service) – An HR person logs into a portal and submits a request for a new employee. The only info she provided was the new username along with their first and last name. This process will reach out to LDAP to create the username, reach out to exchange to create a mailbox, send a request to the badging appliance to allow their LDAP GUID access to the building, and then finally send an email over to the badging department with their name, username, and GUID to make the badge so it is ready on the new employee’s first day.
+
+The HR person wasn’t asked for port numbers or the GUID, and a ticket wasn’t dropped in someone’s lap halfway though the process to sit on for three days, either. Instead, the entire process was completed end-to-end and HR is only waiting on the physical badge to be created. Also, this process touched a few very important systems throughout the enterprise and no one was prompted for a username or password, as everything was managed by the disparate system owners.
+
+**Orchestrate, orchestrate, orchestrate!**
+
+Every IT organization should be using an orchestrator. Simply put, you can orchestrate tasks that take a human minutes or hours in (milli) seconds with 100% repeatability. Microsoft and VMware both have “free” orchestrators with their products: System Center Orchestrator and vRealize Orchestrator that is currently bundled with vCenter (Yes, vCenter)!
+
+**Pick a tool – One tool!**
+
+I’ve seen IT organizations where the networking team is using one tool, the infrastructure teams are using two different tools, and the AppDev teams are using another tool, where there is obviously no strategic direction. These tools are usually not free and more importantly, the time it takes to train your team is a significant investment. So now, you have various teams in an organization learning different tools and all fighting to accomplish nearly the same thing.
+
 
 **Installation & Ease of Use**
 ******************************
