@@ -275,13 +275,14 @@ To download some additional packages which are handy:
 Remember: Albeit optional, these "handy" tools are very much required for most of the tasks that you will come across in future. Unless they are installed in advance, Python, during compilation, will not be able to link to them.
 
 
-**Run an Ansible Playbook to configure and deploy a LAMP stack**
-****************************************************************
+**Run Ansible Playbook to Deploy LAMP stack**
+*********************************************
 
+Navigate to Deploy-Ansible-Playbook_
 
 
 .. _configure-centos-server-v7: calm_workshop_lab6_config_centos.rst
-.. _deploy-ansible-playbook: calm_workshop_lab6_config_centos.rst
+.. _Deploy-Ansible-Playbook: calm_workshop_lab6_config_centos.rst
 .. _password-less: calm_workshop_lab6_nopass.rst
 
   
