@@ -19,6 +19,8 @@ single team where the engineers work across the entire application lifecycle, fr
 operations, and develop a range of skills not limited to a single function. Quality assurance and security teams may also
 become more tightly integrated with development and operations and throughout the application lifecycle.
 
+|image1|
+
 These teams use practices to automate processes that historically have been manual and slow. They use a technology
 stack and tooling which help them operate and evolve applications quickly and reliably. These tools also help engineers
 independently accomplish tasks (for example, deploying code or provisioning infrastructure) that normally would have 
@@ -70,7 +72,7 @@ infrastructure as code and policy as code, you can define and then track complia
 There are a few key practices that help organizations innovate faster through automating and streamlining the software
 development and infrastructure management processes. Most of these practices are accomplished with proper tooling.
 
-|image1|
+|image2|
 
 One fundamental practice is to perform very frequent but small updates. This is how organizations innovate faster for
 their customers. These updates are usually more incremental in nature than the occasional updates performed under traditional 
@@ -153,7 +155,9 @@ use with the AWS cloud. These services help you use the DevOps practices describ
 
 .. |image0| image:: ./media/image3.png
 
-.. |image1| image:: ./media/image1.png
+.. |image1| image:: ./media/image4.png
+
+.. |image2| image:: ./media/image1.png
 
 
 
