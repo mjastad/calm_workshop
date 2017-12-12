@@ -95,6 +95,13 @@ For these cloud orchestration platforms, we judged code bases on the breadth of 
 and community created tools. Essentially, how much code is out there that my team and I can use to get this into our 
 infrastructure?
 
+**Puppet**
+
+Puppet has the Puppet Forge, which is expansive, hovering around five thousand modules. Here, modules are separated by Puppet 
+Supported (built by Puppet) and Puppet Approved, the top rated modules created by the community. Puppet recently put out a 
+module supporting Azure servers, so if you’re in Microsoft land, there’s a place at the table for you. Like Chef, installation
+is straightforward via your terminal. New modules are added to your Puppetfile.
+
 **Chef**
 
 Chef has the Chef Supermarket which contains over three thousand cookbooks contributed by over seventy-thousand chefs. 
@@ -103,13 +110,6 @@ configurations. There’s the standard ones you’d expect: nginx, mysql, and do
 redis, and even homebrew. Even though there’s only three thousand modules, the community is strong and modules receive 
 consistent updates. Developers with Ruby experience tend to adopt Chef or Puppet so if that’s your language, easing into 
 using pre-configured modules from their open source communities makes the decision easy.
-
-**Puppet**
-
-Puppet has the Puppet Forge, which is expansive, hovering around five thousand modules. Here, modules are separated by Puppet 
-Supported (built by Puppet) and Puppet Approved, the top rated modules created by the community. Puppet recently put out a 
-module supporting Azure servers, so if you’re in Microsoft land, there’s a place at the table for you. Like Chef, installation
-is straightforward via your terminal. New modules are added to your Puppetfile.
 
 **Ansible**
 
