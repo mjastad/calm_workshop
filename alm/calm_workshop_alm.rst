@@ -52,6 +52,14 @@ Release management is a relatively new but rapidly growing discipline within sof
 In organizations that manage IT operations using the IT Service Management paradigm, specifically the ITIL framework, release management will be guided by ITIL concepts and principles. There are several formal ITIL Processes that are related to release management, primarily the Release and Deployment Management process, which "aims to plan, schedule and control the movement of releases to test and live environments.", and the Change Management process In ITIL organizations, releases tend to be less frequent than in an agile development environment. Release processes are managed by IT operations teams using IT Service Management ticketing systems, with less focus on automation of release processes.
 
 
+**Build/Release**
+
+A build is a software application which consists of a set of features and a few bug fixes and tested until it becomes stable. So basically it is a growing application in simple terms, the first build will have a few requirements and features in it. Lets say 10% of the software is developed. The next build will have bug fixes (ie. errors in first build is fixed) and also some new features are added. So lets say its now 20% of software is developed.
+
+This process continues till 100%, ie. Until Build is stable.. Implies no bugs or very few bugs and all features have been developed. Which means it is a complete software, which is ready to use.  This final build is called a software application.
+
+It is called a **Release**, when the client has agreed that they only need the basic features now in that software, because they cannot wait till all features are developed and the company developing the software can develop the next few features after the First Release (Software with basic features / Requirements of the client that has been satisfied)
+
 **Continuous Deilvery**
 
 Organizations that have adopted agile software development are seeing much higher quantities of releases[citation needed]. With the increasing popularity of agile development a new approach to software releases known as Continuous delivery is starting to influence how software transitions from development to a release. One goal of Continuous Delivery and DevOps is to release more reliable applications faster and more frequently. The movement of the application from a “build” through different environments to production as a “release” is part of the Continuous Delivery pipeline. Release managers are beginning to utilize tools such as application release automation and continuous integration tools to help advance the process of Continuous Delivery and incorporate a culture of DevOps by automating a task so that it can be done more quickly, reliably, and is repeatable. More software releases have led to increased reliance on release management and automation tools to execute these complex application release processes.
