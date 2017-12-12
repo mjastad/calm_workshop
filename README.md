@@ -3,7 +3,7 @@
 - [Presentation 1: Software Development Lifecycle (SDLC)](./sdlc/calm_workshop_sdlc.rst)
 - [Presnetation 2: Application Lifecycle Management (ALM)](./alm/calm_workshop_alm.rst)
 - [Presentation 3: DevOps](./devops/calm_workshop_devops.rst)
-- [Presentation 4: Orchestration Engines - Requires translation](./orchestration/calm_workshop_orch.rst)
+- [Presentation 4: Orchestration Engines](./orchestration/calm_workshop_orchestration.rst)
 - [Presentation 5: Calm Deepdive - Requires translation](./calm/calm_workshop_calm.rst)
 - [Presentation 6: Docker - Requires translation](./docker/calm_workshop_docker.rst)
 - [Presentation 7: Kubernetes - Requires translation](./docker/calm_workshop_docker.rst)
