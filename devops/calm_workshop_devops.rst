@@ -70,6 +70,8 @@ infrastructure as code and policy as code, you can define and then track complia
 There are a few key practices that help organizations innovate faster through automating and streamlining the software
 development and infrastructure management processes. Most of these practices are accomplished with proper tooling.
 
+|image1|
+
 One fundamental practice is to perform very frequent but small updates. This is how organizations innovate faster for
 their customers. These updates are usually more incremental in nature than the occasional updates performed under traditional 
 release practices. Frequent but small updates make each deployment less risky. They help teams address bugs faster because 
@@ -150,6 +152,8 @@ use with the AWS cloud. These services help you use the DevOps practices describ
 
 
 .. |image0| image:: ./media/image2.png
+
+.. |image1| image:: ./media/image1.png
 
 
 
