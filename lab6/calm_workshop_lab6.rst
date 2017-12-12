@@ -282,7 +282,7 @@ Navigate to Deploy-Ansible-Playbook_
 
 
 .. _configure-centos-server-v7: calm_workshop_lab6_config_centos.rst
-.. _Deploy-Ansible-Playbook: calm_workshop_lab6_config_centos.rst
+.. _Deploy-Ansible-Playbook: ansible-example/lamp
 .. _password-less: calm_workshop_lab6_nopass.rst
 
   
