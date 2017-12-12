@@ -86,6 +86,18 @@ Although many testers would never take advantage of a poorly constructed system,
 
 Test organizations that are not effectively communicating with the rest of the software team (development and project managers) will not be aware of proposed changes and will not be able to step in early in the process to prevent problems, which allows a torrential flood of bugs to come back to testers late in the cycle and can end up costing the company time and money. Testing needs to evaluate processes as well as break the software.
 
+*Unit testing*
+
+Performed to check the smallest units or modules of the product system at a time and is typically automated and repeated after each build. 
+
+*Integration testing*
+
+to check whether two or more combined units/modules operate in a proper way.
+
+*Functional testing*
+
+to check the whole system behavior as per the defined requirements.
+
 
 **Application Performance Management**
 **************************************
