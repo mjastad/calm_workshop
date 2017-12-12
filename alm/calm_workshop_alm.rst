@@ -74,6 +74,15 @@ QA is more focused on managing the product life cycle and verifying that the sof
 
 Testing, on the other hand, may keep an eye on the processes and often owns them, but is far more concerned with finding ways to break the software. Testers are to observe what the software does and to report on the level of quality as well as any serious issues they encounter.
 
+Software Testing Processes:
+
+- Unit testing: Performed to check the smallest units or modules of the product system at a time and is typically automated and repeated after each build. 
+
+- Integration testing: to check whether two or more combined units/modules operate in a proper way.
+
+- Functional testing to check the whole system behavior as per the defined requirements.
+
+
 Testers must operate under the assumption that there are more bugs out there, and they have to find them. They operate in such a way that they expect to find problems, not just to verify that it is possible for everything to work fine. A good tester is one who is constantly thinking of things that have not been tried and is expected to exercise parts of the software that may be weak or that may not interact well. The whole point of this very critical look at software is to find bugs as fast as possible and get the right ones fixed. There will always be more bugs, but without knowing what they are, a conscious decision cannot be made regarding the software’s ability to meet the customer’s demands.
 
 Test organizations can become flooded with bad software and drown in bugs if they are not going about their side of the process correctly. This will happen when a test organization becomes too reactive, only catching bugs instead of proactively preventing them. Individual testers may be required, above all else, to find more bugs. However, this focus on increasing the number of bugs instead of increasing the quality of the software can lead to the demise of many organizations.
@@ -85,18 +94,6 @@ The ultimate goal of any software development effort is to ship a high-quality p
 Although many testers would never take advantage of a poorly constructed system, it still should not be set up in this way because it is not rewarding people for doing what management really wants. Failing to do that will eventually lead to an organization that has lost key members who saw past the reward system, leaving behind an organization that plays to management’s set of rewards.
 
 Test organizations that are not effectively communicating with the rest of the software team (development and project managers) will not be aware of proposed changes and will not be able to step in early in the process to prevent problems, which allows a torrential flood of bugs to come back to testers late in the cycle and can end up costing the company time and money. Testing needs to evaluate processes as well as break the software.
-
-*Unit testing*
-
-Performed to check the smallest units or modules of the product system at a time and is typically automated and repeated after each build. 
-
-*Integration testing*
-
-to check whether two or more combined units/modules operate in a proper way.
-
-*Functional testing*
-
-to check the whole system behavior as per the defined requirements.
 
 
 **Application Performance Management**
