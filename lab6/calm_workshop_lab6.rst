@@ -19,7 +19,7 @@
 Lab Overview
 ************
 
-In this lab participants will install, configure, and deploy the Ansible orchestration software stack on CentOS Server v7 VM.  Once Ansible is stable, learners will develop and execute playbooks to deploy a LAMP stack and compare & contrast the differences with NuCalm.  We'll also explore developing running a simple Ansible module to pull NuCalm Blueprints from an NTNX Prism Central REST endpoint.
+In this lab participants will install, configure, and deploy the Ansible orchestration software stack on CentOS Server v7 VM.  Once Ansible is stable, learners will develop and execute playbooks to deploy a LAMP stack and compare & contrast the differences with NuCalm.  We'll also explore developing running a simple Ansible module to standup infrastructure (i.e. VM creation).
 
 **Introduction**
 ****************
