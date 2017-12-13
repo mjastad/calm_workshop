@@ -41,7 +41,7 @@ Welcome to Calm! Upon accessing this page you will now notice a new ribbon along
 
 You are, by default, dropped into the Applications tab and can see all the instances of applications that have been launched from a blueprint.
 
-For now, let’s just go through each tab:
+**Tab review:**
 
 |image0|
 
