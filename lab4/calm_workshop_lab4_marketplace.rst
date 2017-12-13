@@ -46,8 +46,10 @@ You are, by default, dropped into the Applications tab and can see all the insta
 |image0|
 
 
+Navigate the to Marketplace by clicking (|image1|) on the left tool ribbon.
+
 
 .. |image0| image:: ./media/image2.png
-   :width: 2.0in
-   :height: 3.5in
+   
+.. |image1| image:: ./media/image3.png
  
