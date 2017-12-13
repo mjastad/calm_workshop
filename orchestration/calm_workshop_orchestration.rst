@@ -193,8 +193,9 @@ PHPmyAdmin. Language-wise, Ansible was built on Python. One thing I do like abou
 filter by multiple categories and module versions.
 
 
-**Scalability**
-***************
+
+**Puppet+Chef+Ansible: Scalability**
+************************************
 
 This is what matters in the end - when you’re scaling systems to thousands and tens of thousands of nodes, you want the 
 ability to keep every VM under the fold.
