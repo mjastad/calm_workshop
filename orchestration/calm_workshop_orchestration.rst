@@ -43,6 +43,44 @@ Every IT organization should be using an orchestrator. Simply put, you can orche
 I’ve seen IT organizations where the networking team is using one tool, the infrastructure teams are using two different tools, and the AppDev teams are using another tool, where there is obviously no strategic direction. These tools are usually not free and more importantly, the time it takes to train your team is a significant investment. So now, you have various teams in an organization learning different tools and all fighting to accomplish nearly the same thing.
 
 
+**Ansible**
+***********
+
+Ansible can be thought of as general purpose tool for managing servers. This means that Ansible can be used as a:
+
+Server provisioning tool – build new vm, e.g. in aws. Ansible can also do orchestration, i.e. build+configure servers in a specific sequence. Ansible has a number of modules for communicating with aws, azure, google cloud, openstack,…etc.
+Configuration Management tool – i.e. configure OS and middleware tier Deployment tool – i.e. installing and configuring software that has been written in-house.
+
+**Architecture**
+
+Ansible has a controller-client type architecture, where you have one server (aka the controller) controlling lots of other servers (aka clients). However in ansible, you don’t need to install any ansible specific software on the client’s themselves. You only install ansible on the controller. I.e. it is an agentless architecture.  The controller communicates with all the clients via standard ssh.
+
+Ansible playbooks are essentially 1 or more scripts written in yaml. The puppet equivalent to playbooks is puppet manifests.
+
+In order for a client to be controlled by the Ansible server, it needs to have the following minimum requirements:
+– SSH daemon enabled (this is normally the case anyway)
+– python is installed
+
+**Stengths**
+
+- Easy to read syntax
+
+- It is a multi-purpose tool – it can do provisioning, environment orchestration, configuration management tool, deployment tool.
+
+- You don’t need to install or configure anything on the clients. The clients needs to have ssh, and a relatively recent version of python.
+
+- Ansible is pushed based – clients don’t need to have any services running to periodically do an ansible run. Instead you trigger the run from the controller.
+
+- Easy to build multiple controllers, the clients are not configured to communicate with a particular controller. Hence when number of clients goes up to thousands, then you can quickly build new controllers to handle.
+
+- Can execute adhoc shell commands on the clients.
+
+- Builtin modules (puppet’s equivalent of resource types). These modules behaves idempotently to bring a ensure a stage.
+
+**Weaknesses**
+
+- Abstractions are kept to a minimum, e.g. for installing packages on rhel based OS, you need to use the yum’s built-in module, whereas for ubuntu, you use apt’s built-in module instead
+
 **Installation & Ease of Use**
 ******************************
 
