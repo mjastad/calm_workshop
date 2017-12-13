@@ -42,6 +42,22 @@ Every IT organization should be using an orchestrator. Simply put, you can orche
 
 I’ve seen IT organizations where the networking team is using one tool, the infrastructure teams are using two different tools, and the AppDev teams are using another tool, where there is obviously no strategic direction. These tools are usually not free and more importantly, the time it takes to train your team is a significant investment. So now, you have various teams in an organization learning different tools and all fighting to accomplish nearly the same thing.
 
+**Puppet**
+**********
+
+Puppet is a solution that lets you control whats installed/configured on multiple machines from a single central machine. This single central machine is referred to as the “Puppet Master”, and the machines it controls are called “Puppet Agents” (aka nodes or slaves).
+
+In a puppetised environment, each agent checks-in with the puppet-master to see if it is set up the way it’s supposed to. If the answer is yes then nothing happens, if not, then the puppet master tells the agent what it should look like, then the node makes changes to itself accordingly to reflect this.
+
+The way this works is that on the puppet master you can define a “Desired State” for each of your nodes.   This desired state is declared in a syntax similar to a hash table’s syntax.
+
+If a node doesn’t resemble a desired state, then we say that a “drift” has occurred.   A drift is identified every 30 minutes, where the following happens:
+
+- The node sends it current setup info (referred to as “FACTS”) to the Puppet master.
+- The Puppet master uses the facts to compile a “catalog”. This catalog contains detailed data about how the node should be configured.
+- The Puppet master sends the catalog back to the node.
+- The node enforces the changes as described in the the catalog
+- The node then sents a “Report” back to the puppet master. You can view these reports and integrate them with other systems.
 
 **Ansible**
 ***********
