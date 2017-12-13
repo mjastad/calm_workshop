@@ -60,6 +60,11 @@ Make sure *Marketplace Blueprints* is selected along the top of the Blueprint gr
 
 |image2|
 
+Once the **Mongo** Blueprint has been selcted, a catalog is diaplyed to the right of the grid with a blueprint description, category, and project assignment. Insure **Database** and the **Calm** project are selected and click *apply*.
+
+|image3|
+
+
 
 
 .. |image0| image:: ./media/image2.png
@@ -67,4 +72,8 @@ Make sure *Marketplace Blueprints* is selected along the top of the Blueprint gr
 .. |image1| image:: ./media/image4.png
 
 .. |image2| image:: ./media/image5.png
+
+.. |image3| image:: ./media/image8.png
+
+
  
