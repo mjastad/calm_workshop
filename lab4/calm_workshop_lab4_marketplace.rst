@@ -76,6 +76,12 @@ Navigate to the Marketplace by clicking (|image5|) icon located on the left tool
 |image6|
 
 
+Click the **Mongo** Blueprint Icon and then click **Clone** to copy the bluerpint to the Blueprint workspace for editing.
+
+|image7|
+
+Navigate the Blueprint workspace by clicking the (|image8|) icon located on the left tool ribbon.  This will open the Blueprint Workspace. 
+
 
 .. |image0| image:: ./media/image2.png
    
@@ -90,5 +96,9 @@ Navigate to the Marketplace by clicking (|image5|) icon located on the left tool
 .. |image5| image:: ./media/image10.png
 
 .. |image6| image:: ./media/image11.png
+
+.. |image7| image:: ./media/image13.png
+
+.. |image8| image:: ./media/image14.png
 
  
