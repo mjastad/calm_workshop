@@ -64,10 +64,12 @@ Once the **Mongo** Blueprint has been selected, a catalog is displayed to the ri
 
 |image3|
 
-Click **Publish**, and wait until the Blueplint status shows *published* in the grid.
+Click **Publish**, and wait until the Blueprint status shows *published* in the grid as shown below.
 
 |image4|
 
+
+Navigate to the Marketplace by clicking (|image5|) icon.
 
 .. |image0| image:: ./media/image2.png
    
@@ -79,5 +81,6 @@ Click **Publish**, and wait until the Blueplint status shows *published* in the 
 
 .. |image4| image:: ./media/image9.png
 
+.. |image5| image:: ./media/image10.png
 
  
