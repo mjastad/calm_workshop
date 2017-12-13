@@ -47,4 +47,6 @@ For now, let’s just go through each tab:
 
 
 
-.. |image0| images:: media/image1.png
+.. |image0| image:: ./media/image1.png
+   :width: 4.73125in
+   :height: 3.03056in
