@@ -82,6 +82,14 @@ Click the **Mongo** Blueprint Icon and then click **Clone** to copy the bluerpin
 
 Navigate the Blueprint workspace by clicking the (|image8|) icon located on the left tool ribbon.  This will open the Blueprint Workspace. 
 
+|image9|
+
+Click the red exclamation point to see a list fo error desriptions.  
+
+|image10|
+
+Fix each of the errors listed within the Blueprint.  Once all the errors have been corrected, make additional changes to each of the **Mongo** services (i.e. VM, Package, etc...) and launch the blueprint.  Continue to make chnages until the the Blueprint successfully deploys.  
+
 
 .. |image0| image:: ./media/image2.png
    
@@ -100,5 +108,9 @@ Navigate the Blueprint workspace by clicking the (|image8|) icon located on the 
 .. |image7| image:: ./media/image13.png
 
 .. |image8| image:: ./media/image14.png
+
+.. |image9| image:: ./media/image15.png
+
+.. |image10| image:: ./media/image16.png
 
  
