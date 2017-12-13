@@ -48,7 +48,7 @@ You are, by default, dropped into the Applications tab and can see all the insta
 **Part 2: Marketplace Control - Publish Blueprints**
 ****************************************************
 
-Navigate the to Marketplace control by clicking (|image1|) on the left tool ribbon.  This will opnr the Marketplace Control Center where pre-configured and self-authored blueprints can be managed and published to a local Marketplace for collaboration.
+Navigate the to Marketplace control by clicking (|image1|) icon located on the left tool ribbon.  This will open the Marketplace Control Center where pre-configured and self-authored blueprints are staged for publishing to the local Marketplace used for teaming and collaboration.
 
 In this exercise we'll walk through the steps to:
 
