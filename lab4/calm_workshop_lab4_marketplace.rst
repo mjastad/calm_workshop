@@ -56,10 +56,15 @@ In this exercise we'll walk through the steps to:
 2. Clone the Blueprint from the Marketplace for editing.
 3. Edit the blueprint and launch as an application.
 
+Make sure *Marketplace Blueprints* is selected along the top of the Blueprint grid. Locate the **Mongo** blueprint within the grid and click the checkbox.
+
+|image2|
 
 
 
 .. |image0| image:: ./media/image2.png
    
 .. |image1| image:: ./media/image4.png
+
+.. |image2| image:: ./media/image5.png
  
