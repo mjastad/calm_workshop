@@ -46,7 +46,15 @@ You are, by default, dropped into the Applications tab and can see all the insta
 |image0|
 
 
-Navigate the to Marketplace control by clicking (|image1|) on the left tool ribbon.
+Navigate the to Marketplace control by clicking (|image1|) on the left tool ribbon.  This will opnr the Marketplace Control Center where pre-configured and self-authored blueprints can be managed and published to a local Marketplace for collaboration.
+
+In this exercise we'll walk through the steps to:
+
+1. Publish the pre-configured MongoDB Blueprint to the local Marketplace
+2. Clone the Blueprint from the Marketplace for editing.
+3. Edit the blueprint and launch as an application.
+
+
 
 
 .. |image0| image:: ./media/image2.png
