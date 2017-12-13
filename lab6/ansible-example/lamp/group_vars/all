@@ -3,4 +3,4 @@
 
 httpd_port: 80
 ntpserver: [NTNX CentOS Server v7 Web Host VM IPAddress]
-repository: https://github.com/bennojoy/mywebapp.git
+repository: https://github.com/mjastad/mywebapp.git
