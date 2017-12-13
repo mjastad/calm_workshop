@@ -42,8 +42,8 @@ Every IT organization should be using an orchestrator. Simply put, you can orche
 
 I’ve seen IT organizations where the networking team is using one tool, the infrastructure teams are using two different tools, and the AppDev teams are using another tool, where there is obviously no strategic direction. These tools are usually not free and more importantly, the time it takes to train your team is a significant investment. So now, you have various teams in an organization learning different tools and all fighting to accomplish nearly the same thing.
 
-**Puppet**
-**********
+**Puppet Overview**
+*******************
 
 Puppet is a solution that lets you control whats installed/configured on multiple machines from a single central machine. This single central machine is referred to as the “Puppet Master”, and the machines it controls are called “Puppet Agents” (aka nodes or slaves).
 
@@ -59,8 +59,8 @@ If a node doesn’t resemble a desired state, then we say that a “drift” has
 - The node enforces the changes as described in the the catalog
 - The node then sents a “Report” back to the puppet master. You can view these reports and integrate them with other systems.
 
-**Chef**
-**********
+**Chef Overview**
+*****************
 
 Chef is a configuration management tool for dealing with machine setup on physical servers, virtual machines and in the cloud. Many companies use Chef software to control and manage their infrastructure including Facebook, Etsy, Cheezburger, and Indiegogo.
 
@@ -72,8 +72,8 @@ There is a Chef server which stores each of these cookbooks and as a new chef cl
 
 The client will then check in every now and again to make sure that no changes have occurred, and nothing needs to change. If it does, then the client deals with it. Patches and updates can be rolled out over your entire infrastructure by changing the recipe. No need to interact with each machine individually.
 
-**Ansible**
-***********
+**Ansible Overview**
+********************
 
 Ansible can be thought of as general purpose tool for managing servers. This means that Ansible can be used as a:
 
@@ -113,8 +113,8 @@ In order for a client to be controlled by the Ansible server, it needs to have t
 
 - Abstractions are kept to a minimum, e.g. for installing packages on rhel based OS, you need to use the yum’s built-in module, whereas for ubuntu, you use apt’s built-in module instead
 
-**Installation & Ease of Use**
-******************************
+**Puppet+Chef+Ansible: Installation & Ease of Use**
+****************************************************
 
 **Puppet**
 
@@ -138,8 +138,9 @@ Ansible is designed to be light and fast, so there’s no installation on each n
 added via a config file on your master server, with SSH authorized keys added to each node. Ansible offers a variety of 
 consulting and training services.
 
-**User Interface**
-******************
+
+**Puppet+Chef+Ansible: User Interface**
+***************************************
 
 Open Source Puppet only has a CLI, while Puppet Enterprise has the CLI and a web UI. The bread and butter of Puppet are 
 modules which contain the code that configures and manages your nodes. Installing modules is easy via the command line, but 
@@ -158,8 +159,9 @@ There’s Ansible Tower, Ansible’s enterprise edition and it’s web UI. It’
 Puppet’s web interfaces. Tower also makes use performance analytics, along with compliance and security functions from Red 
 Hat.
 
-**Code Base**
-*************
+
+**Puppet+Chef+Ansible: Code Base**
+**********************************
 
 For these cloud orchestration platforms, we judged code bases on the breadth of modules, preconfigured system configurations, 
 and community created tools. Essentially, how much code is out there that my team and I can use to get this into our 
