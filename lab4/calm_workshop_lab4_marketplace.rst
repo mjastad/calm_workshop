@@ -19,7 +19,7 @@
 **Calm Glossary**
 *****************
 
-Service: One tier of a multiple tier application. This can be made up of 1 more VMs (or existing machines) that all have the same config and do the same thing Application (App): A whole application with multiple parts that are all working towards the same thing (for example, a Web Application might be made up of an Apache Server, a MySQL database and a HAProxy Load balancer. Alone each service doesn’t do much, but as a whole they do what they’re supposed to) Macro: A Calm construct that is evaluated before being ran on the target machine. Macros and Variables are denoted in the @@{[name]}@@ format in the scripts.
+**Service:** One tier of a multiple tier application. This can be made up of 1 more VMs (or existing machines) that all have the same config and do the same thing **Application (App):** A whole application with multiple parts that are all working towards the same thing (for example, a Web Application might be made up of an Apache Server, a MySQL database and a HAProxy Load balancer. Alone each service doesn’t do much, but as a whole they do what they’re supposed to) **Macro:** A Calm construct that is evaluated before being ran on the target machine. Macros and Variables are denoted in the *@@{[name]}@@* format in the scripts.
 
 Lab Overview
 ************
