@@ -90,6 +90,9 @@ Click the red exclamation point to see a list fo error desriptions.
 
 Fix each of the errors listed within the Blueprint.  Once all the errors have been corrected, make additional changes to each of the **Mongo** services (i.e. VM, Package, etc...) and launch the blueprint.  Continue to make chnages until the the Blueprint successfully deploys.  
 
+|image11|
+
+
 
 .. |image0| image:: ./media/image2.png
    
@@ -112,5 +115,7 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 .. |image9| image:: ./media/image15.png
 
 .. |image10| image:: ./media/image16.png
+
+.. |image11| image:: ./media/image17.png
 
  
