@@ -7,6 +7,7 @@
 - [Presentation 5: Calm Deepdive - Requires translation](./calm/calm_workshop_calm.rst)
 - [Presentation 6: Docker - Requires translation](./docker/calm_workshop_docker.rst)
 - [Presentation 7: Kubernetes - Requires translation](./docker/calm_workshop_docker.rst)
+- [Presentation 9: Questions](./quiz/calm_workshop_quiz.rst)
 
 
 # Labs:
