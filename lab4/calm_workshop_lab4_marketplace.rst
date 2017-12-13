@@ -60,11 +60,13 @@ Make sure *Marketplace Blueprints* is selected along the top of the Blueprint gr
 
 |image2|
 
-Once the **Mongo** Blueprint has been selcted, a catalog is diaplyed to the right of the grid with a blueprint description, category, and project assignment. Insure **Database** and the **Calm** project are selected and click *apply*.
+Once the **Mongo** Blueprint has been selected, a catalog is displayed to the right of the grid containing a blueprint description, category, and project assignment. Insure both **Database** and **Calm** are selected for the categroy and project repsectively, and click *apply*.
 
 |image3|
 
+Click **Publish**, and wait until the Blueplint status shows *published* in the grid.
 
+|image4|
 
 
 .. |image0| image:: ./media/image2.png
@@ -74,6 +76,8 @@ Once the **Mongo** Blueprint has been selcted, a catalog is diaplyed to the righ
 .. |image2| image:: ./media/image5.png
 
 .. |image3| image:: ./media/image8.png
+
+.. |image4| image:: ./media/image9.png
 
 
  
