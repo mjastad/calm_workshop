@@ -102,7 +102,7 @@ If your local machine has the ssh-copy-id script installed, you can use it to in
 Run the ssh-copy-id script by specifying the user and IP address of the server that you want to install the key on, like this:
 
 .. code-block:: bash 
-  $ ssh-copy-id demo@SERVER_IP_ADDRESS
+  $ ssh-copy-id -i ~/.ssh/mykey user@host
 
 After providing your password at the prompt, your public key will be added to the remote user's .ssh/authorized_keys file. The corresponding private key can now be used to log into the server.
 
