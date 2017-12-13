@@ -102,6 +102,7 @@ If your local machine has the ssh-copy-id script installed, you can use it to in
 Run the ssh-copy-id script by specifying the user and IP address of the server that you want to install the key on, like this:
 
 .. code-block:: bash 
+
   $ ssh-copy-id -i ~/.ssh/mykey user@host
 
 After providing your password at the prompt, your public key will be added to the remote user's .ssh/authorized_keys file. The corresponding private key can now be used to log into the server.
@@ -111,11 +112,13 @@ After providing your password at the prompt, your public key will be added to th
 Assuming you generated an SSH key pair using the previous step, use the following command at the terminal of your local machine to print your public key (id_rsa.pub):
 
 .. code-block:: bash 
+
   cat ~/.ssh/id_rsa.pub
   
 This should print your public SSH key, which should look something like the following:
 
 .. code-block:: bash 
+
   id_rsa.pub contents
   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBGTO0tsVejssuaYR5R3Y/i73SppJAhme1dH7W2c47d4gOqB4izP0+fRLfvbz/tnXFz4iOP/H6eCV05hqUhF+KYRxt9Y8tVMrpDZR2l75o6+xSbUOMu6xN+uVF0T9XzKcxmzTmnV7Na5up3QM3DoSRYX/EP3utr2+zAqpJIfKPLdA74w7g56oYWI9blpnpzxkEd3edVJOivUkpZ4JoenWManvIaSdMTJXMy3MtlQhva+j9CgguyVbUkdzK9KKEuah+pFZvaugtebsU+bllPTB0nlXGIJk98Ie9ZtxuY3nCKneB+KjKiXrAvXUPCI9mWkYS/1rggpFmu3HbXBnWSUdf localuser@machine.local
   
@@ -183,6 +186,7 @@ To disable remote root logins, we need to find the line that looks like this:
 /etc/ssh/sshd_config (before)
 
 .. code-block:: bash 
+
   #PermitRootLogin yes
 
 Hint: To search for this line, type /PermitRoot then hit ENTER. This should bring the cursor to the "P" character on that line.
@@ -209,6 +213,7 @@ Now that we have made our changes, we need to restart the SSH service so that it
 Type this to restart SSH:
 
 .. code-block:: bash 
+
   $ systemctl reload sshd
 
 Now, before we log out of the server, we should test our new configuration. We do not want to disconnect until we can confirm that new connections can be established successfully.
@@ -228,6 +233,7 @@ You will be prompted for the new user's password that you configured. After that
 Remember, if you need to run a command with root privileges, type "sudo" before it like this:
 
 .. code-block:: bash 
+
   $ sudo command_to_run
   
 If all is well, you can exit your sessions by typing:
