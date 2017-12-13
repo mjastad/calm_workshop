@@ -51,5 +51,5 @@ Navigate the to Marketplace by clicking (|image1|) on the left tool ribbon.
 
 .. |image0| image:: ./media/image2.png
    
-.. |image1| image:: ./media/image3.png
+.. |image1| image:: ./media/image4.png
  
