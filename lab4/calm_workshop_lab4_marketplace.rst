@@ -69,7 +69,7 @@ Click **Publish**, and wait until the Blueprint status shows *published* in the 
 |image4|
 
 
-Navigate to the Marketplace by clicking (|image5|) icon.  The **Mongo** Blueprint icon should now be visible from the Marketplace...
+Navigate to the Marketplace by clicking (|image5|) icon located on the left tool ribbon.  This will open the Marketplace. Once Marketplace is displayed, the **Mongo** Blueprint icon should be visible...
 
 |image6|
 
