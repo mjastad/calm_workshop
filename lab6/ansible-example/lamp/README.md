@@ -7,6 +7,8 @@ These playbooks are meant to be a reference and starter's guide to building
 Ansible Playbooks. These playbooks were tested on CentOS 7.x so we recommend
 that you use CentOS Server v7 to test these modules.
 
+Clone this playbook repository to /etc/ansible/ on the server hsoting Ansible. 
+
 CentOS7 reflects changes in:
 1. Network device naming scheme has changed
 2. iptables is replaced with firewalld
