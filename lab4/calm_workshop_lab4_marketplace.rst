@@ -48,4 +48,6 @@ For now, let’s just go through each tab:
 
 
 .. |image0| image:: ./media/image1.png
+   :width: 2.0in
+   :height: 3.5in
  
