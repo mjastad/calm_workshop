@@ -2,6 +2,8 @@
 **General DevOps Questions**
 ****************************
 
+.. contents::
+
 This category will include questions that are not related to any particular DevOps stage. Questions here are meant to test your understanding about DevOps rather than focusing on a particular tool or a stage.
 
 **Q1. What is the need for DevOps?**
