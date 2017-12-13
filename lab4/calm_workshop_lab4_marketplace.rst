@@ -68,6 +68,8 @@ Click **Publish**, and wait until the Blueprint status shows *published* in the 
 
 |image4|
 
+**Part 3: Marketplace - Clone Blueprint**
+*****************************************
 
 Navigate to the Marketplace by clicking (|image5|) icon located on the left tool ribbon.  This will open the Marketplace. Once Marketplace is displayed, the **Mongo** Blueprint icon should be visible...
 
