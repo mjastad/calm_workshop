@@ -48,8 +48,11 @@ I’ve seen IT organizations where the networking team is using one tool, the in
 
 Ansible can be thought of as general purpose tool for managing servers. This means that Ansible can be used as a:
 
-Server provisioning tool – build new vm, e.g. in aws. Ansible can also do orchestration, i.e. build+configure servers in a specific sequence. Ansible has a number of modules for communicating with aws, azure, google cloud, openstack,…etc.
-Configuration Management tool – i.e. configure OS and middleware tier Deployment tool – i.e. installing and configuring software that has been written in-house.
+- Server provisioning tool – build new vm, e.g. in aws. Ansible can also do orchestration, i.e. build+configure servers in a specific sequence. Ansible has a number of modules for communicating with aws, azure, google cloud, openstack,…etc.
+
+- Configuration Management tool – i.e. configure OS and middleware tier.
+
+- Deployment tool – i.e. installing and configuring software that has been written in-house.
 
 **Architecture**
 
