@@ -27,7 +27,7 @@ Pre-requisites
 **************
 
 - CentOS Server v7 VM created
-- Docker 17.x Installed
+- Docker 17.x Installed docker-installation_
 
 Glossary
 ********
@@ -42,3 +42,4 @@ Glossary
 - **Service:** In a distributed application, different pieces of the app are called “services.” For example, if you imagine a video sharing site, it probably includes a service for storing application data in a database, a service for video transcoding in the background after a user uploads something, a service for the front-end, and so on.  Services are really just “containers in production.” A service only runs one image, but it codifies the way that image runs—what ports it should use, how many replicas of the container should run so the service has the capacity it needs, and so on. Scaling a service changes the number of container instances running that piece of software, assigning more computing resources to the service in the process.
 
 
+.. _docker-installation:: ./calm_workshop_lab7_setup.rst
