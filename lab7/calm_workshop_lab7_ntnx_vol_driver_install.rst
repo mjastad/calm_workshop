@@ -47,7 +47,7 @@ Once you've configured the Docker Host VM, the plugin can be installed as follow
 
   $ docker plugin install ntnx/nutanix_volume_plugin:latest PRISM_IP="prism-ip" DATASERVICES_IP="dataservices-ip" PRISM_PASSWORD="prism-passwd" PRISM_USERNAME="username" DEFAULT_CONTAINER="some-storage-container" --alias nutanix
     
-**Note:**
+**Notes:**
  
 - PRISM_IP: Prism management IP address of the Nutanix cluster
 - DATASERVICES_IP: Data service IP configured in the Nutanix cluster
