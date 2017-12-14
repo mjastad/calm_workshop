@@ -26,8 +26,8 @@ application..
 Pre-requisites
 **************
 
-- CentOS Server v7 VM created
-- Docker 17.x Installed: docker-installation_ guide.
+- CentOS Server v7 VM created:  centos-setup_ guide for docker.
+- Docker 17.x Installed: docker-installation_ guide for docker.
 
 Glossary
 ********
@@ -43,3 +43,4 @@ Glossary
 
 
 .. _docker-installation: calm_workshop_lab7_setup.rst
+.. _centos-configuration: calm_workshop_lab7_centos_config.rst
