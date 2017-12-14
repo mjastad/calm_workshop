@@ -43,4 +43,4 @@ Glossary
 
 
 .. _docker-installation: calm_workshop_lab7_setup.rst
-.. _centos-configuration: calm_workshop_lab7_centos_config.rst
+.. _centos-setup: calm_workshop_lab7_centos_config.rst
