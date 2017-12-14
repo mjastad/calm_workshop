@@ -2,9 +2,20 @@
 **Configuring the NTNX Docker Plugin VM**
 ****************************************
 
-The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but hasn't been  tested.
+The Nutanix Docker Volume Plugin (DVP) enables Docker Containers to use storage persistently. Normally, if a container is moved from one container machine to another, storage does not move with it. The Acropolis Container Services (ACS) provide a storage volume plugin that enables Docker deployments to be integrated with Nutanix external storage systems and enable data volumes to persist beyond the lifetime of a single container machine host. This opens up all new possibilities for cloud-native apps while expanding container support for traditional workloads.
+
+Key Features
+
+- Simplified Container Management: easily spin up Docker hosts on Nutanix clusters to build and run stateful containerized applications
+
+- Container Plus Virtualized Applications: A common platform that supports both virtualized and containerized applications allow teams to explore and utilize containers without creating an infrastructure silo
+
+- Enterprise-Grade storage backing: The Nutanix Distributed File System (DSF) provides distributed access, built-in resiliency with self-healing capabilities, and many data protection and compression technologies
+
 
 **Pre-Requisites**
+
+The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but hasn't been  tested.
 
 - Install Docker version 17.x : 
 
