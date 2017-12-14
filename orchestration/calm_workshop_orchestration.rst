@@ -89,6 +89,8 @@ Ansible can be thought of as general purpose tool for managing servers. This mea
 
 Ansible has a controller-client type architecture, where you have one server (aka the controller) controlling lots of other servers (aka clients). However in ansible, you don’t need to install any ansible specific software on the client’s themselves. You only install ansible on the controller. I.e. it is an agentless architecture.  The controller communicates with all the clients via standard ssh.
 
+|image1|
+
 Ansible playbooks are essentially 1 or more scripts written in yaml. The puppet equivalent to playbooks is puppet manifests.
 
 In order for a client to be controlled by the Ansible server, it needs to have the following minimum requirements:
@@ -241,3 +243,5 @@ implemented in one of your divisions.
 
 
 .. |image0| image:: ./media/image1.png
+
+.. |image1| image:: ./media/image2.png
