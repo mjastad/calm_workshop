@@ -77,7 +77,43 @@ Developer machine issues knife commands. knife allows you to push Chef artifacts
 
 - Collections of recipes are stored in a cookbook. One cookbook should relate to a single task, but can have a number of different server configurations involved (for example a web application with a database, will have two recipes, one for each part, stored together in a cookbook).
 
+**Cookbooks**
+
+Cookbooks are the most important Chef artifacts. They contain default configuration, configuration file templates, resource providers, helper scripts, files and recipes. The most interesting part of cookbook is recipes. Recipes are sets of instruction that perform some kind of procedure – usually installs and configures some service but not necessarily.
+
 There is a Chef server which stores each of these cookbooks and as a new chef client node checks in with the server, recipes are sent to tell the node how to configure itself.
+
+**Recipes**
+
+It is the most fundamental configuration element within the organization. A recipe:
+
+- It Is authored using Ruby, which is a programming language designed to read and behave in a predictable manner
+
+- Is mostly a collection of resources, defined using patterns (resource names, attribute-value pairs, and actions); helper code is added around this using Ruby, when needed
+
+- Must define everything that is required to configure part of a system
+
+- Must be stored in a cookbook
+
+- May be included in a recipe
+
+- May use the results of a search query and read the contents of a data bag (including an encrypted data bag)
+
+- May have a dependency on one (or more) recipes
+
+- May tag a node to facilitate the creation of arbitrary groupings
+
+- Must be added to a run-list before it can be used by the chef-client
+Is always executed in the same order as listed in a run-list
+
+**Roles**
+
+Chef roles define a types of nodes in your infrastracture. They usually correspond to a service that node is running. You can use roles to group nodes. A single node can also be in multiple roles. Typical Rails application deployment infrastructure consists of the following roles:
+
+- Database server
+- Memcache/Redis server
+- Application server
+- Load balancer
 
 The client will then check in every now and again to make sure that no changes have occurred, and nothing needs to change. If it does, then the client deals with it. Patches and updates can be rolled out over your entire infrastructure by changing the recipe. No need to interact with each machine individually.
 
