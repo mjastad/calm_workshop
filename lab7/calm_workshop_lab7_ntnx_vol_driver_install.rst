@@ -1,5 +1,5 @@
 ****************************************
-**Configuring the NTNX DockerPlugin VM**
+**Configuring the NTNX Docker Plugin VM**
 ****************************************
 
 The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but hasn't been  tested.
