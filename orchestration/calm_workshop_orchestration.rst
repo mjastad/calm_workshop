@@ -49,7 +49,7 @@ Puppet is a solution that lets you control whats installed/configured on multipl
 
 In a puppetised environment, each agent checks-in with the puppet-master to see if it is set up the way it’s supposed to. If the answer is yes then nothing happens, if not, then the puppet master tells the agent what it should look like, then the node makes changes to itself accordingly to reflect this.
 
-|iamge0|
+|image0|
 
 The way this works is that on the puppet master you can define a “Desired State” for each of your nodes.   This desired state is declared in a syntax similar to a hash table’s syntax.
 
