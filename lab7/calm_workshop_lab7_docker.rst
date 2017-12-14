@@ -27,7 +27,8 @@ Pre-requisites
 **************
 
 - CentOS Server v7 VM created:  centos-setup_ guide for docker.
-- Docker 17.x Installed: docker-installation_ guide for docker.
+- Docker-CE 17.x Installed: docker-installation_ guide for docker.
+- NTNX Docker Plugin Installed: ntnx-plugin-setup_ guide for docker.
 
 Glossary
 ********
@@ -44,3 +45,4 @@ Glossary
 
 .. _docker-installation: calm_workshop_lab7_setup.rst
 .. _centos-setup: calm_workshop_lab7_centos_config.rst
+.. _ntnx-plugin-setup:calm_workshop:_lab7_ntnx_vol_driver_install.rst
