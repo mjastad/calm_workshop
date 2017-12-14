@@ -841,7 +841,7 @@ My suggestion is to explain the need for containerization first, containers are 
 Now give a definition of containers, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries, and configuration files needed to run it, bundled into one package. Containerizing the application platform and its dependencies removes the differences in OS distributions and underlying infrastructure.
 
 *********************************
-**containers - devops questions**
+**Containers - DevOps questions**
 *********************************
 
 **Q2. What are the advantages that Containerization provides over virtualization?**
