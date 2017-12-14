@@ -66,6 +66,8 @@ If a node doesn’t resemble a desired state, then we say that a “drift” has
 
 Chef is a configuration management tool for dealing with machine setup on physical servers, virtual machines and in the cloud. Many companies use Chef software to control and manage their infrastructure including Facebook, Etsy, Cheezburger, and Indiegogo.
 
+|image2|
+
 Chef helps solve this problem by treating infrastructure as code. Rather than manually changing anything, the machine setup is described in a Chef recipe.
 
 - Chef repository contains all your Chef artifacts. It’s recommended to have it in your version control system.
@@ -330,3 +332,5 @@ implemented in one of your divisions.
 .. |image0| image:: ./media/image1.png
 
 .. |image1| image:: ./media/image2.png
+
+.. |image2| image:: ./media/image3.png
