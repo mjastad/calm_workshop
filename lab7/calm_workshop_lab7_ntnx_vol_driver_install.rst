@@ -13,12 +13,11 @@ Key Features
 - Enterprise-Grade storage backing: The Nutanix Distributed File System (DSF) provides distributed access, built-in resiliency with self-healing capabilities, and many data protection and compression technologies
 
 
-**Pre-Requisites**
+**Requirements**
 
 The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but hasn't been  tested.
 
 - Install Docker version 17.x : 
-
 
 **Installation:**
 
