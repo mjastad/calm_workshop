@@ -972,7 +972,7 @@ Note that Docker does not run on Windows or Mac.
 You can answer this by saying, no I won’t loose my data when Dcoker container exits. Any data that your application writes to disk gets preserved in its container until you explicitly delete the container. The file system for the container persists even after the container halts.
 
 *************************
-**Additional Questions:**
+**Additional Questions**
 *************************
 
 **1. How does HTTP work?**
