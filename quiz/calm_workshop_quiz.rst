@@ -406,7 +406,7 @@ In DevOps, developers are required to commit all the changes made in the source 
 In this way, any change in the code is continuously tested unlike the traditional approach.
 
 ***************************************
-**automate testing - devops questions**
+**Automate testing - DevOps questions**
 ***************************************
 
 **Q5. Why is Continuous Testing important for DevOps?**
@@ -538,7 +538,7 @@ Now you should describe its architecture and how Puppet manages its Agents. Pupp
 Refer the diagram below that explains the above description.
 
 *************************************
-**what is puppet - devops questions**
+**What is puppet - DevOps questions**
 *************************************
 
 **Q7. Before a client can authenticate with the Puppet Master, its certs need to be signed and accepted. How will you automate this task?**
@@ -590,7 +590,7 @@ Now you can explain the architecture of Chef, it consists of:
 - Chef Workstation: A Chef Workstation is the host you use to modify your cookbooks and other configuration data.
 
 ****************************************
-**Chef architecture - devops questions**
+**Chef architecture - DevOps questions**
 ****************************************
 
 **Q14. What is a resource in Chef?**
