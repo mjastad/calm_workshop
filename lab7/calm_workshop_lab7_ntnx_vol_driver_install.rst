@@ -17,7 +17,7 @@ Key Features
 
 The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but hasn't been  tested.
 
-- Install Docker version 17.x : 
+- Install Docker version 17.x : docker-installation_
 
 **Installation:**
 
@@ -65,3 +65,5 @@ Check if plugin is installed and enabled using:
     db1d93096fb9        nutanix:latest      Nutanix volume plugin for docker   true
   
   
+
+.. _docker-installation: calm_workshop_lab7_setup.rst
