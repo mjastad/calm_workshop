@@ -27,7 +27,7 @@ Pre-requisites
 **************
 
 - CentOS Server v7 VM created
-- Docker 17.x Installed docker-installation_
+- Docker 17.x Installed: docker-installation_
 
 Glossary
 ********
