@@ -77,6 +77,33 @@ Developer machine issues knife commands. knife allows you to push Chef artifacts
 
 - Collections of recipes are stored in a cookbook. One cookbook should relate to a single task, but can have a number of different server configurations involved (for example a web application with a database, will have two recipes, one for each part, stored together in a cookbook).
 
+**Chef Server**
+
+The Chef server stores cookbooks, the policies that are applied to nodes, and metadata that describes each registered node that is being managed by the chef-client.
+
+Nodes use the chef-client to ask the Chef server for configuration details, such as recipes, templates, and file distributions.
+
+The chef-client then does as much of the configuration work as possible on the nodes themselves
+
+**Chef Client**
+
+It is a provisioning which works on server.
+
+Agent that runs locally on every node that is under management by Chef. When a chef- client is run, it will perform all of the steps that are required to bring the node into the expected state, including:
+
+- Registering and authenticating the node with the Chef server
+- Building the node object
+
+- Synchronizing cookbooks
+
+- Compiling the resource collection by loading each of the required cookbooks, including recipes, attributes, and all other dependencies
+
+- Taking the appropriate and required actions to configure the node
+
+- Looking for exceptions and notifications, handling each as required
+
+The client will then check in every now and again to make sure that no changes have occurred, and nothing needs to change. If it does, then the client deals with it. Patches and updates can be rolled out over your entire infrastructure by changing the recipe. No need to interact with each machine individually.
+
 **Cookbooks**
 
 Cookbooks are the most important Chef artifacts. They contain default configuration, configuration file templates, resource providers, helper scripts, files and recipes. The most interesting part of cookbook is recipes. Recipes are sets of instruction that perform some kind of procedure – usually installs and configures some service but not necessarily.
@@ -106,16 +133,31 @@ It is the most fundamental configuration element within the organization. A reci
 - Must be added to a run-list before it can be used by the chef-client
 Is always executed in the same order as listed in a run-list
 
+**Knife**
+
+Chef's command-line tool called to interact with the Chef Server.
+
+- Use it for uploading cookbooks and managing other aspects of Chef.
+
+- Command-line tool that provides an interface between a local chef-repo and the Chef server. knife helps users to manage:
+Nodes,Cookbooks and recipes
+
 **Roles**
 
-Chef roles define a types of nodes in your infrastracture. They usually correspond to a service that node is running. You can use roles to group nodes. A single node can also be in multiple roles. Typical Rails application deployment infrastructure consists of the following roles:
+Chef roles define a types of nodes in your infrastracture and are stored as json data (data bags), inlcuding encrypted data. They usually correspond to a service that node is running. You can use roles to group nodes. A single node can also be in multiple roles. Typical Rails application deployment infrastructure consists of the following roles:
 
 - Database server
 - Memcache/Redis server
 - Application server
 - Load balancer
 
-The client will then check in every now and again to make sure that no changes have occurred, and nothing needs to change. If it does, then the client deals with it. Patches and updates can be rolled out over your entire infrastructure by changing the recipe. No need to interact with each machine individually.
+**Data Bags**
+
+Global variable that is stored as JSON data and is accessible from a Chef server.
+
+- It can be created in two ways: using knife or manually.
+
+- It helps you manage and configure nodes information on the server in an easy way.
 
 **Ansible Overview**
 ********************
