@@ -180,6 +180,115 @@ This port remapping of 4000:80 is to demonstrate the difference between what you
 
 Hit CTRL+C in your terminal to quit.
   
+Now let’s run the app in the background, in detached mode:
+
+.. code-block:: bash
+
+  $ docker run -d -p 4000:80 calmWorkshop
+  
+You get the long container ID for your app and then are kicked back to your terminal. Your container is running in the background. You can also see the abbreviated container ID with docker container ls (and both work interchangeably when running commands):
+
+.. code-block:: bash
+
+  $ docker container ls
+    CONTAINER ID        IMAGE               COMMAND             CREATED
+    1fa4ab2cf395        friendlyhello       "python app.py"     28 seconds ago
+
+You’ll see that CONTAINER ID matches what’s on http://localhost:4000.
+
+Now use docker container stop to end the process, using the CONTAINER ID, like so:
+
+.. code-block:: bash
+
+  $ docker container stop 1fa4ab2cf395
+
+Image sharing
+*************
+
+To demonstrate the portability of what we just created, let’s upload our built image and run it somewhere else. After all, you’ll need to learn how to push to registries when you want to deploy containers to production.
+
+A registry is a collection of repositories, and a repository is a collection of images—sort of like a GitHub repository, except the code is already built. An account on a registry can create many repositories. The docker CLI uses Docker’s public registry by default.
+
+**Note:** We’ll be using Docker’s public registry here just because it’s free and pre-configured, but there are many public ones to choose from, and you can even set up your own private registry using Docker Trusted Registry.
+
+
+**Log in with your Docker ID**
+
+If you don’t have a Docker account, sign up for one at cloud.docker.com. Make note of your username.
+
+Log in to the Docker public registry on your local machine.
+
+.. code-block:: bash
+
+  $ docker login
+
+**Tag the image**
+
+The notation for associating a local image with a repository on a registry is username/repository:tag. The tag is optional, but recommended, since it is the mechanism that registries use to give Docker images a version. Give the repository and tag meaningful names for the context, such as get-started:part2. This will put the image in the get-started repository and tag it as part2.
+
+Now, put it all together to tag the image. Run docker tag image with your username, repository, and tag names so that the image will upload to your desired destination. The syntax of the command is:
+
+.. code-block:: bash
+
+  docker tag image username/repository:tag
+
+For example:
+
+.. code-block:: bash
+
+  $ docker tag calmWorkshop dogfish/get-started:part2
+
+Run docker images to see your newly tagged image. (You can also use docker image ls.)
+
+.. code-block:: bash
+
+  $ docker images
+    REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
+    almWorkshop              latest              d9e555c53008        3 minutes ago       195MB
+    dogfish/get-started      part2               d9e555c53008        3 minutes ago       195MB
+    python                   2.7-slim            1c7128a655f6        5 days ago          183MB
+    ...
+    
+Publish the image
+*****************
+
+Upload your tagged image to the repository:
+
+.. code-block:: bash
+
+  $ docker push username/repository:tag
+
+Once complete, the results of this upload are publicly available. If you log in to Docker Hub, you will see the new image there, with its pull command.
+
+Pull and run the image from the remote repository
+From now on, you can use docker run and run your app on any machine with this command:
+
+.. code-block:: bash
+
+  $ docker run -p 4000:80 username/repository:tag
+
+If the image isn’t available locally on the machine, Docker will pull it from the repository.
+
+.. code-block:: bash
+
+  $ docker run -p 4000:80 dogfish/get-started:part2
+    Unable to find image 'dogfish/get-started:part2' locally
+    part2: Pulling from dogfish/get-started
+    10a267c67f42: Already exists
+    f68a39a6a5e4: Already exists
+    9beaffc0cf19: Already exists
+    3c1fe835fb6b: Already exists
+    4c9f1fa8fcb8: Already exists
+    ee7d8f576a14: Already exists
+    fbccdcced46e: Already exists
+    Digest: sha256:0601c866aab2adcc6498200efd0f754037e909e5fd42069adeff72d1e2439068
+    Status: Downloaded newer image for john/get-started:part2
+    
+Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+
+**Note:** If you don’t specify the :tag portion of these commands, the tag of :latest will be assumed, both when you build and when you run images. Docker will use the last version of the image that ran without a tag specified (not necessarily the most recent image).
+
+No matter where docker run executes, it pulls your image, along with Python and all the dependencies from requirements.txt, and runs your code. It all travels together in a neat little package, and the host machine doesn’t have to install anything but Docker to run it.
 
 
 .. _docker-installation: calm_workshop_lab7_setup.rst
