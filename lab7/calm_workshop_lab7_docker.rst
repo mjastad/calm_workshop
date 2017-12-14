@@ -128,7 +128,7 @@ Now we see that *pip install -r requirements.txt* installs the Flask and Redis l
 
 That’s it! You don’t need Python or anything in requirements.txt on your system, nor will building or running this image install them on your system. It doesn’t seem like you’ve really set up an environment with Python and Flask, but you have.
 
-Build the application
+Build the Application
 *********************
 
 We are ready to build the app. Make sure you are still at the top level of your new directory. Here’s what ls should show:
@@ -155,8 +155,8 @@ Where is your built image? It’s in your machine’s local Docker image registr
     
 Tip: You can use the commands docker images or the newer docker image ls list images. They give you the same output.
 
-Run the app
-***********
+Run the Application
+*******************
 
 Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
 
