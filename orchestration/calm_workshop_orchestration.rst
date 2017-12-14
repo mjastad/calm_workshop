@@ -68,7 +68,14 @@ Chef is a configuration management tool for dealing with machine setup on physic
 
 Chef helps solve this problem by treating infrastructure as code. Rather than manually changing anything, the machine setup is described in a Chef recipe.
 
-Collections of recipes are stored in a cookbook. One cookbook should relate to a single task, but can have a number of different server configurations involved (for example a web application with a database, will have two recipes, one for each part, stored together in a cookbook).
+- Chef repository contains all your Chef artifacts. It’s recommended to have it in your version control system.
+Developer machine issues knife commands. knife allows you to push Chef artifacts to Chef server or query information about your infrastructure from Chef server. You can also use knife to manually execute commands on nodes in your infrastructure.
+
+- Chef server is a central point of Chef architecture. It has all your cookbooks and settings. It tracks information about all nodes in your infrastructure.
+
+- Nodes are machines managed by Chef. Nodes pull cookbooks and configuration from Chef server.
+
+- Collections of recipes are stored in a cookbook. One cookbook should relate to a single task, but can have a number of different server configurations involved (for example a web application with a database, will have two recipes, one for each part, stored together in a cookbook).
 
 There is a Chef server which stores each of these cookbooks and as a new chef client node checks in with the server, recipes are sent to tell the node how to configure itself.
 
