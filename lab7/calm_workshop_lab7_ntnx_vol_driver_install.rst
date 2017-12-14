@@ -17,7 +17,6 @@ Installed the iscsi initiators utilities:
 
   $ yum install iscsi-initiator-utils
 
-
 Start the iscsi daemon:
 
 .. clode-block:: bash
