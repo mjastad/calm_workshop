@@ -168,7 +168,17 @@ You should see a message that Python is serving your app at http://0.0.0.0:80. B
 
 Go to that URL in a web browser to see the display content served up on a web page, including “Hello World” text, the container ID, and the Redis error message.
 
-*Hello Calm* in browser
+*You can also use the curl command in a shell to view the same content.
+
+.. code-block:: bash
+
+  $ curl http://localhost:4000
+
+    <h3>Hello nucalm!</h3><b>Hostname:</b> 8fc990912a14<br/><b>Visits:</b> <i>cannot connect to Redis, counter disabled</i>
+
+This port remapping of 4000:80 is to demonstrate the difference between what you EXPOSE within the Dockerfile, and what you publish using docker run -p. In later steps, we’ll just map port 80 on the host to port 80 in the container and use http://localhost.
+
+Hit CTRL+C in your terminal to quit.
   
 
 
