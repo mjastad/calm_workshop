@@ -1,8 +1,8 @@
-***************************
-**Configuring the host VM**
-***************************
+****************************************
+**Configuring the NTNX DockerPlugin VM**
+****************************************
 
-The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but we haven't tested them yet.
+The plugin has been qualified on Centos 7, Rhel 7.3 and Ubuntu 16.04.2. It may work for older versions, but hasn't been  tested.
 
 1. Install a Docker version >= 1.13 by following the instructions here
 2. yum install iscsi-initiator-utils
