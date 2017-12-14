@@ -23,15 +23,15 @@ In this lab participants will learn how to install and configure Docker.  Once D
 will learn to create and deploy a container...  Once completed, participants will containerize and deploy a 3 Tier LAMP
 application..
 
-Pre-requisites
-**************
+Requirements:
+*************
 
 - CentOS Server v7 VM created:  centos-setup_ guide for docker.
 - Docker-CE 17.x Installed: docker-installation_ guide for docker.
 - NTNX Docker Plugin Installed: ntnx-plugin-setup_ guide for docker.
 
-Glossary
-********
+Glossary:
+*********
 
 
 - **Image:** An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
@@ -42,7 +42,8 @@ Glossary
 
 - **Service:** In a distributed application, different pieces of the app are called “services.” For example, if you imagine a video sharing site, it probably includes a service for storing application data in a database, a service for video transcoding in the background after a user uploads something, a service for the front-end, and so on.  Services are really just “containers in production.” A service only runs one image, but it codifies the way that image runs—what ports it should use, how many replicas of the container should run so the service has the capacity it needs, and so on. Scaling a service changes the number of container instances running that piece of software, assigning more computing resources to the service in the process.
 
-**Create Dockerfile:**
+Create Dockerfile:
+******************
 
 Create an empty directory. Change directories (cd) into the new directory, create a file called Dockerfile, copy-and-paste the following content into that file, and save it. Take note of the comments that explain each statement in your new Dockerfile.
 
@@ -80,18 +81,19 @@ Proxy servers can block connections to your web app once it’s up and running. 
 
 This Dockerfile refers to a couple of files we haven’t created yet, namely app.py and requirements.txt. Let’s create those next.
 
-**Builing the Application:**
+Create the Application:
+***********************
 
 Create two more files, **requirements.txt** and **app.py**, and put them in the same folder with the Dockerfile. This completes our app, which as you can see is quite simple. When the above Dockerfile is built into an image, app.py and requirements.txt will be present because of that Dockerfile’s ADD command, and the output from app.py will be accessible over HTTP thanks to the EXPOSE command.
 
-*requirements.txt*
+**requirements.txt**
 
 .. code-block:: bash
 
   Flask
   Redis
 
-*app.py*
+**app.py**
 
 .. code-block:: python
 
@@ -126,7 +128,8 @@ Now we see that *pip install -r requirements.txt* installs the Flask and Redis l
 
 That’s it! You don’t need Python or anything in requirements.txt on your system, nor will building or running this image install them on your system. It doesn’t seem like you’ve really set up an environment with Python and Flask, but you have.
 
-**Build the app**
+Build the application
+*********************
 
 We are ready to build the app. Make sure you are still at the top level of your new directory. Here’s what ls should show:
 
@@ -152,7 +155,8 @@ Where is your built image? It’s in your machine’s local Docker image registr
     
 Tip: You can use the commands docker images or the newer docker image ls list images. They give you the same output.
 
-**Run the app**
+Run the app
+***********
 
 Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
 
@@ -164,7 +168,7 @@ You should see a message that Python is serving your app at http://0.0.0.0:80. B
 
 Go to that URL in a web browser to see the display content served up on a web page, including “Hello World” text, the container ID, and the Redis error message.
 
-**Hello Calm** in browser
+*Hello Calm* in browser
   
 
 
