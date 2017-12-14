@@ -45,4 +45,4 @@ Glossary
 
 .. _docker-installation: calm_workshop_lab7_setup.rst
 .. _centos-setup: calm_workshop_lab7_centos_config.rst
-.. _ntnx-plugin-setup:calm_workshop:_lab7_ntnx_vol_driver_install.rst
+.. _ntnx-plugin-setup: calm_workshop_lab7_ntnx_vol_driver_install.rst
