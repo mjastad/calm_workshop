@@ -283,8 +283,7 @@ If the image isn’t available locally on the machine, Docker will pull it from 
     fbccdcced46e: Already exists
     Digest: sha256:0601c866aab2adcc6498200efd0f754037e909e5fd42069adeff72d1e2439068
     Status: Downloaded newer image for john/get-started:part2
-    
-Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+    * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 
 **Note:** If you don’t specify the :tag portion of these commands, the tag of :latest will be assumed, both when you build and when you run images. Docker will use the last version of the image that ran without a tag specified (not necessarily the most recent image).
 
