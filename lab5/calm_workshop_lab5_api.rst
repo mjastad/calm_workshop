@@ -59,7 +59,7 @@ Then let’s install python-pip and any required packages:
 
   $ yum -y install python-pip
   
-View a list of helpful commands, and Check the version of Pip that is installed:
+View a list of helpful commands, and check the version of *pip* that is installed:
 
 .. code-block:: bash
 
