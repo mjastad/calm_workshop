@@ -25,6 +25,7 @@ Requirements:
 *************
 
 - CentOS Server v7 VM created:  centos-setup_ guide for docker.
+- Python 2.7.x
 - Git Hub Account: https://github.com
 
 
