@@ -29,6 +29,7 @@ Requirements:
 - CentOS Server v7 VM created:  centos-setup_ guide for docker.
 - Docker-CE 17.x Installed: docker-installation_ guide for docker.
 - NTNX Docker Plugin Installed: ntnx-plugin-setup_ guide for docker.
+- Docker Hub Account.
 
 Glossary:
 *********
