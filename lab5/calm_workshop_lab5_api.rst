@@ -1,5 +1,5 @@
 ********************************
-**NuCalm REST APIs annd Macros**
+**NuCalm REST APIs and Macros**
 ********************************
 
 .. contents::
