@@ -46,9 +46,9 @@ Pip is part of Extra Packages for Enterprise Linux (EPEL), which is a community 
 
   $ yum install epel-release
   
- As a matter of best practice we’ll update our package(s)
+As a matter of best practice we’ll update our package(s)
  
- .. code-block:: bash
+.. code-block:: bash
  
   $ yum -y update
 
