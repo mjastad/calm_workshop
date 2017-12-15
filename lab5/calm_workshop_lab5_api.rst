@@ -57,3 +57,35 @@ Then let’s install python-pip and any required packages:
 .. code-block:: bash
 
   $ yum -y install python-pip
+  
+View a list of helpful commands, and Check the version of Pip that is installed:
+
+.. code-block:: bash
+
+  $ pip --help
+  $ pip -v
+  
+Once *pip has been installed and verified, we can now install *requests* as follows:
+
+.. code-block:: bash
+
+  $ pip install requests
+
+    Collecting requests
+      Downloading requests-2.18.4-py2.py3-none-any.whl (88kB)
+        100% |████████████████████████████████| 92kB 6.9MB/s 
+    Collecting certifi>=2017.4.17 (from requests)
+      Downloading certifi-2017.11.5-py2.py3-none-any.whl (330kB)
+        100% |████████████████████████████████| 337kB 3.4MB/s 
+    Collecting chardet<3.1.0,>=3.0.2 (from requests)
+      Downloading chardet-3.0.4-py2.py3-none-any.whl (133kB)
+        100% |████████████████████████████████| 143kB 6.8MB/s 
+    Collecting idna<2.7,>=2.5 (from requests)
+      Downloading idna-2.6-py2.py3-none-any.whl (56kB)
+        100% |████████████████████████████████| 61kB 10.4MB/s 
+    Collecting urllib3<1.23,>=1.21.1 (from requests)
+      Downloading urllib3-1.22-py2.py3-none-any.whl (132kB)
+        100% |████████████████████████████████| 133kB 7.4MB/s 
+    Installing collected packages: certifi, chardet, idna, urllib3, requests
+    Successfully installed certifi-2017.11.5 chardet-3.0.4 idna-2.6 requests-2.18.4 urllib3-1.22
+
