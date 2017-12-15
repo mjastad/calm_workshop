@@ -193,7 +193,7 @@ You get the long container ID for your app and then are kicked back to your term
 
   $ docker container ls
     CONTAINER ID        IMAGE               COMMAND             CREATED
-    1fa4ab2cf395        friendlyhello       "python app.py"     28 seconds ago
+    1fa4ab2cf395        calmWorkshop        "python app.py"     28 seconds ago
 
 You’ll see that CONTAINER ID matches what’s on http://localhost:4000.
 
@@ -283,7 +283,7 @@ If the image isn’t available locally on the machine, Docker will pull it from 
     ee7d8f576a14: Already exists
     fbccdcced46e: Already exists
     Digest: sha256:0601c866aab2adcc6498200efd0f754037e909e5fd42069adeff72d1e2439068
-    Status: Downloaded newer image for john/get-started:part2
+    Status: Downloaded newer image for dogfish/get-started:part2
     * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 
 **Note:** If you don’t specify the :tag portion of these commands, the tag of :latest will be assumed, both when you build and when you run images. Docker will use the last version of the image that ran without a tag specified (not necessarily the most recent image).
