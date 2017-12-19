@@ -74,21 +74,34 @@ Part 3: Marketplace Manager - Approve Blueprint
 
 **Note:** You must be logged in as Admin or have an Admin role to access the *Marketplace Manager*
 
-Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager where Blueprints are staged for MArketplace publication.  As you scroll the Blueprints, you will not see the Blueprint published from the *Blueprint Workspace*.  This is becuase the Blueprnt requires approval.
+Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager where Blueprints are staged for Marketplace publication.  Scrolling through the Blueprints, you will not sfind the Blueprint published from the *Blueprint Workspace*.  This is becuase the Blueprnt requires approval.
 
-To approve the Blueprint, click the *Approval Pending* action located along the top tool-bar of the *Marketplace Manager* and then click the checkbox to the left of the *Blueprint Name*. You can choose to reject, approve, or launch the blueprint.
+To approve the Blueprint, click the *Approval Pending* action located along the top tool-bar of the *Marketplace Manager*.
+
+|image7|
+
+Click the checkbox to the left of the *Blueprint Name*. 
+
+|image8|
+
+You can choose to reject, approve, or launch the blueprint.
 
 - Reject: Changes the state fo the blueprint publication and stages it in *Approval Pending*
 - Approve: Approves the blueprint for publication.
 - Launch: Launches the Blueprint as an application - the same as *Blueprint Workspace*
 
-Click *Approve* to approve the Bluerpint for publication (it may require approval 2x).  Once approved 
+Click *Approve* to approve the Bluerpint for publication.  Once the application has been siccessfully approved, assign the *Category* and *Project shared with* as shown below and click *Apply*.
 
-|image7|
+|image9|
+
+Click *Publish* to publish the Blueprint ot the Marketplace. once successfully published, the dialog should appear as follows:
+
+|image10|
 
 
+Verify the Blueprint's publication status by clicking on the *Marketplace Blueprints* action located in the tool-bar along the top of the *Marketplace Manager*.  Scroll through the Blueprints to find your Blueprint
 
-|image7|
+|image11|
 
 Part 4: Edit + Debug + Launch Cloned Blueprint
 **********************************************
@@ -123,14 +136,14 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 
 .. |image20| image:: ./media/image11.png
 
-.. |image7| image:: ./media/image13.png
+.. |image7| image:: ./media/image19.png
 
-.. |image8| image:: ./media/image14.png
+.. |image8| image:: ./media/image20.png
 
-.. |image9| image:: ./media/image15.png
+.. |image9| image:: ./media/image21.png
 
-.. |image10| image:: ./media/image16.png
+.. |image10| image:: ./media/image22.png
 
-.. |image11| image:: ./media/image17.png
+.. |image11| image:: ./media/image23.png
 
  
