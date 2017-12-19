@@ -58,13 +58,15 @@ Part 2: Blueprint Workspace - Publish Blueprints
 
 Navigate to the *Blueprint Workspace* by clicking (|image1|) icon located on the left tool ribbon.  This will open the Blueprint Workspace where self-authored blueprints are staged for editing, publishing, or launching as an application.
 
-Select an *Active* working Blueprint by clicking on the *Name* and opening the workspace.  With the workspace open, Click the |image2| action located at the top of the Blueprint workspace tool bar. 
+|image2|
 
-|image3|
+Select an *Active* working Blueprint by clicking on the *Name* and opening the workspace.  With the workspace open, Click the |image3| action located at the top of the Blueprint workspace tool bar. 
+
+|image4|
 
 Once a working Blueprint has been selected, a catalog is displayed to the right of the grid containing a blueprint description, category, and project assignment. Insure both **Database** and **Calm** are selected for the categroy and project repsectively, and click *apply*.
 
-|image3|
+|image4|
 
 Click **Publish**, and wait until the Blueprint status shows *published* in the grid as shown below.
 
@@ -100,12 +102,14 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 
 
 .. |image0| image:: ./media/image2.png
+
+.. |image1| image:: ./media/image17.png
    
-.. |image1| image:: ./media/image14.png
+.. |image2| image:: ./media/image14.png
 
-.. |image2| image:: ./media/image16.png
+.. |image3| image:: ./media/image16.png
 
-.. |image3| image:: ./media/image15.png
+.. |image4| image:: ./media/image15.png
 
 .. |image4| image:: ./media/image9.png
 
