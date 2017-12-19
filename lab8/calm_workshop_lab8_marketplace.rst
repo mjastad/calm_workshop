@@ -138,7 +138,7 @@ Navigate to the Marketplace by clicking (|image6|) icon located on the left tool
 |image12|
 
 
-Click the Blueprint Icon associated witht he previous publish exercises and then click **Launch** to deploy the Blueprint as an application.
+Click the Blueprint Icon associated with the previous **Publish** exercises/steps and then click **Launch** to deploy the Blueprint as an application.
 
 |image16|
 
