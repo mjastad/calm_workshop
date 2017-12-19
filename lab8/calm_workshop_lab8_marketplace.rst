@@ -64,18 +64,15 @@ Select an *Active* working Blueprint by clicking on the *Name* and opening the w
 
 |image4|
 
-Once a working Blueprint has been selected, a catalog is displayed to the right of the grid containing a blueprint description, category, and project assignment. Insure both **Database** and **Calm** are selected for the categroy and project repsectively, and click *apply*.
+A modal dialog will appear.  Verify the *Name* and *Description*, and click the Publish button. 
 
-|image4|
+|image5|
 
-Click **Publish**, and wait until the Blueprint status shows *published* in the grid as shown below.
-
-|image4|
 
 Part 3: Marketplace Manager - Approve Blueprint
 ***********************************************
 
-Navigate to the Marketplace by clicking (|image5|) icon located on the left tool ribbon.  This will open the Marketplace. Once Marketplace is displayed, the **Mongo** Blueprint icon should be visible...
+Navigate to the Marketplace Manager by clicking (|image5|) icon located on the left tool ribbon.  This will open the Marketplace Manager. Once Marketplace Manager is displayed, the **Mongo** Blueprint icon should be visible...
 
 |image6|
 
