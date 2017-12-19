@@ -110,18 +110,25 @@ Navigate to the Marketplace by clicking (|image6|) icon located on the left tool
 Part 4: Edit Project Workspace
 **********************************************
 
-Before a Bluerpint can be launched from the MArketplace the Navigate the Blueprint workspace by clicking the (|image8|) icon located on the left tool ribbon.  This will open the Blueprint Workspace. 
+Before a Bluerpint can be launched from the Marketplace the Project's Environment needs to be configured with:
 
-|image9|
+- **USER:** .  Uerid and password for logging into the VM
+- **Network:** A Network for the Blueprint to launch from.
 
-Click the red exclamation point to see a list fo error desriptions.  
+This can be done in the Projects Manager. Navigate to the the Projects Manager by clicking the(|image13|)icon located on the left tool ribbon.  This will open the Projects Manager where projects are persisted.
 
-|image10|
+|image14|
 
-Fix each of the errors listed within the Blueprint.  Once all the errors have been corrected, make additional changes to each of the **Mongo** services (i.e. VM, Package, etc...) and launch the blueprint.  Continue to make chnages until the the Blueprint successfully deploys.  
+Click the Project name associated with or assigned to with Blueprint during publication.  For this exercise the project is **Calm**.
 
-|image11|
+To assign a user and a network to the Project, click the **Environment** action located along the top tool-bar of the **Project Manager**.  Scroll through the environment settings and find **Network** and **Credentials** and configure them as you did with the blueprint.
 
+- **Network:**  *bootcamp*
+- **Credentials**: *user: root*, *password: nutanix/4u*
+
+|image15|
+
+Once configured, click save.
 
 
 .. |image0| image:: ./media/image2.png
@@ -151,5 +158,11 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 .. |image11| image:: ./media/image23.png
 
 .. |image12| image:: ./media/image24.png
+
+.. |image13| image:: ./media/image25.png
+
+.. |image14| image:: ./media/image26.png
+
+.. |image15| image:: ./media/image27.png
 
  
