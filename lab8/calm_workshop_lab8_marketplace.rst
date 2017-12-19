@@ -107,10 +107,10 @@ Navigate to the Marketplace by clicking (|image6|) icon located on the left tool
 
 |image12|
 
-Part 4: Edit + Debug + Launch Cloned Blueprint
+Part 4: Edit Project Workspace
 **********************************************
 
-Navigate the Blueprint workspace by clicking the (|image8|) icon located on the left tool ribbon.  This will open the Blueprint Workspace. 
+Before a Bluerpint can be launched from the MArketplace the Navigate the Blueprint workspace by clicking the (|image8|) icon located on the left tool ribbon.  This will open the Blueprint Workspace. 
 
 |image9|
 
