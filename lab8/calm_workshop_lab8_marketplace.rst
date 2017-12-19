@@ -103,9 +103,9 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 
 .. |image0| image:: ./media/image2.png
 
-.. |image1| image:: ./media/image17.png
+.. |image1| image:: ./media/image14.png
    
-.. |image2| image:: ./media/image14.png
+.. |image2| image:: ./media/image17.png
 
 .. |image3| image:: ./media/image16.png
 
