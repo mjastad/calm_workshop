@@ -58,12 +58,11 @@ Part 2: Blueprint Workspace - Publish Blueprints
 
 Navigate to the *Blueprint Workspace* by clicking (|image1|) icon located on the left tool ribbon.  This will open the Blueprint Workspace where self-authored blueprints are staged for editing, publishing, or launching as an application.
 
-Select a working Blueprint and click the *Publish* action located at the top of the Blueprint workspace tool bar. 
+Select an *Active* working Blueprint by clicking on the *Name* and opening the workspace.  With the workspace open, Click the |image2| action located at the top of the Blueprint workspace tool bar. 
 
+|image3|
 
-|image2|
-
-Once the **Mongo** Blueprint has been selected, a catalog is displayed to the right of the grid containing a blueprint description, category, and project assignment. Insure both **Database** and **Calm** are selected for the categroy and project repsectively, and click *apply*.
+Once a working Blueprint has been selected, a catalog is displayed to the right of the grid containing a blueprint description, category, and project assignment. Insure both **Database** and **Calm** are selected for the categroy and project repsectively, and click *apply*.
 
 |image3|
 
@@ -71,8 +70,8 @@ Click **Publish**, and wait until the Blueprint status shows *published* in the 
 
 |image4|
 
-**Part 3: Marketplace - Clone Blueprint**
-*****************************************
+Part 3: Marketplace Manager - Approve Blueprint
+***********************************************
 
 Navigate to the Marketplace by clicking (|image5|) icon located on the left tool ribbon.  This will open the Marketplace. Once Marketplace is displayed, the **Mongo** Blueprint icon should be visible...
 
@@ -102,11 +101,11 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 
 .. |image0| image:: ./media/image2.png
    
-.. |image1| image:: ./media/image4.png
+.. |image1| image:: ./media/image14.png
 
-.. |image2| image:: ./media/image5.png
+.. |image2| image:: ./media/image16.png
 
-.. |image3| image:: ./media/image8.png
+.. |image3| image:: ./media/image15.png
 
 .. |image4| image:: ./media/image9.png
 
