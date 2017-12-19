@@ -72,17 +72,26 @@ A modal dialog will appear.  Verify the *Name* and *Description*, and click the 
 Part 3: Marketplace Manager - Approve Blueprint
 ***********************************************
 
-Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager. Once Marketplace Manager is displayed, the **Mongo** Blueprint icon should be visible...
+**Note:** You must be logged in as Admin or have an Admin role to access the *Marketplace Manager*
 
-|image6|
+Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager where Blueprints are staged for MArketplace publication.  As you scroll the Blueprints, you will not see the Blueprint published from the *Blueprint Workspace*.  This is becuase the Blueprnt requires approval.
 
+To approve the Blueprint, click the *Approval Pending* action located along the top tool-bar of the *Marketplace Manager* and then click the checkbox to the left of the *Blueprint Name*. You can choose to reject, approve, or launch the blueprint.
 
-Click the **Mongo** Blueprint Icon and then click **Clone** to copy the bluerpint to the Blueprint workspace for editing.
+- Reject: Changes the state fo the blueprint publication and stages it in *Approval Pending*
+- Approve: Approves the blueprint for publication.
+- Launch: Launches the Blueprint as an application - the same as *Blueprint Workspace*
+
+Click *Approve* to approve the Bluerpint for publication (it may require approval 2x).  Once approved 
 
 |image7|
 
-**Part 4: Edit + Debug + Launch Cloned Blueprint**
-**************************************************
+
+
+|image7|
+
+Part 4: Edit + Debug + Launch Cloned Blueprint
+**********************************************
 
 Navigate the Blueprint workspace by clicking the (|image8|) icon located on the left tool ribbon.  This will open the Blueprint Workspace. 
 
