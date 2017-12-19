@@ -133,7 +133,27 @@ Once configured, click save.
 Part 5: Launch Blueprint from the Marketplace
 **********************************************
 
+Navigate to the Marketplace by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace. Once Marketplace is displayed, the Blueprint icon published from previous steps should be visible...
 
+|image12|
+
+
+Click the Blueprint Icon associated witht he previous publish exercises and then click **Launch** to deploy the Blueprint as an application.
+
+|image16|
+
+
+A Modal dialog will appear allowing you to select the project.  Select the **Calm** Project and click *Launch*.
+
+|image17|
+
+Assign a name to the Applcation and click *Create*
+
+|image18|
+
+Monitor the execution of the Applciation until complete.
+
+|image19|
 
 
 .. |image0| image:: ./media/image2.png
@@ -169,5 +189,16 @@ Part 5: Launch Blueprint from the Marketplace
 .. |image14| image:: ./media/image26.png
 
 .. |image15| image:: ./media/image27.png
+
+.. |image16| image:: ./media/image28.png
+
+.. |image17| image:: ./media/image29.png
+
+.. |image18| image:: ./media/image30.png
+
+.. |image19| image:: ./media/image31.png
+
+
+
 
  
