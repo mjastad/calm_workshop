@@ -5,8 +5,8 @@
 .. contents::
 
 
-**Connectivity Instructions:**
-******************************
+Connectivity Instructions:
+**************************
 
 +------------+--------------------------------------------------------+
 | IP         |                                           Cluster IP   |
@@ -16,8 +16,8 @@
 | Password   |                                           Cluster Pass | 
 +------------+--------------------------------------------------------+
 
-**Calm Glossary**
-*****************
+Calm Glossary
+*************
 
 **Service:** One tier of a multiple tier application. This can be made up of 1 more VMs (or existing machines) that all have the same config and do the same thing **Application (App):** A whole application with multiple parts that are all working towards the same thing (for example, a Web Application might be made up of an Apache Server, a MySQL database and a HAProxy Load balancer. Alone each service doesn’t do much, but as a whole they do what they’re supposed to) **Macro:** A Calm construct that is evaluated before being ran on the target machine. Macros and Variables are denoted in the *@@{[name]}@@* format in the scripts.
 
@@ -28,8 +28,16 @@ In this lab participants will learn how to manage Blueprints within the NuCalm M
 participants should know how to navigate Marketplace Management and configure the Project Environment to deploy Blueprints
 from the Marketplace.
 
-**Part 1: Accessing and Navigating Calm**
-*****************************************
+In this exercise we'll walk through the steps to:
+
+1. Publish a Blueprint from the Blueprint Workspace to the local Marketplace.
+2. Use the Marketplace Manager to approve, assign roles and projects, and publish to the Marketplace.
+3. Edit the Project Environment so the blueprint can be launched from the Marketplace as an application.
+
+**Note:** This lab assumes pariticipants have Blueprints built and staged from previous exercises. 
+
+Part 1: Accessing and Navigating Calm
+*************************************
 
 Getting Familiar with the Tools
 
@@ -45,18 +53,13 @@ Users are dropped into the Applications tab by default, and can see all the appl
 
 |image0|
 
-**Part 2: Marketplace Control - Publish Blueprints**
-****************************************************
+Part 2: Blueprint Workspace - Publish Blueprints
+************************************************
 
-Navigate the Marketplace control by clicking (|image1|) icon located on the left tool ribbon.  This will open the Marketplace Control Center where pre-configured and self-authored blueprints are staged for publishing to the local Marketplace used for teaming and collaboration.
+Navigate to the *Blueprint Workspace* by clicking (|image1|) icon located on the left tool ribbon.  This will open the Blueprint Workspace where self-authored blueprints are staged for editing, publishing, or launching as an application.
 
-In this exercise we'll walk through the steps to:
+Select a working Blueprint and click the *Publish* action located at the top of the Blueprint workspace tool bar. 
 
-1. Publish the pre-configured MongoDB Blueprint to the local Marketplace
-2. Clone the Blueprint from the Marketplace for editing.
-3. Edit the blueprint and launch as an application.
-
-Make sure *Marketplace Blueprints* is selected along the top of the Blueprint grid. Locate the **Mongo** blueprint within the grid and click the checkbox.
 
 |image2|
 
