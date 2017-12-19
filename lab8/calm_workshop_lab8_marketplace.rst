@@ -130,6 +130,11 @@ To assign a user and a network to the Project, click the **Environment** action 
 
 Once configured, click save.
 
+Part 5: Launch Blueprint from the Marketplace
+**********************************************
+
+
+
 
 .. |image0| image:: ./media/image2.png
 
