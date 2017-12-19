@@ -90,18 +90,22 @@ You can choose to reject, approve, or launch the blueprint.
 - Approve: Approves the blueprint for publication.
 - Launch: Launches the Blueprint as an application - the same as *Blueprint Workspace*
 
-Click *Approve* to approve the Bluerpint for publication.  Once the application has been siccessfully approved, assign the *Category* and *Project shared with* as shown below and click *Apply*.
+Click *Approve* to approve the Bluerpint for publication.  Once the application has been successfully approved, assign the **Category** and **Project Shared With** as shown below and click **Apply**.
 
 |image9|
 
-Click *Publish* to publish the Blueprint ot the Marketplace. once successfully published, the dialog should appear as follows:
+Click **Publish** to publish the Blueprint to the Marketplace. Once the Blueprint has been successfully published, the dialog should appear as follows:
 
 |image10|
 
 
-Verify the Blueprint's publication status by clicking on the *Marketplace Blueprints* action located in the tool-bar along the top of the *Marketplace Manager*.  Scroll through the Blueprints to find your Blueprint
+Verify the Blueprint's publication status by clicking on the **Marketplace Blueprints** action located in the tool-bar along the top of the **Marketplace Manager**.  Scroll through the Blueprints to find your Blueprint
 
 |image11|
+
+Navigate to the Marketplace by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace where Blueprints are staged for collaboration and launching as an application.
+
+|image12|
 
 Part 4: Edit + Debug + Launch Cloned Blueprint
 **********************************************
@@ -145,5 +149,7 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 .. |image10| image:: ./media/image22.png
 
 .. |image11| image:: ./media/image23.png
+
+.. |image12| image:: ./media/image24.png
 
  
