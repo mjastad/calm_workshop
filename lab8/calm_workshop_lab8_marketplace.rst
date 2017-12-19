@@ -72,7 +72,7 @@ A modal dialog will appear.  Verify the *Name* and *Description*, and click the 
 Part 3: Marketplace Manager - Approve Blueprint
 ***********************************************
 
-Navigate to the Marketplace Manager by clicking (|image5|) icon located on the left tool ribbon.  This will open the Marketplace Manager. Once Marketplace Manager is displayed, the **Mongo** Blueprint icon should be visible...
+Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager. Once Marketplace Manager is displayed, the **Mongo** Blueprint icon should be visible...
 
 |image6|
 
@@ -110,9 +110,9 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 
 .. |image5| image:: ./media/image18.png
 
-.. |image20| image:: ./media/image10.png
+.. |image6| image:: ./media/image10.png
 
-.. |image6| image:: ./media/image11.png
+.. |image20| image:: ./media/image11.png
 
 .. |image7| image:: ./media/image13.png
 
