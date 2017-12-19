@@ -108,7 +108,9 @@ Fix each of the errors listed within the Blueprint.  Once all the errors have be
 
 .. |image4| image:: ./media/image15.png
 
-.. |image5| image:: ./media/image10.png
+.. |image5| image:: ./media/image18.png
+
+.. |image20| image:: ./media/image10.png
 
 .. |image6| image:: ./media/image11.png
 
