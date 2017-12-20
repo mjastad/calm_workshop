@@ -112,14 +112,26 @@ Expand the **PackageInstallTask** for **Jenkins_Master-Package Install**.  You c
 
 |image12|
 
+Examine the script contents and it's output to get an idea of what failed.
+
 |image13|
 
-Examine the script contents and it's output to get an idea of what failed.  Make a note of what you might suspect is failing, and make the changes within the Blueprint to correct the problem(s) by navigating to the Blueprint Workspace from the Application Managment Dialog **Overview** and cliscking the *Blueprint* link.
+Make a note of what you might suspect is failing, and make the changes within the Blueprint to correct the problem(s) by navigating to the Blueprint Workspace from the Application Managment Dialog **Overview** and cliscking the *Blueprint* link.
 
 |image14|
 
-Delete the failed applications...
+Part 6: Cleanup Failed Blueprints
+*********************************
 
+Clean up the Application workspace by deleting the failed applications.  Click the *Manage* button in the tool-bar located along the top of the Application Management Dialog to execute an application action.  Click *Delete* to start a delete task.
+
+|image15|
+
+You can monitor the completion of the application deletion by clicking *Audit*
+
+|image16|
+
+Repeat parts 4-6 until application successfully deploys...
 
 .. |image0| image:: ./media/image0.png
 .. |image1| image:: ./media/image1.png
@@ -137,6 +149,8 @@ Delete the failed applications...
 .. |image12| image:: ./media/image12.png
 .. |image13| image:: ./media/image13.png
 .. |image14| image:: ./media/image14.png
+.. |image15| image:: ./media/image15.png
+.. |image16| image:: ./media/image16.png
 
 
 
