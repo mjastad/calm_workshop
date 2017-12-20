@@ -104,7 +104,7 @@ If an error occurs during the execution of a Blueprint, both the Application Man
 
 |image10|
 
-Using the *Audit* tree and expanding **Create**, we'll scroll down to the first failure occurrance to read the logs and compare it woith the script.
+Using the *Audit* tree and expanding **Create**, scroll down to the first failure occurrance to read the logs and compare it with the script.
 
 |image11|
 
@@ -112,11 +112,11 @@ Expand the **PackageInstallTask** for **Jenkins_Master-Package Install**.  You c
 
 |image12|
 
-Examine the script contents and it's output to get an idea of what failed.
+Examine the script's contents and it's output to get an idea of what failed.
 
 |image13|
 
-Make a note of what you might suspect is failing, and make the changes within the Blueprint to correct the problem(s) by navigating to the Blueprint Workspace from the Application Managment Dialog **Overview** and cliscking the *Blueprint* link.
+Make a note of what you suspect is failing. Make the changes within the Blueprint by navigating to the Blueprint Workspace from the Application Managment Dialog **Overview** and clicking the *Blueprint* link.
 
 |image14|
 
