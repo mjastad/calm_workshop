@@ -6,6 +6,7 @@
 - [Presentation: Tools](./devtools/calm_workshop_devtools.rst)
 - [Presentation: Orchestration Engines](./orchestration/calm_workshop_orchestration.rst)
 - [Presentation: Calm Deepdive - Requires translation](./calm/calm_workshop_calm.rst)
+- [Presentation: Calm Positioning - Requires translation](./calm/calm_workshop_calm_positioning.rst)
 - [Presentation: Docker - Requires translation](./docker/calm_workshop_docker.rst)
 - [Presentation: Kubernetes - Requires translation](./docker/calm_workshop_docker.rst)
 - [Presentation: Questions](./quiz/calm_workshop_quiz.rst)
