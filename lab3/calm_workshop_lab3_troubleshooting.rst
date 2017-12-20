@@ -83,7 +83,7 @@ Once the blueprint has been successfully saved, click the (|image5|) button to l
 Click **Create** to launch the application.
 
 
-Part 4: Monitor and Debug Blueprint
+Part 4: Monitor Blueprint Execution
 ***********************************
 
 Once the application has been launched, the Application Management Dialog will appear showing the state of the Application.  Click the *Audit* button in the tool-bar located along the top of the Application Management Dialog to monitor or audit the provisioning progress of the application.
@@ -94,6 +94,16 @@ Continue to monitor the progress by expanding the **Create**
 
 |image8|
 
+
+Part 5: Debug Blueprint Errors
+******************************
+
+If an error occurs during the execution of a Blueprint, both the Application Management Dialog the and the *Audit* trail will show the error.
+
+|iamge9|
+
+|image10|
+
 .. |image0| image:: ./media/image0.png
 .. |image1| image:: ./media/image1.png
 .. |image2| image:: ./media/image2.png
@@ -103,6 +113,8 @@ Continue to monitor the progress by expanding the **Create**
 .. |image6| image:: ./media/image6.png
 .. |image7| image:: ./media/image7.png
 .. |image8| image:: ./media/image8.png
+.. |image9| image:: ./media/image9.png
+.. |image10| image:: ./media/image10.png
 
 
 
