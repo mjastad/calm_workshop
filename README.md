@@ -12,8 +12,10 @@
 
 # Labs:
 
+- [Lab: Calm Workshop Setup](./labsetup/calm_workshop_labsetup.rst)
 - [Lab: NuCalm Simple Blueprint](./lab1/calm_workshop_lab1.rst)
 - [Lab: NuCalm Intermediate Blueprint (LAMP)](./lab2/calm_workshop_lab2.rst)
+- [Lab: NuCalm Custom Actions](./lab9/calm_workshop_lab9_custom_actions.rst)
 - [Lab: NuCalm Blueprint Troubleshooting](./lab3/calm_workshop_lab3_troubleshooting.rst)
 - [Lab: NuCalm Marketplace P1](./lab4/calm_workshop_lab4_marketplace.rst)
 - [Lab: NuCalm Marketplace P2](./lab8/calm_workshop_lab8_marketplace.rst)
