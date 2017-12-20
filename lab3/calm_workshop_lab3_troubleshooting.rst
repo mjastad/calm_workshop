@@ -100,7 +100,7 @@ Part 5: Debug Blueprint Errors
 
 If an error occurs during the execution of a Blueprint, both the Application Management Dialog the and the *Audit* trail will show the error.
 
-|iamge9|
+|image9|
 
 |image10|
 
