@@ -24,8 +24,8 @@ Setup and configure the Clusters used in the Calm workshop:
 - Self Service
 - Connectivity Instructions
 
- Active Directory:
-******************
+Active Directory:
+*****************
 
 Outline the setup and configuration of an A/D Server using Windows Server 2012 R2:
 
