@@ -98,11 +98,28 @@ Continue to monitor the progress by expanding the **Create**
 Part 5: Debug Blueprint Errors
 ******************************
 
-If an error occurs during the execution of a Blueprint, both the Application Management Dialog the and the *Audit* trail will show the error.
+If an error occurs during the execution of a Blueprint, both the Application Management Dialog the and the *Audit* tree will show the error.
 
 |image9|
 
 |image10|
+
+Using the *Audit* tree and expanding **Create**, we'll scroll down to the first failure occurrance to read the logs and compare it woith the script.
+
+|image11|
+
+Expand the **PackageInstallTask** for **Jenkins_Master-Package Install**.  You can toggle between the *script* and the *script output* to diagnose the problem...
+
+|image12|
+
+|image13|
+
+Examine the script contents and it's output to get an idea of what failed.  Make a note of what you might suspect is failing, and make the changes within the Blueprint to correct the problem(s) by navigating to the Blueprint Workspace from the Application Managment Dialog **Overview** and cliscking the *Blueprint* link.
+
+|image14|
+
+Delete the failed applications...
+
 
 .. |image0| image:: ./media/image0.png
 .. |image1| image:: ./media/image1.png
@@ -114,7 +131,12 @@ If an error occurs during the execution of a Blueprint, both the Application Man
 .. |image7| image:: ./media/image7.png
 .. |image8| image:: ./media/image8.png
 .. |image9| image:: ./media/image9.png
+
 .. |image10| image:: ./media/image10.png
+.. |image11| image:: ./media/image11.png
+.. |image12| image:: ./media/image12.png
+.. |image13| image:: ./media/image13.png
+.. |image14| image:: ./media/image14.png
 
 
 
