@@ -32,6 +32,7 @@ In this exercise we'll walk through the steps to:
 2. Launch the Blueprint.
 3. Debug the Blueprint.
 
+**Note:** There should be a mapping or SMB share configured to connect to: **smb://pocfs.nutanixdc.local/images**.  This will be used to import existing blueprints.
 
 Part 1: Accessing and Navigating Calm
 *************************************
@@ -53,7 +54,56 @@ You are, by default, dropped into the Applications tab and can see all the insta
 Part 2: Import Blueprint
 ************************
 
-Navigate the to Marketplace control by clicking (|image1|) icon located on the left tool ribbon.  This will open the Marketplace Control Center where pre-configured and self-authored blueprints are staged for publishing to the local Marketplace used for teaming and collaboration.
+Navigate to the Blueprint Workspace by clicking (|image1|) icon located on the left tool ribbon.  This will open the Blueprint Workspace where self-authored blueprints are staged editing, publishing, and/or launching as Applications.  When the Blueprint grid appears, click the **Upload Blueprint** button located along the top of the Blueprint grid.  
+
+|image2|
+
+Navigate your SMB share for the **.../CalmWorkshp/Troubleshooting.json** blueprint.  Select the file and continue.  A modal dialog will appear prompting for a name and project when saving. Complete the fileds as show below and click **upload**. This will save the blueprint to the workspace.
+
+- **Name:** Calm Workshop Blueprint Debug
+- **Project:** Calm
+
+|image3|
+
+The Blueprint workspace should appear as follows.  
+
+|image4|
+
+Since Blureprints are exported as clear text, they do not retain credential information that could potentially be used maliciously.  You'll be required to set the **Credentials** to *User: root*,  *Password: nutanix/4u*.  Save the Blueprint.  The red **!** should no longer appear.
+
+
+Part 3: Launch Blueprint
+************************
+
+Once the blueprint has been successfully saved, click the (|image5|) button to lanuch the Blueprint.  Name the application with *Calm Workshop Troubleshooting*.  
+
+|image6|
+
+
+Click **Create** to launch the application.
+
+
+Part 4: Monitor and Debug Blueprint
+***********************************
+
+Once the application has been launched, the Application Management Dialog will appear showing the state of the Application.  Click the *Audit* button in the tool-bar located along the top of the Application Management Dialog to monitor or audit the provisioning progress of the application.
+
+|image7|
+
+Continue to monitor the progress by expanding the **Create**
+
+|image8|
+
+.. |image0| image:: ./media/image0.png
+.. |image1| image:: ./media/image1.png
+.. |image2| image:: ./media/image2.png
+.. |image3| image:: ./media/image3.png
+.. |image4| image:: ./media/image4.png
+.. |image5| image:: ./media/image5.png
+.. |image6| image:: ./media/image6.png
+.. |image7| image:: ./media/image7.png
+.. |image8| image:: ./media/image8.png
+
 
 
 
