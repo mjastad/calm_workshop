@@ -19,4 +19,6 @@
 Lab Overview
 ************
 
-In this lab participants will learn about NuCalm Blueprint Best Practices, identify anamolies, and diagnose poorly wrriten or dfective Blueprints.
+In this lab participants will learn about NuCalm Blueprint Best Practices, identify anamolies, and diagnose poorly written or defective Blueprints.
+
+
