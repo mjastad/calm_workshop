@@ -24,9 +24,12 @@ and use the NuCalm REST API's to retrieve, update, delete and create NuCalm Blue
 Requirements:
 *************
 
+- REST/HTTP Overview:  REST-HTTP-Overview_
+- NTNX REST API Explorer Overview:  NTNX-REST-API-Explorer-Overview_
 - CentOS Server v7 VM created:  configure-centos-server-v7_ guide for docker.
 - Python 2.7.x
 - Git Hub Account: https://github.com
+
 
 
 The Automation Lab starts with an introduction to NuCalm REST API, and associated JSON. The lab is a set of exercises designed to walk participants through navigating the REST API Explorer, locating Bluepint and Appication commands, executing the commands, and observing the results using both the Swagger generated API Explorer (Prism), and Postman (3^rd^ party API toolchain). Participants will then deploy several commands using python.
@@ -100,16 +103,7 @@ The REST API explorer may not be accessible via Prism Central - specifically in 
 
   https://[IP-ADDRESS]:9440/api/nutanix/v3/api_explorer/index.html
   
-REST/HTTP Overview
-******************
 
-For more information on REST and HTTP, please read: REST-HTTP-Overview_
-
-
-NTNX REST API Exlorer Overview
-******************************
-
-For more information on the NTNX REST API Explorer, please read: NTNX-REST-API-Explorer-Overview_
 
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
