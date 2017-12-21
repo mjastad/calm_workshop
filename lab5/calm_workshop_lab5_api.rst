@@ -104,7 +104,11 @@ The REST API explorer may not be accessible via Prism Central - specifically in 
   https://[IP-ADDRESS]:9440/api/nutanix/v3/api_explorer/index.html
   
 
+|image0|
+
 
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
 .. _NTNX-REST-API-Explorer-Overview: calm_workshop_ntnx_api_explorer_overview.rst
+
+.. |image0| image:: ./media/image1.png
