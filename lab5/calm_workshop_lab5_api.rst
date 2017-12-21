@@ -103,8 +103,8 @@ The REST API explorer may not be accessible via Prism Central - specifically in 
 REST/HTTP Overview
 ******************
 
-For more information on REST and HTTP, please read: REST/HTTP-Overview_
+For more information on REST and HTTP, please read: REST-HTTP-Overview_
 
 
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
-.. _REST/HTTP-Overview: calm_workshop_lab5_rest_overview.rst
+.. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
