@@ -100,3 +100,9 @@ The REST API explorer may not be accessible via Prism Central - specifically in 
 
   https://[IP-ADDRESS]:9440/api/nutanix/v3/api_explorer/index.html
   
+REST/HTTP Overview
+******************
+
+For more information on REST and HTTP, please read REST_Overview_
+
+
