@@ -18,3 +18,16 @@ REST API Explorer - JSON Message-Body Declaration – POST /vms/
 
 The following illustration shows a message-body formatted in JSON used for creating a Virtual Machine (VM) using POST as defined using the Nutanix REST API Explorer.
 
+|iamge0|
+
+REST API Explorer - JSON Message Response Header – POST /vms/
+*************************************************************
+
+The following illustration shows a message-body formatted in JSON for creating a Virtual Machine (VM) using POST from within the Nutanix REST API Explorer.
+
+|image1|
+
+
+
+.. |image0| images:: ./media/image2.png
+.. |image1| images:: ./media/image3.png
