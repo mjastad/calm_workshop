@@ -24,7 +24,7 @@ and use the NuCalm REST API's to retrieve, update, delete and create NuCalm Blue
 Requirements:
 *************
 
-- CentOS Server v7 VM created:  centos-setup_ guide for docker.
+- CentOS Server v7 VM created:  configure-centos-server-v7_ guide for docker.
 - Python 2.7.x
 - Git Hub Account: https://github.com
 
@@ -106,3 +106,4 @@ REST/HTTP Overview
 For more information on REST and HTTP, please read REST_Overview_
 
 
+.. _configure-centos-server-v7: calm_workshop_lab6_config_centos.rst
