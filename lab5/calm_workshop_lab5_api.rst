@@ -106,5 +106,11 @@ REST/HTTP Overview
 For more information on REST and HTTP, please read: REST-HTTP-Overview_
 
 
+NTNX REST API Exlorer Overview
+******************************
+
+For more information on the NTNX REST API Explorer, please read: NTNX-REST-API-Explorer-Overview_
+
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
+.. _NTNX-REST-API-Explorer-Overview: calm_workshop_lab5_rest_api_explorer_overview.rst
