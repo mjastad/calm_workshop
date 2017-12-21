@@ -2,6 +2,8 @@
 REST API Overview
 *****************
 
+.. contents::
+
 The REST (Web Services) APIs (i.e. WS-API) allow users to author scripts or integrate with 3^rd^ platform solutions, designed to automate the execution of system administration commands against a Nutanix endpoint or resource. The API is designed to expose backend data of a Nutanix cluster that can be read or written to using Hypertext Transfer Protocol (HTTP).
 
 Hypertext Transfer Protocol (HTTP)
