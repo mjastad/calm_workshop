@@ -97,16 +97,20 @@ Once *pip has been installed and verified, we can now install *requests* as foll
 Accessing the REST API's
 ************************
 
-The REST API explorer may not be accessible via Prism Central - specifically in the case of AOS v5.5.  The explorer can be launched by explicitly typing the *url* in the address bar as follows:
+A link for launching the REST API Explorer may not be accessible via Prism Central - specifically in the case of AOS v5.5.  The explorer can be launched by explicitly typing the *url* in the address bar of your browser as follows:
 
-**Note:** . The v3 REST API's for NuCalm can only be accessed via Prism Central *url*.
+**Note:** . The v3 REST API's for NuCalm can only be accessed via Prism Central(PC) *url*.
 
 .. code-block:: bash
 
-  https://[IP-ADDRESS]:9440/api/nutanix/v3/api_explorer/index.html
+  https://[PC-IPADDRESS]:9440/api/nutanix/v3/api_explorer/index.html
   
 
 |image0|
+
+Once the API Explorer appears, be sure to authenticate or sign-in (as shown above) using the PC credentials.
+
+
 
 
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
