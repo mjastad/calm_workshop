@@ -90,3 +90,13 @@ Once *pip has been installed and verified, we can now install *requests* as foll
     Installing collected packages: certifi, chardet, idna, urllib3, requests
     Successfully installed certifi-2017.11.5 chardet-3.0.4 idna-2.6 requests-2.18.4 urllib3-1.22
 
+
+Accessing the REST API's
+************************
+
+The REST API explorer may not be accessible via Prism Central - specifically in the case of AOS v5.5.  The explorer can be launched by explicitly typing the *url* in the address bar as follows:
+
+.. code-block:: bash
+
+  https://[IP-ADDRESS]:9440/api/nutanix/v3/api_explorer/index.html
+  
