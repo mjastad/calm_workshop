@@ -99,7 +99,7 @@ Accessing the REST API's
 
 The REST API explorer may not be accessible via Prism Central - specifically in the case of AOS v5.5.  The explorer can be launched by explicitly typing the *url* in the address bar as follows:
 
-**Note:** . The v3 REST API's for NuCalm can only be accessed via Prism Central.
+**Note:** . The v3 REST API's for NuCalm can only be accessed via Prism Central *url*.
 
 .. code-block:: bash
 
