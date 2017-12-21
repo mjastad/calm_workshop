@@ -28,6 +28,6 @@ The following illustration shows a message-body formatted in JSON for creating a
 |image1|
 
 
-.. |image0| images:: ./media/image2.png
+.. |image0| image:: ./media/image2.png
 
-.. |image1| images:: ./media/image3.png
+.. |image1| image:: ./media/image3.png
