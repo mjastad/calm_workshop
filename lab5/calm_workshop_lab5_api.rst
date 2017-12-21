@@ -106,4 +106,4 @@ REST/HTTP Overview
 For more information on REST and HTTP, please read REST_Overview_
 
 
-.. _configure-centos-server-v7: calm_workshop_lab6_config_centos.rst
+.. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
