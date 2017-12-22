@@ -197,6 +197,13 @@ Edit */root/automation/solution/main.py* and set the connection variables for th
     main()
 
 
+Test the runtime and the code by running:
+
+.. code-block:: bash
+  
+   $ python main.py
+
+If successfull,  You should see VM, Bluepirnt and Application properties output...
 
 
 Accessing the REST API's
