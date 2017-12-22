@@ -60,32 +60,6 @@ Create a CentOS Server v7 VM on the assigned cluster using Prism Central using t
 Create a Development Environment
 ********************************
 
-**Install Git:**
-
-Participants will need access to Git to download or clone the calm-lab automation repository. 
-
-Power-on the VM and login to the assigned *ip-address* as **user:** *root*, **password:** *nutanix/4u* using *ssh* or *putty*.
-
-Install git:
-
-.. code-block:: bash
-
-  $ yum install git -y
-  
-Create a directory for development:
-
-.. code-block:: bash
-
-  $ mkdir /root/development
-  
-Change to the directory and run:
-
-.. code-block:: bash
-
-  $ git clone https://github.com/mjastad/automation.git
-
-If all was successfull you should find a subdirectory *automation/solution*
-
 
 **Install pip, and requests:**
 
@@ -142,6 +116,86 @@ Once *pip has been installed and verified, we can now install *requests* as foll
         100% |████████████████████████████████| 133kB 7.4MB/s 
     Installing collected packages: certifi, chardet, idna, urllib3, requests
     Successfully installed certifi-2017.11.5 chardet-3.0.4 idna-2.6 requests-2.18.4 urllib3-1.22
+
+
+**Install Git:**
+
+Participants will need access to Git to download or clone the calm-lab automation repository. 
+
+Power-on the VM and login to the assigned *ip-address* as **user:** *root*, **password:** *nutanix/4u* using *ssh* or *putty*.
+
+Install git:
+
+.. code-block:: bash
+
+  $ yum install git -y
+  
+Create a directory for development:
+
+.. code-block:: bash
+
+  $ mkdir /root/development
+  
+Change to the directory and run:
+
+.. code-block:: bash
+
+  $ git clone https://github.com/mjastad/automation.git
+
+If all was successfull you should find a directory */root/automation/solution*
+
+Edit */root/automation/solution/main.py* and set the connection variables for the assigned cluster.  Be sure to comment **v2** imports and functions as shown below:
+
+.. code-block:: bash
+
+  #!/usr/bin/env python
+
+  """
+  File: main.py: NTNX REST API Driver.
+  """
+
+  '''
+  from v2.core.Connection import Connection
+  from v2.core.Host import Host
+  from v2.core.User import User
+  from v2.services.VirtualMachineService import VirtualMachineService
+  from v2.services.ImageService import ImageService
+  from v2.services.StorageContainerService import StorageContainerService
+
+  '''
+  from v3.core.Connection import Connection
+  from v3.core.Host import Host
+  from v3.core.User import User
+  from v3.services.VirtualMachineService import VirtualMachineService
+  from v3.services.ImageService import ImageService
+  from v3.services.StorageContainerService import StorageContainerService
+  from v3.services.ApplicationService import ApplicationService
+  from v3.services.BlueprintService import BlueprintService
+
+  USER = "Cluster Admin user name"
+  PASSWD = "Cluster Admin password!"
+  IPADDRESS = "Cluster IP Address"
+  PORT = "9440"
+
+  def main():
+
+    data = {'filter': '', 'offset': 0, 'length': 20}
+
+    user = User(USER, PASSWD)
+    host = Host(IPADDRESS, PORT)
+    connection = Connection(user, host)
+
+    #v2 API
+    #_virtualMachines(connection)
+
+    #v3 API
+    getVirtualMachines(connection, data)
+    getApplications(connection, data)
+    getBlueprints(connection, data)
+
+  if __name__ == "__main__":
+    main()
+
 
 
 
