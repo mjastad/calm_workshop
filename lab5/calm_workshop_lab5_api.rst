@@ -232,7 +232,26 @@ Once the API Explorer appears, be sure to authenticate or sign-in (as shown abov
 
 
 
+Issuing READ Requests
+*********************
 
+In this section we'll learn how to Navigate the REST API Explorer to read and gather information for:
+
+- App(s)
+- Blueprint(s)
+- Project(s)
+- Role(s)
+
+
+Issuing a State Change Request
+******************************
+
+In this section we'll learn how to Navigate the REST API Explorer to execute a command that changes the state of an app or blueprint:
+
+- Import a Blueprint(JSON)
+- Create a Blueprint
+- Launch Blueprint
+- Delete an App
 
 
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
