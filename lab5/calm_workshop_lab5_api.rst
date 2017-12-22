@@ -159,7 +159,7 @@ A link for launching the REST API Explorer may not be accessible via Prism Centr
 
 |image0|
 
-Once the API Explorer appears, be sure to authenticate or sign-in (as shown above) using the PC credentials.  Click **Explorer** to authenicate.
+Once the API Explorer appears, be sure to authenticate or sign-in (as shown above) using the PC credentials.  Click **Explorer** to authenicate.  The explorer should refresh and display the REST API Targets + requests.
 
 
 
