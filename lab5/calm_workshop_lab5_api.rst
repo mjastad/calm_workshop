@@ -59,12 +59,12 @@ Create a CentOS Server v7 VM on the assigned cluster using Prism Central using t
 Create a Development Environment
 ********************************
 
+
+Install Python + Packages
 We'll need to make sure the python 2.7 runtime has all the appropriate packages, sepcifically *pip* and *requests*. We'll provision a CentOS Server VM to insure participants are working fromm a common-base.
 
 - Pip is a tool for installing and managing Python packages.
 - Requests is a Python package used to conmunicate over http.
-
-**Add the EPEL Repository**
 
 *pip* is part of Extra Packages for Enterprise Linux (EPEL), which is a community repository of non-standard packages for the RHEL distribution. You'll be required to install the EPEL repository.
 
@@ -114,6 +114,11 @@ Once *pip has been installed and verified, we can now install *requests* as foll
         100% |████████████████████████████████| 133kB 7.4MB/s 
     Installing collected packages: certifi, chardet, idna, urllib3, requests
     Successfully installed certifi-2017.11.5 chardet-3.0.4 idna-2.6 requests-2.18.4 urllib3-1.22
+
+Install Git
+
+Participants will need access to Git to download or clone the calm-lab automation repository. 
+
 
 
 Accessing the REST API's
