@@ -152,7 +152,7 @@ Edit */root/automation/solution/main.py* and set the connection variables for th
 - PASSWD: Cluster Admin user password
 - IPADDRESS: Cluster IP Address
 
-Be sure to comment **v2** imports and functions as shown below:
+Be sure to comment **v2** imports and functions and uncomment **v3** imports as shown below:
 
 .. code-block:: bash
 
