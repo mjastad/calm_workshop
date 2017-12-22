@@ -26,10 +26,14 @@ Requirements:
 
 - REST/HTTP Overview:  REST-HTTP-Overview_
 - NTNX REST API Explorer Overview:  NTNX-REST-API-Explorer-Overview_
+- Chrome Web Browser + Developer Tools
+- Chrome JSON Editor: Chrome-JSON-Editor-Extension_
+
+Development:
+
 - CentOS Server v7 VM created:  configure-centos-server-v7_ guide for docker.
 - Python 2.7.x
 - Git Hub Account: https://github.com
-
 
 
 The Automation Lab starts with an introduction to NuCalm REST API, and associated JSON. The lab is a set of exercises designed to walk participants through navigating the REST API Explorer, locating Bluepint and Appication commands, executing the commands, and observing the results using both the Swagger generated API Explorer (Prism), and Postman (3^rd^ party API toolchain). Participants will then deploy several commands using python.
@@ -116,5 +120,6 @@ Once the API Explorer appears, be sure to authenticate or sign-in (as shown abov
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
 .. _NTNX-REST-API-Explorer-Overview: calm_workshop_ntnx_api_explorer_overview.rst
+.. _Chrome-JSON-Editor-Extension: https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=en
 
 .. |image0| image:: ./media/image1.png
