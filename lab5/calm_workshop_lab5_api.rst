@@ -243,7 +243,7 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 - Role(s)
 
 
-Issuing a State Change Request
+Issuing a STATE-CHANGE Request
 ******************************
 
 In this section we'll learn how to Navigate the REST API Explorer to execute a command that changes the state of an app or blueprint:
