@@ -18,8 +18,14 @@
 Lab Overview
 ************
 
-In this lab participants will learn how to access the REST API Explorer from NTNX Prism Central.  Navigate the API Explorer
-and use the NuCalm REST API's to retrieve, update, delete and create NuCalm Blueprints and Applications...
+The Automation Lab starts with an introduction to NuCalm REST API, and associated JSON. The lab is a set of exercises designed to walk participants through navigating the REST API Explorer, locating Blueprint and Appication REST requests, executing the requests, and observing the results using both the Swagger generated API Explorer (Prism Central). Participants will also deploy several commands using python.
+
+NTNX REST API Explorer Requests:
+
+- App
+- Blueprint
+- Role
+- Project
 
 Requirements:
 *************
