@@ -164,6 +164,8 @@ Once the API Explorer appears, be sure to authenticate or sign-in (as shown abov
 
 
 
+
+
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
 .. _NTNX-REST-API-Explorer-Overview: calm_workshop_ntnx_api_explorer_overview.rst
