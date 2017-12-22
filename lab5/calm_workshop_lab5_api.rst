@@ -253,6 +253,26 @@ In this section we'll learn how to Navigate the REST API Explorer to execute a c
 - Launch Blueprint
 - Delete an App
 
+Automation of REST Endpoints
+****************************
+
+In this section we'll learn how to run python code instrumented to programmatically perform the commands we ran manually via REST API Explorer:
+
+READ:
+
+- App(s)
+- Blueprint(s)
+- Project(s)
+- Role(s)
+
+STATE-CHANGE:
+
+- Import a Blueprint(JSON)
+- Create a Blueprint
+- Launch Blueprint
+- Delete an App
+
+
 
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
