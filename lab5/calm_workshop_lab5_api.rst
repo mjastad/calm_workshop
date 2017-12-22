@@ -30,6 +30,8 @@ NTNX REST API Explorer Requests:
 Requirements:
 *************
 
+Reference:
+
 - REST/HTTP Overview:  REST-HTTP-Overview_
 - NTNX REST API Explorer Overview:  NTNX-REST-API-Explorer-Overview_
 - Chrome Web Browser + Developer Tools
