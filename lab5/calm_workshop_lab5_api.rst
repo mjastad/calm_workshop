@@ -60,7 +60,7 @@ Create a CentOS Server v7 VM on the assigned cluster using Prism Central using t
 Create a Development Environment
 ********************************
 
-Install Git
+**Install Git**
 
 Participants will need access to Git to download or clone the calm-lab automation repository. 
 
@@ -84,10 +84,10 @@ Change to the directory and run:
 
   $ git clone https://github.com/mjastad/automation.git
 
-You should find a subdirectory *automation/solution*
+If all was successfull you should find a subdirectory *automation/solution*
 
 
-Install Python + Packages
+**Install pip, and requests**
 
 We'll need to make sure the python 2.7 runtime has all the appropriate packages, sepcifically *pip* and *requests*. We'll provision a CentOS Server VM to insure participants are working fromm a common-base.
 
