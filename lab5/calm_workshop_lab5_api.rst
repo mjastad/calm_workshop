@@ -144,7 +144,13 @@ Change to the directory and run:
 
 If all was successfull you should find a directory */root/automation/solution*
 
-Edit */root/automation/solution/main.py* and set the connection variables for the assigned cluster.  Be sure to comment **v2** imports and functions as shown below:
+Edit */root/automation/solution/main.py* and set the connection variables for the assigned cluster.  Make rue the values are within quotes(**""**):
+
+- USER:  Cluster Admin user name
+- PASSWD: Cluster Admin user password
+- IPADDRESS: Cluster IP Address
+
+Be sure to comment **v2** imports and functions as shown below:
 
 .. code-block:: bash
 
@@ -203,7 +209,7 @@ Test the runtime and the code by running:
   
    $ python main.py
 
-If successfull,  You should see VM, Bluepirnt and Application properties output...
+If successfull,  You should see VM, Blueprint and Application property output...
 
 
 Accessing the REST API's
