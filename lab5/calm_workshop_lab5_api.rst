@@ -55,12 +55,40 @@ Create a CentOS Server v7 VM on the assigned cluster using Prism Central using t
 - name: calm_lab_dev
 - image: CentOS Server v7  (Disk)
 
+  
 
 Create a Development Environment
 ********************************
 
+Install Git
+
+Participants will need access to Git to download or clone the calm-lab automation repository. 
+
+Power-on the VM and login to the assigned *ip-address* as **user:** *root*, **password:** *nutanix/4u* using *ssh* or *putty*.
+
+Install git:
+
+.. code-block:: bash
+
+  $ yum install git -y
+  
+Create a directory for development:
+
+.. code-block:: bash
+
+  $ mkdir /root/development
+  
+Change to the directory and run:
+
+.. code-block:: bash
+
+  $ git clone https://github.com/mjastad/automation.git
+
+You should find a subdirectory *automation/solution*
+
 
 Install Python + Packages
+
 We'll need to make sure the python 2.7 runtime has all the appropriate packages, sepcifically *pip* and *requests*. We'll provision a CentOS Server VM to insure participants are working fromm a common-base.
 
 - Pip is a tool for installing and managing Python packages.
@@ -114,10 +142,6 @@ Once *pip has been installed and verified, we can now install *requests* as foll
         100% |████████████████████████████████| 133kB 7.4MB/s 
     Installing collected packages: certifi, chardet, idna, urllib3, requests
     Successfully installed certifi-2017.11.5 chardet-3.0.4 idna-2.6 requests-2.18.4 urllib3-1.22
-
-Install Git
-
-Participants will need access to Git to download or clone the calm-lab automation repository. 
 
 
 
