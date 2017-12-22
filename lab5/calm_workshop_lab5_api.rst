@@ -39,7 +39,7 @@ Reference:
 
 Development:
 
-- CentOS Server v7 VM created:  configure-centos-server-v7_ guide for docker.
+- CentOS Server v7 VM created:  configure-centos-server-v7_ 
 - Python 2.7.x
 - Git Hub Account: https://github.com
 
