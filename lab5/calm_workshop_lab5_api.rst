@@ -295,3 +295,4 @@ STATE-CHANGE:
 .. _Chrome-JSON-Editor-Extension: https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=en
 
 .. |image0| image:: ./media/image1.png
+.. |image1| image:: ./media/image2.png
