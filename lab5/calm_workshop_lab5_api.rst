@@ -220,14 +220,21 @@ This lab will use Postman allowing you to preserve the v3 REST API Requests so t
 
 The following steps assumes you have Postman installed.  
 
-Create a **Collection** and give it a name (i.e. Nutanix), and create the following subfolders within the collection:
+Create a **Collection** and give it a name (i.e. Nutanix):
+
+|image1|
+
+|image2|
+
+
+Create the following subfolders within the collection:
 
 - V3:Apps
 - V3:Blueprints
 - V3:Roles
 - V3:Projects
 
-|image1|
+|image3|
 
 Accessing the REST API's
 ************************
@@ -295,4 +302,6 @@ STATE-CHANGE:
 .. _Chrome-JSON-Editor-Extension: https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=en
 
 .. |image0| image:: ./media/image1.png
-.. |image1| image:: ./media/image4.png
+.. |image1| image:: ./media/image5.png
+.. |image1| image:: ./media/image6.png
+.. |image3| image:: ./media/image4.png
