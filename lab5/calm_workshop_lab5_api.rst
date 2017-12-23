@@ -284,11 +284,17 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 5. Run and persist in Postman (optional): postman-execution_
 
-6. Repeat steps 1-5 for **Blueprint** *blueprints/list*.
+**Blueprint**
 
-7. Repeat steps 1-5 for **Project** *projects/list*.
+Repeat steps 1-5 above, substituting *app* with *blueprint* and *blueprints/list*.
 
-8. Repeat steps 1-5 for **Role** *roles/list*.
+**Project**
+
+Repeat steps 1-5 above, substituting *app* with *project* and *projects/list*.
+
+**Role**
+
+Repeat steps 1-5 above, substituting *app* with *role* and *roles/list*.
 
 Issuing a STATE-CHANGE Request
 ******************************
