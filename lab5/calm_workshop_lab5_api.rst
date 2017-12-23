@@ -286,15 +286,15 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 **Blueprint:**
 
-Repeat steps 1-5 above, substituting *app* with *blueprint* and *blueprints/list*.
+Repeat steps 1-5 above, substituting *app* with *blueprint* and */blueprints/list*.
 
 **Project:**
 
-Repeat steps 1-5 above, substituting *app* with *project* and *projects/list*.
+Repeat steps 1-5 above, substituting *app* with *project* and */projects/list*.
 
 **Role:**
 
-Repeat steps 1-5 above, substituting *app* with *role* and *roles/list*.
+Repeat steps 1-5 above, substituting *app* with *role* and */roles/list*.
 
 Issuing a STATE-CHANGE Request
 ******************************
