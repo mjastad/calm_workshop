@@ -12,7 +12,7 @@ Paste it to Postman, and select the appropriate REST Command (i.e. POST, GET, PU
 
 Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism* credentials:
 
-**Note:** . The PC credentials may change from cluster to cluster. 
+**Note:** The Prism credentials may change from cluster to cluster. 
 
 |image2|
 
