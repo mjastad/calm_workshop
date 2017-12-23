@@ -31,4 +31,11 @@ Click Save and assign a **Request name:** *Nutanix Calm (NuCalm) List Applicatio
 
 |image6|
 
+.. |image0| image:: ./media/image10.png
+.. |image1| image:: ./media/image12.png
+.. |image2| image:: ./media/image13.png
+.. |image3| image:: ./media/image14.png
+.. |image4| image:: ./media/image15.png
+.. |image5| image:: ./media/image16.png
+.. |image7| image:: ./media/image17.png
 
