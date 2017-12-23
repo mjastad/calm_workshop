@@ -38,7 +38,7 @@ Click Save and assign a **Request name:** *Nutanix Calm (NuCalm) [SOME ACTION]*,
 - Launch {REST Target} (i.e. Blueprint, etc...).
 - Get {REST Target} (i.e. Application, Blueprint, Role, Project, etc...).
 
-Save to to **Collection:** *Nutanix*, and to the appropriate **Subfolder:** (i.e. *V3:Apps*, *V3:Blueprints*, *V3:Projects*, or *V3:Roles*, etc...) .  
+Save to **Collection:** (i.e. *Nutanix*, etc...), and to the appropriate **Subfolder:** (i.e. *V3:Apps*, *V3:Blueprints*, *V3:Projects*, or *V3:Roles*, etc...) .  
 
 |image6|
 
