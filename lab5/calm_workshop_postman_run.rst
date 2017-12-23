@@ -20,11 +20,11 @@ Configure the **Headers** Key(s) *Content-Type* and *Accept* with Value *applica
 
 |image3|
 
-If it's a POST, or PUT request, configure the Body with *raw* and select JSON (application/json), and paste the payload information into the text area needed to makae the call as shown below:
+If it's a **POST**, or **PUT** request, configure the **Body** using *raw* and select JSON (application/json), and paste the payload information into the text area needed to makae the call as shown below:
 
 |image4|
 
-Click **Send** within Postman.  If configured sucessfully, you should see **Status: 200 OK**, and valid response data in the **Body** as shown below: 
+Click **Send** within Postman.  If configured successfully, you should see **Status: 200 OK**, and valid response data in the **Body** as shown below: 
 
 |image5|
 
