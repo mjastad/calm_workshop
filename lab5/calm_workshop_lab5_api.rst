@@ -264,6 +264,43 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 - Project(s)
 - Role(s)
 
+Reading from v3 REST targets are consistent and are typically shown as *list* and executed as a POST command.  The *response* from a *list request* returns a subset of element information.  To retrieve amn all inclusive set of element information, you'll use the element's *uuid* and issue a GET request.
+
+All *list* requests require a small payload.  the following is the minimal payload required:
+
+.. code-block:: json
+
+  {
+    "filter": "", 
+    "offset": 0,  
+    "length": 20 
+  }
+
+
+- *filter:* explicit filter i.e. *name* or *state[DELETED|ACTIVE]*
+- *offest:* starting element
+- *length:* the #of elements to return from the *offset*
+
+**App**
+
+Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
+
+|image4|
+
+Find **POST** */apps/list* and click to expand.  Copy the JSON code block shown above and paste it in the *get_entities_request*. 
+
+|image5|
+
+Click *Try it out!* to execute the **POST** */apps/list Request*...  A *Response Code* of 200 inidcates the request was successfully executed: 
+
+|mage6|
+
+Valid content should be accessible in the *Response Body* 
+
+|image7|
+
+
+
 
 Issuing a STATE-CHANGE Request
 ******************************
@@ -295,7 +332,6 @@ STATE-CHANGE:
 - Delete an App
 
 
-
 .. _configure-centos-server-v7: ../lab6/calm_workshop_lab6_config_centos.rst
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
 .. _NTNX-REST-API-Explorer-Overview: calm_workshop_ntnx_api_explorer_overview.rst
@@ -305,3 +341,8 @@ STATE-CHANGE:
 .. |image1| image:: ./media/image5.png
 .. |image2| image:: ./media/image6.png
 .. |image3| image:: ./media/image4.png
+.. |image4| image:: ./media/image7.png
+.. |image5| image:: ./media/image8.png
+.. |image6| image:: ./media/image9.png
+
+.. |image7| image:: ./media/image10.png
