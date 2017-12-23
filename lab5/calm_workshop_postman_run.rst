@@ -1,6 +1,6 @@
-*****************************
-**Postman Save REST Request**
-*****************************
+*************************************
+**Postman Execute/Save REST Request**
+*************************************
 
 Copy the *Request URL* from the **POST** */apps/list* 
 
