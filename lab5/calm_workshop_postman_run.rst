@@ -2,7 +2,7 @@
 **Postman Execute/Save REST Request**
 *************************************
 
-Copy the *Request URL* from the NTNX REST API Explorer
+Copy the *Request URL* from the NTNX REST API Explorer you want to execute and persist in Postman.
 
 |image0|
 
@@ -10,7 +10,7 @@ Paste it to Postman, and select the appropriate REST Command (i.e. POST, GET, PU
 
 |image1|
 
-Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism Central (PC)* credentials:
+Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism* credentials:
 
 **Note:** . The PC credentials may change from cluster to cluster. 
 
