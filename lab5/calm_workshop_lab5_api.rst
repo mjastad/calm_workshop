@@ -313,15 +313,22 @@ Configure *Authorization* by setting the Type to *Basic Auth* and using the *Pri
 
 |image10|
 
-Configure the **Request Headers** Key(s) *Content-Type* and *Accept* with Value *application/json* as shown below:
+Configure the **Headers** Key(s) *Content-Type* and *Accept* with Value *application/json* as shown below:
 
 |image11|
 
-Configure the Body with *raw* JSON (application/json), and past the payload information as shown below:
+Configure the Body with *raw* and select JSON (application/json), and paste the payload information into the text area used earlier as shown below:
 
 |image12|
 
-Save to *Nutanix/V3:Apps*
+Click **Send** within Postman.  If configured sucessfully, you should see **Status: 200 OK**, and valid response data in the **Body** as shown below: 
+
+|image13|
+
+
+Click Save and assign a **Request name:** *Nutanix Calm (NuCalm) List Applications* to persist the call to **Collection:** *Nutanix*, and **Subfolder:** *V3:Apps*.  
+
+|image14|
 
 
 Issuing a STATE-CHANGE Request
@@ -373,3 +380,5 @@ STATE-CHANGE:
 .. |image10| image:: ./media/image13.png
 .. |image11| image:: ./media/image14.png
 .. |image12| image:: ./media/image15.png
+.. |image13| image:: ./media/image16.png
+.. |image14| image:: ./media/image17.png
