@@ -303,5 +303,5 @@ STATE-CHANGE:
 
 .. |image0| image:: ./media/image1.png
 .. |image1| image:: ./media/image5.png
-.. |image1| image:: ./media/image6.png
+.. |image2| image:: ./media/image6.png
 .. |image3| image:: ./media/image4.png
