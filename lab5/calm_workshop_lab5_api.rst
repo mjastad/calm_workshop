@@ -299,6 +299,13 @@ Valid content should be accessible in the *Response Body*
 
 |image7|
 
+Copy the *Request URL* from the **POST** */apps/list* 
+
+|image8|
+
+Paste it to Postman:
+
+|image9|
 
 
 
@@ -347,3 +354,4 @@ STATE-CHANGE:
 
 .. |image7| image:: ./media/image9.png
 .. |image8| image:: ./media/image10.png
+.. |image9| image:: ./media/image12.png
