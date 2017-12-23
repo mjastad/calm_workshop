@@ -20,7 +20,7 @@ Configure the **Headers** Key(s) *Content-Type* and *Accept* with Value *applica
 
 |image3|
 
-If it's a **POST**, or **PUT** request, configure the **Body** using *raw* and select JSON (application/json), and paste the payload information into the text area needed to makae the call as shown below:
+If it's a **POST**, or **PUT** request, configure the **Body** using *raw* and select JSON (application/json), and paste the payload information into the text area needed to make the call as shown below:
 
 |image4|
 
