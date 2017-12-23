@@ -299,14 +299,29 @@ Valid content should be accessible in the *Response Body*
 
 |image7|
 
+Optional (postman)
+
 Copy the *Request URL* from the **POST** */apps/list* 
 
 |image8|
 
-Paste it to Postman:
+Paste it to Postman, and select POST from the command drop down
 
 |image9|
 
+Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism Central* credentials:
+
+|image10|
+
+Configure the **Request Headers** Key(s) *Content-Type* and *Accept* with Value *application/json* as shown below:
+
+|image11|
+
+Configure the Body with *raw* JSON (application/json), and past the payload information as shown below:
+
+|image12|
+
+Save to *Nutanix/V3:Apps*
 
 
 Issuing a STATE-CHANGE Request
@@ -355,3 +370,6 @@ STATE-CHANGE:
 .. |image7| image:: ./media/image9.png
 .. |image8| image:: ./media/image10.png
 .. |image9| image:: ./media/image12.png
+.. |image10| image:: ./media/image13.png
+.. |image11| image:: ./media/image14.png
+.. |image12| image:: ./media/image15.png
