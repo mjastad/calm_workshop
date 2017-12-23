@@ -366,6 +366,9 @@ STATE-CHANGE:
 .. _NTNX-REST-API-Explorer-Overview: calm_workshop_ntnx_api_explorer_overview.rst
 .. _Chrome-JSON-Editor-Extension: https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=en
 
+.. _configure-postman: ..calm_workshop_postman_setup.rst
+.. _postman-execution: ..calm_workshop_postman_run.rst
+
 .. |image0| image:: ./media/image1.png
 .. |image1| image:: ./media/image5.png
 .. |image2| image:: ./media/image6.png
