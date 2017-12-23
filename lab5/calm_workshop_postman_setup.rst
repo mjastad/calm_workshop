@@ -29,3 +29,6 @@ The Collection and subfolders should appear as follows:
 
 |image3|
 
+.. |image1| image:: ./media/image5.png
+.. |image2| image:: ./media/image6.png
+.. |image3| image:: ./media/image4.png
