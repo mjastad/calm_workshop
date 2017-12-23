@@ -264,7 +264,7 @@ All *list* requests require a small payload.  the following is the minimal paylo
 - *offest:* starting element
 - *length:* the #of elements to return from the *offset*
 
-**App**
+**App:**
 
 1. Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
 
@@ -284,15 +284,15 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 5. Run and persist in Postman (optional): postman-execution_
 
-**Blueprint**
+**Blueprint:**
 
 Repeat steps 1-5 above, substituting *app* with *blueprint* and *blueprints/list*.
 
-**Project**
+**Project:**
 
 Repeat steps 1-5 above, substituting *app* with *project* and *projects/list*.
 
-**Role**
+**Role:**
 
 Repeat steps 1-5 above, substituting *app* with *role* and *roles/list*.
 
