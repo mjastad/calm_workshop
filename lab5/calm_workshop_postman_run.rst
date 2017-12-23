@@ -2,15 +2,17 @@
 **Postman Execute/Save REST Request**
 *************************************
 
-Copy the *Request URL* from the **POST** */apps/list* 
+Copy the *Request URL* from the NTNX REST API Explorer
 
 |image0|
 
-Paste it to Postman, and select POST from the command drop down
+Paste it to Postman, and select the appropriate REST Command (i.e. POST, GET, PUT, DELETE )from the command drop down
 
 |image1|
 
-Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism Central* credentials:
+Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism Central (PC)* credentials:
+
+**Note:** . The PC credentials may change from cluster to cluster. 
 
 |image2|
 
@@ -27,7 +29,16 @@ Click **Send** within Postman.  If configured sucessfully, you should see **Stat
 |image5|
 
 
-Click Save and assign a **Request name:** *Nutanix Calm (NuCalm) List Applications* to persist the call to **Collection:** *Nutanix*, and **Subfolder:** *V3:Apps*.  
+Click Save and assign a **Request name:** *Nutanix Calm (NuCalm) [SOME ACTION]*, where SOME ACTION might be:
+
+- List {REST Target} (i.e. Applications, Blueprints, Roles, Projects, etc...).
+- Delete {REST Target} (i.e. Applications, Blueprints, Roles, Projects, etc...).
+- Create {REST Target} (i.e. Applications, Blueprints, Roles, Projects, etc...).
+- Edit {REST Target} (i.e. Applications, Blueprints, Roles, Projects, etc...).
+- Launch {REST Target} (i.e. Blueprint, etc...).
+- Get {REST Target} (i.e. Application, Blueprint, Role, Project, etc...).
+
+Save to to **Collection:** *Nutanix*, and to the appropriate **Subfolder:** (i.e. *V3:Apps*, *V3:Blueprints*, *V3:Projects*, or *V3:Roles*, etc...) .  
 
 |image6|
 
