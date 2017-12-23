@@ -216,7 +216,7 @@ If successfull,  You should see VM, Blueprint and Application property output...
 Configure Postman (Optional)
 ****************************
 
-This lab will use Postman allowing you to preserve the v3 REST API Requests so they can be used later when demonstrating NuCalm REST API's HOW-TO with a partner or customer.  If you use another REST API tool, feel to use it in place of Postman.
+This lab will use Postman allowing you to preserve the v3 REST API Requests so they can be used later when demonstrating NuCalm REST API's and HOW-TO guidance with a partner or customer.  If you use another REST API tool, feel to use it in place of Postman.
 
 Lab setup for Postman:  configure-postman_
 
@@ -266,24 +266,29 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 **App**
 
-Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
+1. Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
 
 |image4|
 
-Find **POST** */apps/list* and click to expand.  Copy the JSON code block shown above and paste it in the *get_entities_request*. 
+2. Find **POST** */apps/list* and click to expand.  Copy the JSON code block shown above and paste it in the *get_entities_request*. 
 
 |image5|
 
-Click *Try it out!* to execute the **POST** */apps/list Request*...  A *Response Code* of 200 inidcates the request was successfully executed: 
+3. Click *Try it out!* to execute the **POST** */apps/list Request*...  A *Response Code* of 200 inidcates the request was successfully executed: 
 
 |image6|
 
-Valid content should be accessible in the *Response Body* 
+4. Valid content should be accessible in the *Response Body*.
 
 |image7|
 
-Run and persist in Postman (optional): postman-execution_
+5. Run and persist in Postman (optional): postman-execution_
 
+6. Repeat steps 1-5 for *blueprint/list*.
+
+7. Repeat steps 1-5 for *project/list*.
+
+8. Repeat steps 1-5 for *role/list*.
 
 Issuing a STATE-CHANGE Request
 ******************************
