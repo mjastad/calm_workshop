@@ -218,25 +218,8 @@ Configure Postman (Optional)
 
 This lab will use Postman allowing you to preserve the v3 REST API Requests so they can be used later when demonstrating NuCalm REST API's HOW-TO with a partner or customer.  If you use another REST API tool, feel to use it in place of Postman.
 
-The following steps assumes you have Postman installed.  
+Lab setup for Postman:  configure-postman_
 
-Create a **Collection**, give it a name (i.e. Nutanix), and save it:
-
-|image1|
-
-|image2|
-
-
-Create the following subfolders within the collection:
-
-- V3:Apps
-- V3:Blueprints
-- V3:Roles
-- V3:Projects
-
-The Collection and subfolders should appear as follows:
-
-|image3|
 
 Accessing the REST API's
 ************************
@@ -299,36 +282,7 @@ Valid content should be accessible in the *Response Body*
 
 |image7|
 
-Optional (postman)
-
-Copy the *Request URL* from the **POST** */apps/list* 
-
-|image8|
-
-Paste it to Postman, and select POST from the command drop down
-
-|image9|
-
-Configure *Authorization* by setting the Type to *Basic Auth* and using the *Prism Central* credentials:
-
-|image10|
-
-Configure the **Headers** Key(s) *Content-Type* and *Accept* with Value *application/json* as shown below:
-
-|image11|
-
-Configure the Body with *raw* and select JSON (application/json), and paste the payload information into the text area used earlier as shown below:
-
-|image12|
-
-Click **Send** within Postman.  If configured sucessfully, you should see **Status: 200 OK**, and valid response data in the **Body** as shown below: 
-
-|image13|
-
-
-Click Save and assign a **Request name:** *Nutanix Calm (NuCalm) List Applications* to persist the call to **Collection:** *Nutanix*, and **Subfolder:** *V3:Apps*.  
-
-|image14|
+Run and persist in Postman (optional): postman-execution_
 
 
 Issuing a STATE-CHANGE Request
