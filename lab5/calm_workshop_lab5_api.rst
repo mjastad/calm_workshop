@@ -343,6 +343,7 @@ STATE-CHANGE:
 .. |image3| image:: ./media/image4.png
 .. |image4| image:: ./media/image7.png
 .. |image5| image:: ./media/image8.png
-.. |image6| image:: ./media/image9.png
+.. |image6| image:: ./media/image11.png
 
-.. |image7| image:: ./media/image10.png
+.. |image7| image:: ./media/image9.png
+.. |image8| image:: ./media/image10.png
