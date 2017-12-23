@@ -220,7 +220,7 @@ This lab will use Postman allowing you to preserve the v3 REST API Requests so t
 
 The following steps assumes you have Postman installed.  
 
-Create a **Collection** and give it a name (i.e. Nutanix):
+Create a **Collection**, give it a name (i.e. Nutanix), and save it:
 
 |image1|
 
@@ -233,6 +233,8 @@ Create the following subfolders within the collection:
 - V3:Blueprints
 - V3:Roles
 - V3:Projects
+
+The Collection and subfolders should appear as follows:
 
 |image3|
 
@@ -251,8 +253,6 @@ A link for launching the REST API Explorer may not be accessible via Prism Centr
 |image0|
 
 Once the API Explorer appears, be sure to authenticate or sign-in (as shown above) using the PC credentials.  Click **Explorer** to authenicate.  The explorer should refresh and display the REST API Targets + requests.
-
-
 
 Issuing READ Requests
 *********************
