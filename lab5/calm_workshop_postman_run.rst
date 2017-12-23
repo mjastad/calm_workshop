@@ -48,5 +48,5 @@ Save to to **Collection:** *Nutanix*, and to the appropriate **Subfolder:** (i.e
 .. |image3| image:: ./media/image14.png
 .. |image4| image:: ./media/image15.png
 .. |image5| image:: ./media/image16.png
-.. |image7| image:: ./media/image17.png
+.. |image6| image:: ./media/image17.png
 
