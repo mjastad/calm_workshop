@@ -293,7 +293,7 @@ Find **POST** */apps/list* and click to expand.  Copy the JSON code block shown 
 
 Click *Try it out!* to execute the **POST** */apps/list Request*...  A *Response Code* of 200 inidcates the request was successfully executed: 
 
-|mage6|
+|image6|
 
 Valid content should be accessible in the *Response Body* 
 
