@@ -213,6 +213,21 @@ Test the runtime and the code by running:
 
 If successfull,  You should see VM, Blueprint and Application property output...
 
+Configure Postman (Optional)
+****************************
+
+This lab will use Postman allowing you to preserve the v3 REST API Requests so they can be used later when demonstrating NuCalm REST API's HOW-TO with a partner or customer.  If you use another REST API tool, feel to use it in place of Postman.
+
+The following steps assumes you have Postman installed.  
+
+Create a **Collection** and give it a name (i.e. Nutanix), and create the following subfolders within the collection:
+
+- V3:Apps
+- V3:Blueprints
+- V3:Roles
+- V3:Projects
+
+|image1|
 
 Accessing the REST API's
 ************************
