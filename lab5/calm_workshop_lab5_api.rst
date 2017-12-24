@@ -425,13 +425,13 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image17|
 
-8. If all looks good, click the (|image18|) button to migrate the changes/updates to the json body from the rige Node view to the left JSON view.
+8. If all looks good, click the (|image18|) button to migrate the changes/updates made in the right **node** view panel to the left JSON view panel.
 
-9. Select the entire JSON contents shown in the left panel and then copy it to the Blueprint **POST** */blueprints/import_json* within the v3 REST API Explorer.
+9. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **POST** */blueprints/import_json* within the v3 REST API Explorer.
 
 |image19|
 
-10. Click *Try it out!* to import the json as a blueprint.
+10. Click *Try it out!* to invoke the **POST** */blueprints/import_json* request. 
 
 11. Check for a status-code for 200.
 
