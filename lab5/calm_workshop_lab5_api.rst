@@ -397,7 +397,9 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 **Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
 
-Start by opening the file:  
+Start by opening the file: Import-Blueprint.JSON_ using a text-editor.
+
+Copy the content and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_).
 
 Issuing a Launch Blueprint Request
 **********************************
@@ -435,7 +437,7 @@ STATE-CHANGE:
 .. _REST-HTTP-Overview: calm_workshop_lab5_rest_overview.rst
 .. _NTNX-REST-API-Explorer-Overview: calm_workshop_ntnx_api_explorer_overview.rst
 .. _Chrome-JSON-Editor-Extension: https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=en
-.. _Import-Blueprint.JSON: ./blueprints/mongoDB.json
+.. _Import-Blueprint.JSON: ./blueprints/MongoDB.json
 
 .. _configure-postman: calm_workshop_postman_setup.rst
 .. _postman-execution: calm_workshop_postman_run.rst
