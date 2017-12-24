@@ -413,7 +413,7 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image13|
 
-5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** Reference the *projects/list* REST API request from the previous section to get the *uuid* for the *Calm* project...
+5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** Reference the *projects/list* REST API request from the previous **Issue List Request** section to get the *uuid* for the *Calm* project...
 
 |image14|
 
