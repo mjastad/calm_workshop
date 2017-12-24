@@ -395,9 +395,12 @@ Issuing a STATE-CHANGE Request
 In this section we'll learn how to Navigate the REST API Explorer to execute a command that changes the state of an app or blueprint:
 
 - Import a Blueprint(JSON)
-- Create a Blueprint
 - Launch Blueprint
 - Delete an App
+
+The JSON for both Import and Launch are very detailed and difficult to manage without using JSON edititng tools.  In the follwoing exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
+
+
 
 Automation of REST Endpoints
 ****************************
