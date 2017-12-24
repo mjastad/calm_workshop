@@ -280,7 +280,7 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 4. Valid content should be accessible in the **Response Body**. Each *app* element and associated information is enclosed within a *status* object.  Scroll through the contents and take a mental inventory to better understand what information is made available for an *app* in the */apps/list* request.
 
-.. code-block:: json
+.. code-block:: bash
 
   {
       "status": {
@@ -291,8 +291,6 @@ All *list* requests require a small payload.  the following is the minimal paylo
         "creation_time": 1513975513568314,
         "spec_version": 3,
         "uuid": "26352103-60d5-45c3-81d1-9504c81f456b",
-
-.. code-block:: bash
 
         .
         .
