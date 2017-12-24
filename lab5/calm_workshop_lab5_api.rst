@@ -444,9 +444,9 @@ Issuing a Launch Blueprint Request
 
 In this section we'll Navigate the REST API Explorer to execute launching a blueprint recently imported from the previous section.  
 
-Workflow;
+Workflow:
 
- **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
+**GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
  
  
  
