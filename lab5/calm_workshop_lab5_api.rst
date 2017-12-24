@@ -292,9 +292,9 @@ All *list* requests require a small payload.  the following is the minimal paylo
         "spec_version": 3,
         "uuid": "26352103-60d5-45c3-81d1-9504c81f456b",
         
-        .
-        .
-        .
+        "."
+        "."
+        "."
    }
 
 |image7|
