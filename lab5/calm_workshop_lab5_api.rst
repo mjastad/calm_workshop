@@ -444,6 +444,14 @@ Issuing a Launch Blueprint Request
 
 In this section we'll Navigate the REST API Explorer to execute launching a blueprint recently imported from the previous section.  
 
+Workflow;
+
+ **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
+ 
+ 
+ 
+ 
+
 **Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
 
 Issuing a Delete Application Request
