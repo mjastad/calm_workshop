@@ -413,7 +413,7 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image13|
 
-5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** . Reference the *projects/list* command from the previous sections...
+5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** Reference the *projects/list* command from the previous sections to get the *uuid* for the *Calm* project...
 
 |image14|
 
@@ -425,17 +425,17 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image17|
 
-8. If all looks good, click the (|image18|) button to migrate the changes/updates to the json body on the right.
+8. If all looks good, click the (|image18|) button to migrate the changes/updates to the json body from the rige Node view to the left JSON view.
 
-9. Select the contents and then copy it to the Blueprint **POST** */blueprints/import_json* within the v3 REST API Explorer.
+9. Select the entire JSON contents shown in the left panel and then copy it to the Blueprint **POST** */blueprints/import_json* within the v3 REST API Explorer.
 
 |image19|
 
 10. Click *Try it out!* to import the json as a blueprint.
 
-11. Check for a status-code fo 200.
+11. Check for a status-code for 200.
 
-12. Refresh Prism Central and check Blueprints to insure the blueprint imported...
+12. Refresh Prism Central and check Apps/Blueprints to insure the blueprint succesfully imported...
 
 |image20|
 
