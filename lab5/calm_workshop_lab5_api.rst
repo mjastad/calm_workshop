@@ -237,7 +237,7 @@ A link for launching the REST API Explorer may not be accessible via Prism Centr
 
 Once the API Explorer appears, be sure to authenticate or sign-in (as shown above) using the PC credentials.  Click **Explorer** to authenicate.  The explorer should refresh and display the REST API Targets + requests.
 
-Issuing READ Requests
+Issuing List Requests
 *********************
 
 In this section we'll learn how to Navigate the REST API Explorer to read and gather information for:
@@ -247,7 +247,7 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 - Project(s)
 - Role(s)
 
-Reading from v3 REST targets are consistent and are typically shown as *list* and executed as a POST command.  The *response* from a *list request* returns a subset of element information.  To retrieve amn all inclusive set of element information, you'll use the element's *uuid* and issue a GET request.
+Reading from v3 REST targets are consistent and are typically shown as *list* and executed as a POST command.  The *response* from a *list request* returns a subset of element information.  To retrieve all-inclusive element information, you'll use the element's *uuid* and issue a GET request.
 
 All *list* requests require a small payload.  the following is the minimal payload required:
 
@@ -278,7 +278,24 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 |image6|
 
-4. Valid content should be accessible in the *Response Body*.
+4. Valid content should be accessible in the **Response Body**. Each *app* element and associated information is enclosed within a *status* object.  Scroll through the contents and take a mental inventory to better understand what information is made available for an *app* in the */apps/list* request.
+
+.. code-block:: json
+
+  {
+      "status": {
+        "last_update_time": 1513976128766499,
+        "description": "Accessibility:\n* http://[IP_ADDRESS]:8080",
+        "deletion_time": 1,
+        "deleted": false,
+        "creation_time": 1513975513568314,
+        "spec_version": 3,
+        "uuid": "26352103-60d5-45c3-81d1-9504c81f456b",
+        
+        .
+        .
+        .
+   }
 
 |image7|
 
@@ -295,6 +312,27 @@ Repeat steps 1-5 above, substituting *app* with *project* and */projects/list*.
 **Role:**
 
 Repeat steps 1-5 above, substituting *app* with *role* and */roles/list*.
+
+Issuing GET/UUID Requests
+*************************
+
+In this section we'll learn how to Navigate the REST API Explorer to read and gather information for a single element using **GET**. The elements are as follows:
+
+- App(s)
+- Blueprint(s)
+- Project(s)
+- Role(s)
+
+**App:**
+
+1. In the previous section **Issuing List Requests**, examine the **Response Body** for */apps/list* and copy the *uuid* under *status*
+
+2. Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
+
+|image4|
+
+3. Find **GET** */apps/{uuid}* and click to expand.  Copy a *uuid* from the response  body  */apps/list*
+
 
 Issuing a STATE-CHANGE Request
 ******************************
