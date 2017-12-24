@@ -295,10 +295,10 @@ All *list* requests require a small payload.  the following is the minimal paylo
         .
         .
         .
+        
       } 
    }
 
-|image7|
 
 5. Run and persist in Postman (optional): postman-execution_
 
@@ -314,6 +314,10 @@ Repeat steps 1-5 above, substituting *app* with *project* and */projects/list*.
 
 Repeat steps 1-5 above, substituting *app* with *role* and */roles/list*.
 
+**Summary**
+
+The key takeway of this exercise is that it provides an inventory of elements with a small subset of metadata that can be used to retrieve more comprehensive data using other NTNX NuCalm REST API requests...
+
 Issuing GET/UUID Requests
 *************************
 
@@ -326,13 +330,63 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 
 **App:**
 
-1. In the previous section **Issuing List Requests**, examine the **Response Body** for */apps/list* and copy the *uuid* under *status*
+1. In the previous section **Issuing List Requests**, examine the **Response Body** for */apps/list* and copy a *uuid* under *status*.
 
 2. Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
 
 |image4|
 
-3. Find **GET** */apps/{uuid}* and click to expand.  Copy a *uuid* from the response  body  */apps/list*
+3. Find **GET** */apps/{uuid}* and click to expand.  Paste the *uuid* copied from the */apps/list* Response Body into the value txt-field of the *uuid* paranter field for the **GET** /apps/{uuid}.
+
+|image8|
+
+4. Click *Try it out!* to execute the **GET** */apps/{uuid} Request*...  A *Response Code* of 200 inidcates the request was successfully executed.
+
+5. Valid content should be accessible in the **Response Body**. The *app* element and associated information is enclosed within the *status* object.  Scroll through the contents and take a mental inventory.  Compare it to the results of */apps/list* request.  Take note that the information returned by the **GET** */apps/uuid* is far more comprehensive than the **POST**  */apps/list* request.
+
+.. code-block:: bash
+
+  {
+      
+    "status": {
+      "description": "Accessibility:\n* http://[IP_ADDRESS]:8080",
+      "resources": {
+        "app_state": "running",
+        "action_list": [
+          {
+            "description": "This actions upgrades jenkins to latest version.",
+            "type": "user",
+            "uuid": "35267b32-21b2-468e-b9c5-b14493b7fc0b",
+            "state": "NOT_VALIDATED",
+            "critical": false,
+            "attrs": {},
+            "runbook": {
+            
+        .
+        .
+        .
+        
+   }
+
+
+6. Run and persist in Postman (optional): postman-execution_
+
+
+**Blueprint:**
+
+Repeat steps 1-6 above, substituting *app* with *blueprint*, */blueprints/list* and */blueprints/uuid* respectively.
+
+**Project:**
+
+Repeat steps 1-6 above, substituting *app* with *project*, */projects/list* and */projects/uuid* respectively.
+
+**Role:**
+
+Repeat steps 1-6 above, substituting *app* with *role*, */roles/list* and */role/uuid* respectively.
+
+**Summary**
+
+The key takeway of this exercise is that the **GET** */element/uuid* request provides detailed/comprehensive spec & metadata for a specified element that can be used as a payload for other NTNX NuCalm REST API requests...
 
 
 Issuing a STATE-CHANGE Request
@@ -382,10 +436,5 @@ STATE-CHANGE:
 .. |image6| image:: ./media/image11.png
 
 .. |image7| image:: ./media/image9.png
-.. |image8| image:: ./media/image10.png
-.. |image9| image:: ./media/image12.png
-.. |image10| image:: ./media/image13.png
-.. |image11| image:: ./media/image14.png
-.. |image12| image:: ./media/image15.png
-.. |image13| image:: ./media/image16.png
-.. |image14| image:: ./media/image17.png
+.. |image8| image:: ./media/image19.png
+
