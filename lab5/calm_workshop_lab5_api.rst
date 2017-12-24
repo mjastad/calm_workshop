@@ -436,5 +436,5 @@ STATE-CHANGE:
 .. |image6| image:: ./media/image11.png
 
 .. |image7| image:: ./media/image9.png
-.. |image8| image:: ./media/image19.png
+.. |image8| image:: ./media/image18.png
 
