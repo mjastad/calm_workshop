@@ -330,13 +330,13 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 
 **App:**
 
-1. In the previous section **Issuing List Requests**, examine the **Response Body** for */apps/list* and copy a *uuid* under *status*.
+1. In the previous section **Issuing List Requests**, examine the **Response Body** for */apps/list* and copy an elements *uuid* located under *status*.
 
 2. Navigate the REST API Explorer, find *app* and expand by clicking *List Operations*. 
 
 |image4|
 
-3. Find **GET** */apps/{uuid}* and click to expand.  Paste the *uuid* copied from the */apps/list* Response Body into the value txt-field of the *uuid* paranter field for the **GET** /apps/{uuid}.
+3. Find **GET** */apps/{uuid}* and click to expand.  Paste the *uuid* copied from step 1 into the value txt-field of the *uuid* paranter field for the **GET** /apps/{uuid}.
 
 |image8|
 
