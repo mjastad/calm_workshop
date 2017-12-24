@@ -389,17 +389,27 @@ Repeat steps 1-6 above, substituting *app* with *role*, */roles/list* and */role
 The key takeway of this exercise is that the **GET** */element/uuid* request provides detailed/comprehensive spec & metadata for a specified element that can be used as a payload for other NTNX NuCalm REST API requests...
 
 
-Issuing a STATE-CHANGE Request
-******************************
 
-In this section we'll learn how to Navigate the REST API Explorer to execute a command that changes the state of a NuCalm app or blueprint:
+Issuing a Import Blueprint Request
+**********************************
 
-- Import a Blueprint(JSON)
-- Launch Blueprint
-- Delete an App
+In this section we'll Navigate the REST API Explorer to execute importing a blueprint from a file.  Typically, when Blueprints are exported, they're in JSON format.  This exercise will manually import a Blueprint.json file using the REST API.  
 
-The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
 
+**Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
+
+
+Issuing a Launch Blueprint Request
+**********************************
+
+In this section we'll Navigate the REST API Explorer to execute launching a blueprint recently imported from the previous section.  
+
+**Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
+
+Issuing a Delete Application Request
+************************************
+
+In this section we'll Navigate the REST API Explorer to execute the deletion of an Active Application that was lancuhed as a Blueprint in the previous section. 
 
 Automation of REST Endpoints
 ****************************
