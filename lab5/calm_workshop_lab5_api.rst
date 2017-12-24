@@ -409,21 +409,35 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image12|
 
-4. Name the object *project_reference*. Add 2 *string members to the *project_reference* by right-cliking on the node and selct *append*.
+4. Name the object *project_reference*. Add 2 *string* members to the *project_reference* object by right-clicking on the node and selct *append*.
 
 |image13|
 
-5. Name the key/value pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** . Reference the *projects/list* command from the previous sections...
+5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** . Reference the *projects/list* command from the previous sections...
 
 |image14|
 
-6. The *project_reference* object should be positioned under *metadata* node.  Expand the *metadata* node and perform a click-hold on (|image15|) to the left of *project_reference* object and drag it under *metdata* node.  It should look as follows:
+6. The *project_reference* object should be positioned under *metadata* node.  Expand the *metadata* node check to make sure this is the case.  If it doesn't, perform a **click-hold** on (|image15|) icon to the left of *project_reference* object and drag it under *metdata* node.  It should look as follows:
 
 |image16|
 
 7. Modify the name of the blueprint under the *spec* object.  Expand the *spec* object, and edit *name* with *Import_API_Lab*
 
 |image17|
+
+8. If all looks good, click the (|image18|) button to migrate the changes/updates to the json body on the right.
+
+9. Select the contents and then copy it to the Blueprint **POST** */blueprints/import_json* within the v3 REST API Explorer.
+
+|image19|
+
+10. Click *Try it out!* to import the json as a blueprint.
+
+11. Check for a status-code fo 200.
+
+12. Refresh Prism Central and check Blueprints to insure the blueprint imported...
+
+|image20|
 
 Issuing a Launch Blueprint Request
 **********************************
@@ -486,5 +500,8 @@ STATE-CHANGE:
 .. |image15| image:: ./media/image25.png
 .. |image16| image:: ./media/image26.png
 .. |image17| image:: ./media/image27.png
+.. |image18| image:: ./media/image28.png
+.. |image19| image:: ./media/image29.png
+.. |image20| image:: ./media/image30.png
 
 
