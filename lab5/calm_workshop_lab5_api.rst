@@ -446,7 +446,7 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 Workflow:
 
-**GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
+**POST** */blueprints/list* ----> **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
  
  
  
