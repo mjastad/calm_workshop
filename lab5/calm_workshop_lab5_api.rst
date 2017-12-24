@@ -455,6 +455,6 @@ STATE-CHANGE:
 .. |image7| image:: ./media/image9.png
 .. |image8| image:: ./media/image18.png
 
-.. |image9| image:: ./media/image22.png
-.. |image10| image:: ./media/image23.png
+.. |image9| image:: ./media/image19.png
+.. |image10| image:: ./media/image20.png
 
