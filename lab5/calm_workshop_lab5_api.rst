@@ -397,11 +397,33 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 **Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
 
-Start by opening the file contents from: Import-Blueprint.JSON_, and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
+1. Start by opening the file contents from: Import-Blueprint.JSON_, and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
 
 |image10|
 
+2. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
 
+|image11|
+
+3. Add an *object* to **metadata** by right-clicking on the Node *metadata*.  Select *insert* and then *object*.  
+
+|image12|
+
+4. Name the object *project_reference*. Add 2 *string members to the *project_reference* by right-cliking on the node and selct *append*.
+
+|image13|
+
+5. Name the key/value pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** . Reference the *projects/list* command from the previous sections...
+
+|image14|
+
+6. The *project_reference* object should be positioned under *metadata* node.  Expand the *metadata* node and perform a click-hold on (|image15|) to the left of *project_reference* object and drag it under *metdata* node.  It should look as follows:
+
+|image16|
+
+7. Modify the name of the blueprint under the *spec* object.  Expand the *spec* object, and edit *name* with *Import_API_Lab*
+
+|image17|
 
 Issuing a Launch Blueprint Request
 **********************************
@@ -457,4 +479,12 @@ STATE-CHANGE:
 
 .. |image9| image:: ./media/image19.png
 .. |image10| image:: ./media/image20.png
+.. |image11| image:: ./media/image21.png
+.. |image12| image:: ./media/image22.png
+.. |image13| image:: ./media/image23.png
+.. |image14| image:: ./media/image24.png
+.. |image15| image:: ./media/image25.png
+.. |image16| image:: ./media/image26.png
+.. |image17| image:: ./media/image27.png
+
 
