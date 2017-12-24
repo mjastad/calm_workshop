@@ -291,10 +291,12 @@ All *list* requests require a small payload.  the following is the minimal paylo
         "creation_time": 1513975513568314,
         "spec_version": 3,
         "uuid": "26352103-60d5-45c3-81d1-9504c81f456b",
-        
-        "."
-        "."
-        "."
+
+.. code-block:: bash
+
+        .
+        .
+        .
    }
 
 |image7|
