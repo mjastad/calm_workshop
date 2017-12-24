@@ -149,7 +149,7 @@
                     "state": "ACTIVE",
                     "attrs": {
                       "exit_status": [],
-                      "script": "#!/bin/bash\nNODES_PER_REPLICA_SET=\"@@{NODES_PER_REPLICA_SET}@@\"\nHOST_IP=\"@@{address}@@\"\nreplica_ips=$(echo @@{Mongo_ReplicaSet.address}@@ | sed 's/^,//' | sed 's/,$//' | tr \",\" \"\\n\")\n\n\n### Setting up shards\nreplica_cnt=0\nfor replica in $replica_ips\ndo\n  tmp=$((${replica_cnt}+${NODES_PER_REPLICA_SET}))\n  replicaSetName=\"dataReplSet$((${tmp}/${NODES_PER_REPLICA_SET}))\"\n  sudo mongo --host ${HOST_IP} --port 27017 --eval \"sh.addShard( \\\"$replicaSetName/$replica:27017\\\" )\"\n  replica_cnt=$(($replica_cnt + 1))\ndone\n\n",
+                      "script":   "#!/bin/bash\nNODES_PER_REPLICA_SET=\"@@{NODES_PER_REPLICA_SET}@@\"\nHOST_IP=\"@@{address}@@\"\nreplica_ips=$(echo @@{Mongo_ReplicaSet.address}@@ | sed 's/^,//' | sed 's/,$//' | tr \",\" \"\\n\")\n\n\n### Setting up shards\nreplica_cnt=0\nfor replica in $replica_ips\ndo\n  tmp=$((${replica_cnt}+${NODES_PER_REPLICA_SET}))\n  replicaSetName=\"dataReplSet$((${tmp}/${NODES_PER_REPLICA_SET}))\"\n  sudo mongo --host ${HOST_IP} --port 27017 --eval \"sh.addShard( \\\"$replicaSetName/$replica:27017\\\" )\"\n  replica_cnt=$(($replica_cnt + 1))\ndone\n\n",
                       "script_type": "sh",
                       "type": "",
                       "command_line_args": "",
@@ -15812,4 +15812,4 @@
     "spec_version": 5,
     "name": "MongoDB"
   }
-}
+  }
