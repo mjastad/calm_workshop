@@ -274,7 +274,7 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 |image5|
 
-3. Click *Try it out!* to execute the **POST** */apps/list Request*...  A *Response Code* of 200 inidcates the request was successfully executed: 
+3. Click *Try it out!* to execute the **POST** */apps/list Request*...  A *Response Code* of 200 indicates the request was successfully executed: 
 
 |image6|
 
@@ -340,7 +340,7 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 
 |image8|
 
-4. Click *Try it out!* to execute the **GET** */apps/{uuid} Request*...  A *Response Code* of 200 inidcates the request was successfully executed.
+4. Click *Try it out!* to execute the **GET** */apps/{uuid} Request*...  A *Response Code* of 200 indicates the request was successfully executed.
 
 5. Valid content should be accessible in the **Response Body**. The *app* element and associated information is enclosed within the *status* object.  Scroll through the contents and take a mental inventory.  Compare it to the results of */apps/list* request.  Take note that the information returned by the **GET** */apps/uuid* is far more comprehensive than the **POST**  */apps/list* request.
 
