@@ -397,9 +397,11 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 **Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
 
-Start by opening the file: Import-Blueprint.JSON_ using a text-editor.
+Start by opening the file contents from: Import-Blueprint.JSON_, and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
 
-Copy the content and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_).
+|image10|
+
+
 
 Issuing a Launch Blueprint Request
 **********************************
@@ -452,4 +454,7 @@ STATE-CHANGE:
 
 .. |image7| image:: ./media/image9.png
 .. |image8| image:: ./media/image18.png
+
+.. |image9| image:: ./media/image22.png
+.. |image10| image:: ./media/image23.png
 
