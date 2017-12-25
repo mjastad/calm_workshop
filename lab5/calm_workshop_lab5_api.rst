@@ -455,7 +455,7 @@ Workflow:
 
 **POST** */blueprints/list* ----> **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
  
- 1. Using the REST API Explorer, navigate to the Blueprint, **POST** */blueprints/list* and paste the following JSON into the **get_entities_request** field and click *Try it out!* to invoke the request.
+1. Using the REST API Explorer, navigate to the Blueprint, **POST** */blueprints/list* and paste the following JSON into the **get_entities_request** field and click *Try it out!* to invoke the request.
  
  .. code-block:: json
  
@@ -465,13 +465,13 @@ Workflow:
     "length": 20
   }
  
- 2. Verify the request returns a *Response code* of 200.
+2. Verify the request returns a *Response code* of 200.
  
- 3. Copy the UUID value from the *Response Body* , and paste it to the *uuid* value field of the Blueprint **GET** /blueprints/{uuid} API request call, and click *Try it out!* to invoke the request.
+3. Copy the UUID value from the *Response Body* , and paste it to the *uuid* value field of the Blueprint **GET** /blueprints/{uuid} API request call, and click *Try it out!* to invoke the request.
  
- 4. Verify the request returns a *Response code* of 200.
+4. Verify the request returns a *Response code* of 200.
  
- 5. Copy the entire *Response Body* from the Blueprint **GET** */blueprints/{uuid}* API request and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
+5. Copy the entire *Response Body* from the Blueprint **GET** */blueprints/{uuid}* API request and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
 
 |image21|
 
