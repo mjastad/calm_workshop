@@ -457,7 +457,7 @@ Workflow:
  
 1. Using the REST API Explorer, navigate to the Blueprint, **POST** */blueprints/list* and paste the following JSON into the **get_entities_request** field and click *Try it out!* to invoke the request.
  
- .. code-block:: json
+.. code-block:: json
  
   {
     "filter": "name==Import_API_Lab",
