@@ -405,7 +405,7 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image11|
 
-3. Add an *object* to **metadata** by right-clicking on the Node *metadata*.  Select *insert* and then *object*.  
+3. Insert an *object* to **metadata** by right-clicking on the Node *metadata*.  Select *insert* and then *object*.  
 
 |image12|
 
@@ -439,20 +439,85 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image20|
 
+
+**Summary**
+
+You've successfully imported a blueprint from a file to NuCalm servies within Prism Central.
+
+
 Issuing a Launch Blueprint Request
 **********************************
 
 In this section we'll Navigate the REST API Explorer to execute launching a blueprint recently imported from the previous section.  
 
+**Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
 Workflow:
 
 **POST** */blueprints/list* ----> **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
  
+ 1. Using the REST API Explorer, navigate to the Blueprint, **POST** */blueprints/list* and paste the following JSON into the **get_entities_request** field and click *Try it out!* to invoke the request.
  
+ .. code-block:: json
  
+  {
+    "filter": "name==Import_API_Lab",
+    "offset": 0,
+    "length": 20
+  }
  
+ 2. Verify the request returns a *Response code* of 200.
+ 
+ 3. Copy the UUID value from the *Response Body* , and paste it to the *uuid* value field of the Blueprint **GET** /blueprints/{uuid} API request call, and click *Try it out!* to invoke the request.
+ 
+ 4. Verify the request returns a *Response code* of 200.
+ 
+ 5. Copy the entire *Response Body* from the Blueprint **GET** */blueprints/{uuid}* API request and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
 
-**Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
+|image21|
+
+6. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
+
+|image11|
+
+7. Expand the *spec* node and change the key/value pair from *name:Import_API_Lab* to *application_name:Launch_API_Lab*
+
+|image22|
+
+8. Insert an *object* to **spec** by right-clicking on the Node *resources*.  Select *insert* and then *object*. 
+
+|image23|
+
+9. Name the object *app_profile_reference*. Add 2 key/value pairs as *string* members to the *app_profile_reference* object by right-clicking on the node and select *append*, and then *string*.  Name the key/values *kind:app_profile* and 
+
+|image24|
+
+10.  Name the key/values *kind:app_profile* and *uuid:[UUID of APP Profile]*. **NOTE:** You find the *uuid* of the *app_profile* by expanding the *resources* node.  Copy the *uuid* and past it to the *uuid* field of the *app_profile_reference* object.
+
+|image25|
+
+11. The JSON Node(s) should appear as follows:
+
+|image26|
+
+12. If all looks good, click the (|image18|) button to migrate the changes/updates made in the right **node** view panel to the left JSON view panel.
+
+13. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **POST** */blueprints/launch* within the v3 REST API Explorer.  Copy the blueprint *uuid* to the *uuid* field as shownn below:
+
+|image27|
+
+14. Click *Try it out!* to invoke the **POST** */blueprints/launch* request. 
+
+15. Check for a status-code for 200.
+
+16. Refresh Prism Central and check Apps/apps to insure the blueprint succesfully launched...
+
+|image28|
+
+
+
+**Summary**
+
+You've successfully launched a blueprint that was previously imported from a file to NuCalm servies within Prism Central.
 
 Issuing a Delete Application Request
 ************************************
@@ -511,5 +576,13 @@ STATE-CHANGE:
 .. |image18| image:: ./media/image28.png
 .. |image19| image:: ./media/image29.png
 .. |image20| image:: ./media/image30.png
+.. |image21| image:: ./media/image31.png
+.. |image22| image:: ./media/image32.png
+.. |image23| image:: ./media/image33.png
+.. |image24| image:: ./media/image34.png
+.. |image25| image:: ./media/image35.png
+.. |image26| image:: ./media/image36.png
+.. |image27| image:: ./media/image37.png
+.. |image28| image:: ./media/image38.png
 
 
