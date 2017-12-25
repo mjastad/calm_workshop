@@ -451,7 +451,8 @@ Issuing a Launch Blueprint Request
 In this section we'll Navigate the REST API Explorer to execute launching a blueprint recently imported from the previous section.  
 
 **Note:** The NTNX v3 REST API is intentful, making the JSON very complex and difficult to manage for requests such as Import, Launch, Create, etc..., without using JSON edititng tools.  In the following exercise we'll use the JSON editor integrated as part of the Chrome client web-browser (see requirements Chrome-JSON-Editor-Extension_).
-Workflow:
+
+**Workflow:**
 
 **POST** */blueprints/list* ----> **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
  
@@ -465,7 +466,7 @@ Workflow:
     "length": 20
   }
  
-2. Verify the request returns a *Response code* of 200.
+2. Verify the request returns a *Response Code* of 200.
  
 3. Copy the UUID value from the *Response Body* , and paste it to the *uuid* value field of the Blueprint **GET** /blueprints/{uuid} API request call, and click *Try it out!* to invoke the request.
  
@@ -523,6 +524,30 @@ Issuing a Delete Application Request
 ************************************
 
 In this section we'll Navigate the REST API Explorer to execute the deletion of an Active Application that was lancuhed as a Blueprint in the previous section. 
+
+**Workflow:**
+
+**POST** */apps/list* ----> **POST** */apps/delete* 
+ 
+1. Using the REST API Explorer, navigate to the Blueprint, **POST** */apps/list* and paste the following JSON into the **get_entities_request** field and click *Try it out!* to invoke the request.
+ 
+.. code-block:: json
+ 
+  {
+    "filter": "name==Launch_API_Lab",
+    "offset": 0,
+    "length": 20
+  }
+ 
+2. Verify the request returns a *Response Code* of 200.
+ 
+3. Copy the UUID value from the *Response Body* , and paste it to the *uuid* value field of the Blueprint **DELETE** */apps/{uuid}* API request call, and click *Try it out!* to invoke the request.
+ 
+4. Verify the request returns a *Response Code* of 200.
+
+**Summary**
+
+You've successfully deleted an application that was previously imported and launched from a blueprint.
 
 Automation of REST Endpoints
 ****************************
