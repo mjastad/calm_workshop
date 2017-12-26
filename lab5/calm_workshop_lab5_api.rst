@@ -415,9 +415,9 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.
 
-5.1. Retrieving the the Calm project uuid:
++ Retrieving the the Calm project uuid:
 
-5.1.1 Navigate the NTNX REST API Explorer and open **POST** *projects/list* REST API request. Copy the following JSON body and paste it in the *get_entities_request* field. 
++ Navigate the NTNX REST API Explorer and open **POST** *projects/list* REST API request. Copy the following JSON body and paste it in the *get_entities_request* field. 
 
 .. code-block:: json
   
@@ -427,11 +427,11 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
     "length": 10
   }
 
-5.1.2 Click *Try it out!* to invoke the **POST** */projects/list* request. 
++ Click *Try it out!* to invoke the **POST** */projects/list* request. 
 
-5.1.3 Check for a status-code of 200.  The Project's *uuid* should be listed in the *Response Body*.  Copy and paste to the *project_reference* object. 
++ Check for a status-code of 200.  The Project's *uuid* should be listed in the *Response Body*.  Copy and paste to the *project_reference* object. 
 
-5.2 The object *project_reference* should look similar to the following:
++ The object *project_reference* should look similar to the following:
 
 |image14|
 
