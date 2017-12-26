@@ -342,7 +342,7 @@ In this section we'll learn how to Navigate the REST API Explorer to read and ga
 
 4. Click *Try it out!* to execute the **GET** */apps/{uuid} Request*...  A *Response Code* of 200 indicates the request was successfully executed.
 
-5. Valid content should be accessible in the **Response Body**. The *app* element and associated information is enclosed within the *status* object.  Scroll through the contents and take a mental inventory.  Compare it to the results of */apps/list* request.  Take note that the information returned by the **GET** */apps/uuid* is far more comprehensive than the **POST**  */apps/list* request.
+5. Valid content should be accessible in the **Response Body**. The *app* element and associated information is enclosed within the *status*, *spec*, and *metadata* objects.  Scroll through the contents and take a mental inventory.  Compare it to the results of an */apps/list* request.  Take note that the information returned by the **GET** */apps/uuid* is far more comprehensive than the **POST**  */apps/list* request.
 
 .. code-block:: bash
 
