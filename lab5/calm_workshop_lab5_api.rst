@@ -442,7 +442,7 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 **Summary**
 
-You've successfully imported a blueprint from a file to NuCalm servies within Prism Central.
+You've successfully imported a blueprint from a file to NuCalm servies within Prism Central using the NTNX REST API Explorer.
 
 
 Issuing a Launch Blueprint Request
@@ -518,7 +518,8 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 **Summary**
 
-You've successfully launched a blueprint that was previously imported from a file to NuCalm servies within Prism Central.
+You've successfully launched a blueprint that was previously imported from a file to NuCalm servies within Prism Central using the NTNX REST API Explorer.
+
 
 Issuing a Delete Application Request
 ************************************
@@ -547,7 +548,7 @@ In this section we'll Navigate the REST API Explorer to execute the deletion of 
 
 **Summary**
 
-You've successfully deleted an application that was previously imported and launched from a blueprint.
+You've successfully deleted an application that was previously imported and launched from a blueprint using the NTNX REST API Explorer.
 
 Automation of REST Endpoints
 ****************************
