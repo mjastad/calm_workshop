@@ -14,7 +14,7 @@
 
 # Labs:
 
-- [Lab: Calm Workshop Setup](./labsetup/calm_workshop_labsetup.rst)
+- [Lab: Calm Workshop Setup](https://github.com/jncox/Workshop_setup_guide/blob/master/README.md)
 - [Lab: NuCalm Simple Blueprint](./lab1/calm_workshop_lab1.rst)
 - [Lab: NuCalm Intermediate Blueprint (LAMP)](./lab2/calm_workshop_lab2.rst)
 - [Lab: NuCalm Custom Actions + Macros](./lab9/calm_workshop_lab9_custom_actions.rst)
