@@ -445,7 +445,7 @@ The object *project_reference* should look similar to the following:
 
 10. Click *Try it out!* to invoke the **POST** */blueprints/import_json* request. 
 
-11. Check for a status-code for 200.
+11. Check for a status-code of 200.
 
 12. Refresh Prism Central and check Apps/Blueprints to insure the blueprint succesfully imported...
 
@@ -454,7 +454,7 @@ The object *project_reference* should look similar to the following:
 
 **Summary**
 
-You've successfully imported a blueprint from a file to NuCalm servies within Prism Central using the NTNX REST API Explorer.
+You've successfully imported a blueprint from a file to NuCalm services within Prism Central using the NTNX REST API Explorer.
 
 
 Issuing a Launch Blueprint Request
@@ -473,7 +473,7 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 .. code-block:: json
  
   {
-    "filter": "name==Import_API_Lab",
+    "filter": "name==Import_API_Lab;state==ACTIVE",
     "offset": 0,
     "length": 20
   }
@@ -520,7 +520,7 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 14. Click *Try it out!* to invoke the **POST** */blueprints/launch* request. 
 
-15. Check for a status-code for 200.
+15. Check for a status-code of 200.
 
 16. Refresh Prism Central and check Apps/apps to insure the blueprint succesfully launched...
 
@@ -530,7 +530,7 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 **Summary**
 
-You've successfully launched a blueprint that was previously imported from a file to NuCalm servies within Prism Central using the NTNX REST API Explorer.
+You've successfully launched a blueprint that was previously imported from a file to NuCalm services within Prism Central using the NTNX REST API Explorer.
 
 
 Issuing a Delete Application Request
