@@ -451,7 +451,7 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 11. Check for a status-code of 200.
 
-12. Navigate the NTNX REST API Explorer and open **POST** *blueprints/list* REST API request and narrow the response to retrive the *Import_API_Lab* blueprint using the following JSON:
+12. Using the REST API Explorer, navigate to **POST** *blueprints/list* REST API request and paste the following JSON to the *get_entities_request* field:
 
 .. code-block:: json
  
@@ -486,7 +486,7 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 **POST** */blueprints/list* ----> **GET** */blueprints/{uuid}* ----> **POST** */blueprints/launch* ----> **POST** */apps/list*
  
-1. Using the REST API Explorer, navigate to the Blueprint, **POST** */blueprints/list* and paste the following JSON into the **get_entities_request** field and click *Try it out!* to invoke the request.
+1. Using the REST API Explorer, navigate to the Blueprint, **POST** */blueprints/list* and paste the following JSON into the *get_entities_request* field and click *Try it out!* to invoke the request.
  
 .. code-block:: json
  
