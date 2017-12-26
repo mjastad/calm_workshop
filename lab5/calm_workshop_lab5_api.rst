@@ -278,7 +278,7 @@ All *list* requests require a small payload.  the following is the minimal paylo
 
 |image6|
 
-4. Valid content should be accessible in the **Response Body**. Each *app* element and associated information is enclosed within a *status* object.  Scroll through the contents and take a mental inventory to better understand what information is made available for an *app* in the */apps/list* request.
+4. Valid content should be accessible in the **Response Body**. Each *app* element and associated information is enclosed within several objects (i.e. *status* , *metadata*, and *spec*).  Scroll through the contents and take a mental inventory to better understand what information is made available for an *app* in the */apps/list* request.
 
 .. code-block:: bash
 
