@@ -409,13 +409,13 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image12|
 
-4. Name the object *project_reference*. Add 2 *string* members to the *project_reference* object by right-clicking on the node and selct *append*.
+4. Name the object *project_reference*. Add 2 *string* members to the *project_reference* object by right-clicking on the node and select *append*.
 
 |image13|
 
 5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.
 
-**Note:** Reference the **POST** *projects/list* REST API request from the previous **Issuing List Requests** section to get the *uuid* for the *Calm* project using the folloiwng JSON:
+**Note:** Navigate the NTNX REST API Explorer and open **POST** *projects/list* REST API request. Copy the following JSON body and paste it in the *get_entities_request* field. 
 
 .. code-block:: json
  
@@ -424,6 +424,10 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
     "offset": 0,
     "length": 10
   }
+
+Click *Try it out!* to invoke the **POST** */projects/list* request. 
+
+Check for a status-code of 200.  The Project's *uuid* should be listed in the *Response Body*.  Copy and paste to the *project_reference* object. 
 
 The object *project_reference* should look similar to the following:
 
@@ -447,7 +451,21 @@ The object *project_reference* should look similar to the following:
 
 11. Check for a status-code of 200.
 
-12. Refresh Prism Central and check Apps/Blueprints to insure the blueprint succesfully imported...
+12. Navigate the NTNX REST API Explorer and open **POST** *blueprints/list* REST API request and narrow the response to retrive the *Import_API_Lab* blueprint using the following JSON:
+
+.. code-block:: json
+ 
+  {
+    "filter": "name==Import_API_Lab",
+    "offset": 0,
+    "length": 10
+  }
+
+13. Click *Try it out!* to invoke the **POST** */blueprints/list* request. 
+
+14. Check for a status-code of 200.  The Blueprint contents should be listed in the *Response Body*.
+
+15. Refresh Prism Central and check Apps/Blueprints to insure the blueprint succesfully imported...
 
 |image20|
 
