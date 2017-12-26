@@ -540,7 +540,21 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 15. Check for a status-code of 200.
 
-16. Refresh Prism Central and check Apps/apps to insure the blueprint succesfully launched...
+16. Using the REST API Explorer, navigate to **POST** */apps/list* REST API request and paste the following JSON to the *get_entities_request* field:
+
+.. code-block:: json
+ 
+  {
+    "filter": "name==Launch_API_Lab",
+    "offset": 0,
+    "length": 10
+  }
+
+17. Click *Try it out!* to invoke the **POST** */apps/list* request. 
+
+18. Check for a status-code of 200.  The application contents should be listed in the *Response Body*.
+
+19. Refresh Prism Central and check Apps/apps to insure the blueprint succesfully launched...
 
 |image28|
 
