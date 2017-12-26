@@ -415,6 +415,8 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.
 
+**NOTE:** Retrieving the the Calm project uuid:
+
 - Navigate the NTNX REST API Explorer and open **POST** *projects/list* REST API request. Copy the following JSON body and paste it in the *get_entities_request* field. 
 
 .. code-block:: json
