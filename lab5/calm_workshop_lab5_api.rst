@@ -443,7 +443,7 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 8. If all looks good, click the (|image18|) button to migrate the changes/updates made in the right **node** view panel to the left JSON view panel.
 
-9. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **POST** */blueprints/import_json* within the v3 REST API Explorer.
+9. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **POST** */blueprints/import_json* *body* within the v3 REST API Explorer.
 
 |image19|
 
@@ -532,11 +532,11 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 12. If all looks good, click the (|image18|) button to migrate the changes/updates made in the right **node** view panel to the left JSON view panel.
 
-13. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **POST** */blueprints/launch* within the v3 REST API Explorer.  Copy the blueprint *uuid* to the *uuid* field as shownn below:
+13. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **POST** */blueprints/{uuid}/launch*  *Body* within the v3 REST API Explorer.  You'll also be required to copy the blueprint *uuid* to the *uuid* field as shown below:
 
 |image27|
 
-14. Click *Try it out!* to invoke the **POST** */blueprints/launch* request. 
+14. Click *Try it out!* to invoke the **POST** */blueprints/{uuid}/launch* request. 
 
 15. Check for a status-code of 200.
 
