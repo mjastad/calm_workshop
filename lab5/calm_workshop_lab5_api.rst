@@ -413,8 +413,9 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image13|
 
-5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** Reference the *projects/list* REST API request from the previous **Issue List Request** section to get the *uuid* for the *Calm* project...
-
+5. Name the **key/value** pairs as *kind:project*, and *uuid:[UUID for Calm Project]*.  **Note:** Reference the **POST** *projects/list* REST API request from the previous Issue List Request section to get the *uuid* for the *Calm* project...
+                                                   ******************
+                                                   
 |image14|
 
 6. The *project_reference* object should be positioned under *metadata* node.  Expand the *metadata* node check to make sure this is the case.  If it doesn't, perform a **click-hold** on (|image15|) icon to the left of *project_reference* object and drag it under *metdata* node.  It should look as follows:
