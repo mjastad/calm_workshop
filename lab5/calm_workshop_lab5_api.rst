@@ -473,14 +473,14 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 You've successfully imported a blueprint from a file to NuCalm services within Prism Central using the NTNX REST API Explorer
 
-Issuing a Launch Blueprint Request
-**********************************
+Issuing an Update Blueprint Request
+***********************************
 
 Notice that the blueprint imported in the previous section is in **Draft** state.  This is due to an empty credentials *password*.  The Blueprint state must be *Active* to successfully launch the blueprint.  In this section, we'll update the imported blueprint's credential password...
 
-Workflow:
+**Workflow:**
 
-GET /blueprint_id ---> PUT /blueprint_id 
+**GET** /blueprint_id ---> **PUT** /blueprint_id 
 
 
 1. Using the REST API Explorer, navigate to **POST** *blueprints/list* REST API request and paste the following JSON to the *get_entities_request* field:
@@ -503,11 +503,11 @@ GET /blueprint_id ---> PUT /blueprint_id
 
 6. Copy the entire *Response Body* from the Blueprint **GET** */blueprints/{uuid}* API request and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
 
-7. Expand the JSON node structure  and make the edits as shown below:
+7. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
+
+8. Expand the JSON node structure  and make the edits as shown below:
 
 |image29|
-
-8. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
 
 9. If all looks good, click the (|image18|) button to migrate the changes/updates made in the right **node** view panel to the left JSON view panel.
 
