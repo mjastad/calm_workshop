@@ -469,10 +469,55 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 |image20|
 
-
 **Summary**
 
-You've successfully imported a blueprint from a file to NuCalm services within Prism Central using the NTNX REST API Explorer.
+You've successfully imported a blueprint from a file to NuCalm services within Prism Central using the NTNX REST API Explorer
+
+Issuing a Launch Blueprint Request
+**********************************
+
+Notice that the blueprint imported in the previous section is in **Draft** state.  This is due to an empty credentials *password*.  The Blueprint state must be *Active* to successfully launch the blueprint.  In this section, we'll update the imported blueprint's credential password...
+
+Workflow:
+
+GET /blueprint_id ---> PUT /blueprint_id 
+
+
+1. Using the REST API Explorer, navigate to **POST** *blueprints/list* REST API request and paste the following JSON to the *get_entities_request* field:
+
+.. code-block:: json
+ 
+  {
+    "filter": "name==Import_API_Lab",
+    "offset": 0,
+    "length": 10
+  }
+
+2. Click *Try it out!* to invoke the **POST** */blueprints/list* request. 
+
+3. Check for a status-code of 200.  The Blueprint contents should be listed in the *Response Body*.
+
+4. Copy the UUID value from the *Response Body* , and paste it to the *uuid* value field of the Blueprint **GET** /blueprints/{uuid} API request call, and click *Try it out!* to invoke the request.
+ 
+5. Verify the request returns a *Response code* of 200.
+
+6. Copy the entire *Response Body* from the Blueprint **GET** */blueprints/{uuid}* API request and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
+
+7. Expand the JSON node structure  and make the edits as shown below:
+
+|image29|
+
+8. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
+
+9. If all looks good, click the (|image18|) button to migrate the changes/updates made in the right **node** view panel to the left JSON view panel.
+
+10. Select the entire JSON contents shown in the left JSON view panel and copy it to the Blueprint **PUT** */blueprints/{uuid}*  *Body* within the v3 REST API Explorer.  You'll also be required to copy the blueprint *uuid* to the *uuid* field as shown below:
+
+11. Click *Try it out!* to invoke the **PUT** */blueprints/{uuid}/* request. 
+
+12. Check for a status-code of 200.
+
+13. Verify the state of the Blueprint has changeed from **Draft** to **Active**.
 
 
 Issuing a Launch Blueprint Request
@@ -654,5 +699,6 @@ STATE-CHANGE:
 .. |image26| image:: ./media/image36.png
 .. |image27| image:: ./media/image37.png
 .. |image28| image:: ./media/image38.png
+.. |image29| image:: ./media/image39.png
 
 
