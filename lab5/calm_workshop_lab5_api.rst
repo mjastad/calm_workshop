@@ -476,7 +476,7 @@ You've successfully imported a blueprint from a file to NuCalm services within P
 Issuing an Update Blueprint Request
 ***********************************
 
-Notice that the blueprint imported in the previous section is in **Draft** state.  This is due to an empty credentials *password*.  The Blueprint state must be *Active* to successfully launch the blueprint.  In this section, we'll update the imported blueprint's credential password...
+Notice that the blueprint imported in the previous section is in **Draft** state.  This is due to an empty credentials *password*.  The Blueprint state must be *Active* to successfully launch the blueprint.  In this section, we'll update the imported blueprint's credential *password* in preperation for launching the application...
 
 **Workflow:**
 
