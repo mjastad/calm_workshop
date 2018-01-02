@@ -654,7 +654,7 @@ READ:
 STATE-CHANGE:
 
 - Import a Blueprint(JSON)
-- Create a Blueprint
+- Update a Blueprint
 - Launch Blueprint
 - Delete an App
 
