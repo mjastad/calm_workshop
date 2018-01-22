@@ -9,11 +9,11 @@
 ******************************
 
 +------------+--------------------------------------------------------+
-| IP         |                                           Cluster IP   |
+| IP         |                                           See Handout  |
 +------------+--------------------------------------------------------+
-| Username   |                                           Cluster User |
+| Username   |                                           See Handout  |
 +------------+--------------------------------------------------------+
-| Password   |                                           Cluster Pass | 
+| Password   |                                           See Handout  |
 +------------+--------------------------------------------------------+
 
 Lab Overview
@@ -51,8 +51,8 @@ Getting Familiar with the Tools
 
 1. Connect to https://<HPOC.PC:9440>
 
-2. Login to Prism Central using the credentials specified above (use
-   these credentials unless specified otherwise throughout this lab 
+2. Login to Prism Central using the credentials from your lab handout
+   (use these credentials unless specified otherwise)
 
 3. Click on the Apps tab across the top of Prism
 
@@ -189,38 +189,38 @@ the following script into the **install** window:
 
    #!/bin/bash
    set -ex
-   
+
    yum install -y "http://repo.mysql.com/mysql-community-release-el7.rpm"
    yum update -y
    yum install -y mysql-community-server.x86_64
-   
+
    /bin/systemctl start mysqld
-   
+
    #Mysql secure installation
    mysql -u root<<-EOF
-   
+
    #UPDATE mysql.user SET Password=PASSWORD('@@{Mysql_password}@@') WHERE User='@@{Mysql_user}@@';
    DELETE FROM mysql.user WHERE User='@@{Mysql_user}@@' AND Host NOT IN ('localhost', '127.0.0.1', '::1');
    DELETE FROM mysql.user WHERE User='';
    DELETE FROM mysql.db WHERE Db='test' OR Db='test\_%';
-   
+
    FLUSH PRIVILEGES;
    EOF
- 
+
    sudo yum install firewalld -y
    sudo service firewalld start
    sudo firewall-cmd --add-service=mysql --permanent
    sudo firewall-cmd --reload
- 
+
    #mysql -u @@{Mysql_user}@@ -p@@{Mysql_password}@@ <<-EOF
    mysql -u @@{Mysql_user}@@ <<-EOF
    CREATE DATABASE @@{Database_name}@@;
    GRANT ALL PRIVILEGES ON homestead.* TO '@@{Database_name}@@'@'%' identified by 'secret';
- 
+
    FLUSH PRIVILEGES;
    EOF
-   
-   
+
+
 Looking at this script, we see that we’re using the variables we set
 before and doing basic mySQL configuration. This can be customized for
 whatever unique need you have.
@@ -234,7 +234,7 @@ Set the uninstall script to **shell** and select the credential you used
 earlier. Fill the uninstall script window with a simple:
 
 .. code-block:: bash
-   
+
    #!/bin/bash
    echo "Goodbye!"
 
