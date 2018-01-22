@@ -12,7 +12,7 @@ Understanding the fundamentals of SDLC.  A **software development life cycle** i
 
 |image0|
 
-Successful projects are managed well. In order to manage a project efficiently, the manager or dev team must choose which software development method works best for the project at hand.  All of the numerous software development methodologies that exist are used for different reasons. I've been doing some research to understand why different methodologies exist, and which ones are the most commonly used software development methodologies.
+Successful projects are managed well. In order to manage a project efficiently, the manager or dev team must choose which software development method works best for the project at hand. All of the numerous software development methodologies that exist are used for different reasons. I've been doing some research to understand why different methodologies exist, and which ones are the most commonly used software development methodologies.
 
 SDLC works by lowering the cost of software development while simultaneously improving quality and shortening production time. SDLC achieves these apparently divergent goals by following a plan that removes the typical pitfalls to software development projects. 
 
@@ -99,7 +99,7 @@ Strengths:
 - Provides structure to inexperienced staff.
 - Milestones are well understood.
 - Sets requirements stability.
-- Good for manageemnt control (plan, staff, track).
+- Good for management control (plan, staff, track).
 - Worsk well when quality is more important than cost or schedule.
 
 Weaknesses:
